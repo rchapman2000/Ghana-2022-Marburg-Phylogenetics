@@ -1,0 +1,914 @@
+{
+  "generated_by": {
+    "program": "augur",
+    "version": "16.0.3"
+  },
+  "models": {
+    "country": {
+      "alphabet": [
+        "Angola",
+        "Democratic Republic of the Congo",
+        "Germany",
+        "Ghana",
+        "Guinea",
+        "Netherlands",
+        "Sierra Leone",
+        "Uganda",
+        "?"
+      ],
+      "equilibrium_probabilities": [
+        0.12406464373735997,
+        0.1528918790792932,
+        0.11542051449467824,
+        0.12154752894917827,
+        0.12075094868785874,
+        0.11708090780730691,
+        0.1256814380881689,
+        0.12256213915615564
+      ],
+      "rate": 41.50143357060318,
+      "transition_matrix": [
+        [
+          0.0,
+          1.03485956535765,
+          0.9983132942388633,
+          1.1606068601234654,
+          1.173584942804341,
+          0.9776463320435742,
+          1.3205900841278089,
+          1.0032735943247069
+        ],
+        [
+          1.03485956535765,
+          0.0,
+          1.27551617626563,
+          0.9945606497506118,
+          0.9960332239443406,
+          1.1813600116851422,
+          1.1582628570485296,
+          2.1582864853468426
+        ],
+        [
+          0.9983132942388633,
+          1.27551617626563,
+          0.0,
+          0.977091106954245,
+          0.9778833543044779,
+          1.2169519092328165,
+          1.0643526570899362,
+          1.2446216029180595
+        ],
+        [
+          1.1606068601234654,
+          0.9945606497506118,
+          0.977091106954245,
+          0.0,
+          1.5351005190418878,
+          0.966045126355817,
+          1.100018787574574,
+          0.9785107191589141
+        ],
+        [
+          1.173584942804341,
+          0.9960332239443406,
+          0.9778833543044779,
+          1.5351005190418878,
+          0.0,
+          0.9665666105796945,
+          1.1082923170863295,
+          0.9794549544706145
+        ],
+        [
+          0.9776463320435742,
+          1.1813600116851422,
+          1.2169519092328165,
+          0.966045126355817,
+          0.9665666105796945,
+          0.0,
+          1.01059913253677,
+          1.1693323540874814
+        ],
+        [
+          1.3205900841278089,
+          1.1582628570485296,
+          1.0643526570899362,
+          1.100018787574574,
+          1.1082923170863295,
+          1.01059913253677,
+          0.0,
+          1.0775402446302071
+        ],
+        [
+          1.0032735943247069,
+          2.1582864853468426,
+          1.2446216029180595,
+          0.9785107191589141,
+          0.9794549544706145,
+          1.1693323540874814,
+          1.0775402446302071,
+          0.0
+        ]
+      ]
+    }
+  },
+  "nodes": {
+    "DQ447650|07DRC99|1999-05-XX": {
+      "country": "Democratic Republic of the Congo",
+      "country_confidence": {
+        "Democratic Republic of the Congo": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12
+    },
+    "DQ447651|05DRC99|1999-05-XX": {
+      "country": "Democratic Republic of the Congo",
+      "country_confidence": {
+        "Democratic Republic of the Congo": 0.9999999999999999
+      },
+      "country_entropy": -9.99866855976916e-13
+    },
+    "DQ447653|Ang1379c|2005-03-XX": {
+      "country": "Angola",
+      "country_confidence": {
+        "Angola": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12
+    },
+    "DQ447654|Ang1381|2005-03-XX": {
+      "country": "Angola",
+      "country_confidence": {
+        "Angola": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12
+    },
+    "DQ447655|Ang1386|2005-03-XX": {
+      "country": "Angola",
+      "country_confidence": {
+        "Angola": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12
+    },
+    "DQ447656|Ang0126|2005-04-XX": {
+      "country": "Angola",
+      "country_confidence": {
+        "Angola": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12
+    },
+    "DQ447657|Ang0214|2005-04-XX": {
+      "country": "Angola",
+      "country_confidence": {
+        "Angola": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12
+    },
+    "DQ447658|Ang0215|2005-04-XX": {
+      "country": "Angola",
+      "country_confidence": {
+        "Angola": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12
+    },
+    "DQ447659|Ang0754|2005-04-XX": {
+      "country": "Angola",
+      "country_confidence": {
+        "Angola": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12
+    },
+    "DQ447660|Ang0998|2005-05-XX": {
+      "country": "Angola",
+      "country_confidence": {
+        "Angola": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12
+    },
+    "EF446132|Germany_Marburg|1967-XX-XX": {
+      "country": "Germany",
+      "country_confidence": {
+        "Germany": 0.9999999999999999
+      },
+      "country_entropy": -9.99866855976916e-13
+    },
+    "FJ750957|Uganda01Uga07|2007-XX-XX": {
+      "country": "Uganda",
+      "country_confidence": {
+        "Uganda": 0.9999999999999999
+      },
+      "country_entropy": -9.99866855976916e-13
+    },
+    "FJ750958|Uganda371Bat2007|2007-XX-XX": {
+      "country": "Uganda",
+      "country_confidence": {
+        "Uganda": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12
+    },
+    "FJ750959|Uganda331Bat2007|2007-XX-XX": {
+      "country": "Uganda",
+      "country_confidence": {
+        "Uganda": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12
+    },
+    "Ghana-MV-22-106|2022-06-XX": {
+      "country": "Ghana",
+      "country_confidence": {
+        "Ghana": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12
+    },
+    "Ghana-MV-22-114C|2022-06-XX": {
+      "country": "Ghana",
+      "country_confidence": {
+        "Ghana": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12
+    },
+    "JN408064|Leiden|2008-XX-XX": {
+      "country": "Netherlands",
+      "country_confidence": {
+        "Netherlands": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12
+    },
+    "JX458825|MARV/H.sapiens-tc/COD/1999/04DRC|1999-XX-XX": {
+      "country": "Democratic Republic of the Congo",
+      "country_confidence": {
+        "Democratic Republic of the Congo": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12
+    },
+    "JX458826|MARV/H.sapiens-tc/COD/1999/03DRC|1999-XX-XX": {
+      "country": "Democratic Republic of the Congo",
+      "country_confidence": {
+        "Democratic Republic of the Congo": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12
+    },
+    "JX458827|MARV/H.sapiens-tc/COD/2000/32DRC|2000-XX-XX": {
+      "country": "Democratic Republic of the Congo",
+      "country_confidence": {
+        "Democratic Republic of the Congo": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12
+    },
+    "JX458828|MARV/H.sapiens-tc/COD/2000/19DRC|2000-XX-XX": {
+      "country": "Democratic Republic of the Congo",
+      "country_confidence": {
+        "Democratic Republic of the Congo": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12
+    },
+    "JX458829|MARV/H.sapiens-tc/COD/2000/34DRC|2000-XX-XX": {
+      "country": "Democratic Republic of the Congo",
+      "country_confidence": {
+        "Democratic Republic of the Congo": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12
+    },
+    "JX458830|MARV/H.sapiens-tc/COD/1999/06DRC|1999-XX-XX": {
+      "country": "Democratic Republic of the Congo",
+      "country_confidence": {
+        "Democratic Republic of the Congo": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12
+    },
+    "JX458831|MARV/H.sapiens-tc/COD/2000/14DRC|2000-XX-XX": {
+      "country": "Democratic Republic of the Congo",
+      "country_confidence": {
+        "Democratic Republic of the Congo": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12
+    },
+    "JX458832|MARV/H.sapiens-tc/COD/2000/30DRC|2000-XX-XX": {
+      "country": "Democratic Republic of the Congo",
+      "country_confidence": {
+        "Democratic Republic of the Congo": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12
+    },
+    "JX458833|MARV/H.sapiens-tc/COD/1999/01DRC|1999-XX-XX": {
+      "country": "Democratic Republic of the Congo",
+      "country_confidence": {
+        "Democratic Republic of the Congo": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12
+    },
+    "JX458835|MARV/H.sapiens-tc/COD/2000/23DRC|2000-XX-XX": {
+      "country": "Democratic Republic of the Congo",
+      "country_confidence": {
+        "Democratic Republic of the Congo": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12
+    },
+    "JX458836|MARV/H.sapiens-tc/COD/2000/29DRC|2000-XX-XX": {
+      "country": "Democratic Republic of the Congo",
+      "country_confidence": {
+        "Democratic Republic of the Congo": 0.9999999999999999
+      },
+      "country_entropy": -9.99866855976916e-13
+    },
+    "JX458837|MARV/H.sapiens-tc/COD/2000/27DRC|2000-XX-XX": {
+      "country": "Democratic Republic of the Congo",
+      "country_confidence": {
+        "Democratic Republic of the Congo": 0.9999999999999999
+      },
+      "country_entropy": -9.99866855976916e-13
+    },
+    "JX458838|MARV/H.sapiens-tc/COD/2000/17DRC|2000-XX-XX": {
+      "country": "Democratic Republic of the Congo",
+      "country_confidence": {
+        "Democratic Republic of the Congo": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12
+    },
+    "JX458839|MARV/H.sapiens-tc/COD/2000/16DRC|2000-XX-XX": {
+      "country": "Democratic Republic of the Congo",
+      "country_confidence": {
+        "Democratic Republic of the Congo": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12
+    },
+    "JX458841|MARV/H.sapiens-tc/COD/2000/20DRC|2000-XX-XX": {
+      "country": "Democratic Republic of the Congo",
+      "country_confidence": {
+        "Democratic Republic of the Congo": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12
+    },
+    "JX458842|MARV/H.sapiens-tc/COD/2000/18DRC|2000-XX-XX": {
+      "country": "Democratic Republic of the Congo",
+      "country_confidence": {
+        "Democratic Republic of the Congo": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12
+    },
+    "JX458843|MARV/H.sapiens-tc/COD/2000/21DRC|2000-XX-XX": {
+      "country": "Democratic Republic of the Congo",
+      "country_confidence": {
+        "Democratic Republic of the Congo": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12
+    },
+    "JX458844|MARV/H.sapiens-tc/COD/2000/26DRC|2000-XX-XX": {
+      "country": "Democratic Republic of the Congo",
+      "country_confidence": {
+        "Democratic Republic of the Congo": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12
+    },
+    "JX458845|MARV/H.sapiens-tc/COD/2000/13DRC|2000-XX-XX": {
+      "country": "Democratic Republic of the Congo",
+      "country_confidence": {
+        "Democratic Republic of the Congo": 0.9999999999999999
+      },
+      "country_entropy": -9.99866855976916e-13
+    },
+    "JX458846|MARV/H.sapiens-tc/COD/2000/28DRC|2000-XX-XX": {
+      "country": "Democratic Republic of the Congo",
+      "country_confidence": {
+        "Democratic Republic of the Congo": 0.9999999999999999
+      },
+      "country_entropy": -9.99866855976916e-13
+    },
+    "JX458847|MARV/H.sapiens-tc/COD/2000/15DRC|2000-XX-XX": {
+      "country": "Democratic Republic of the Congo",
+      "country_confidence": {
+        "Democratic Republic of the Congo": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12
+    },
+    "JX458848|MARV/H.sapiens-tc/COD/2000/22DRC|2000-XX-XX": {
+      "country": "Democratic Republic of the Congo",
+      "country_confidence": {
+        "Democratic Republic of the Congo": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12
+    },
+    "JX458849|MARV/H.sapiens-tc/COD/2000/25DRC|2000-XX-XX": {
+      "country": "Democratic Republic of the Congo",
+      "country_confidence": {
+        "Democratic Republic of the Congo": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12
+    },
+    "JX458850|MARV/H.sapiens-tc/COD/2000/33DRC|2000-XX-XX": {
+      "country": "Democratic Republic of the Congo",
+      "country_confidence": {
+        "Democratic Republic of the Congo": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12
+    },
+    "JX458851|MARV/H.sapiens-tc/COD/1999/02DRC|1999-XX-XX": {
+      "country": "Democratic Republic of the Congo",
+      "country_confidence": {
+        "Democratic Republic of the Congo": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12
+    },
+    "JX458852|MARV/R.aegyptiacus-tc/UGA/2008/53Qbat|2008-XX-XX": {
+      "country": "Uganda",
+      "country_confidence": {
+        "Uganda": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12
+    },
+    "JX458853|MARV/R.aegyptiacus-tc/UGA/2008/164Qbat|2008-XX-XX": {
+      "country": "Uganda",
+      "country_confidence": {
+        "Uganda": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12
+    },
+    "JX458854|MARV/R.aegyptiacus-tc/UGA/2009/1175Qbat|2009-XX-XX": {
+      "country": "Uganda",
+      "country_confidence": {
+        "Uganda": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12
+    },
+    "JX458855|MARV/R.aegyptiacus-tc/UGA/2009/843Qbat|2009-XX-XX": {
+      "country": "Uganda",
+      "country_confidence": {
+        "Uganda": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12
+    },
+    "JX458856|MARV/R.aegyptiacus-tc/UGA/2009/914Qbat|2009-XX-XX": {
+      "country": "Uganda",
+      "country_confidence": {
+        "Uganda": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12
+    },
+    "JX458858|MARV/R.aegyptiacus-tc/UGA/2009/1328Qbat|2009-XX-XX": {
+      "country": "Uganda",
+      "country_confidence": {
+        "Uganda": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12
+    },
+    "KC545387|Mbg-422-2012|2012-XX-XX": {
+      "country": "Uganda",
+      "country_confidence": {
+        "Uganda": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12
+    },
+    "KC545388|Mbg-423-2012|2012-XX-XX": {
+      "country": "Uganda",
+      "country_confidence": {
+        "Uganda": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12
+    },
+    "KU978782|Angolaprototype20051379|2005-01-01": {
+      "country": "Angola",
+      "country_confidence": {
+        "Angola": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12
+    },
+    "KY047763|Marburgvirus/H.sapiens-tc/AGO/2005/Angola-368|2005-XX-XX": {
+      "country": "Angola",
+      "country_confidence": {
+        "Angola": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12
+    },
+    "MN187403|1000KasbatSL2018|2018-XX-XX": {
+      "country": "Sierra Leone",
+      "country_confidence": {
+        "Sierra Leone": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12
+    },
+    "MN187404|968KasbatSL2018|2018-XX-XX": {
+      "country": "Sierra Leone",
+      "country_confidence": {
+        "Sierra Leone": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12
+    },
+    "MN187405|960KasbatSL2018|2018-XX-XX": {
+      "country": "Sierra Leone",
+      "country_confidence": {
+        "Sierra Leone": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12
+    },
+    "MN187406|960LNKasbatSL2018|2018-XX-XX": {
+      "country": "Sierra Leone",
+      "country_confidence": {
+        "Sierra Leone": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12
+    },
+    "MN258361|PREDICT_SLAB3960Kakbat_SL_2017|2017-12-06": {
+      "country": "Sierra Leone",
+      "country_confidence": {
+        "Sierra Leone": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12
+    },
+    "NODE_0000000": {
+      "country": "Democratic Republic of the Congo",
+      "country_confidence": {
+        "Democratic Republic of the Congo": 0.212314372006833,
+        "Germany": 0.13262463707355607,
+        "Sierra Leone": 0.178377110381905,
+        "Uganda": 0.15110780754806727
+      },
+      "country_entropy": 2.0032307382753367
+    },
+    "NODE_0000001": {
+      "country": "Germany",
+      "country_confidence": {
+        "Democratic Republic of the Congo": 0.1855771097160786,
+        "Germany": 0.4003187156009339,
+        "Netherlands": 0.15354871791548277,
+        "Uganda": 0.2067113467140393
+      },
+      "country_entropy": 1.5230957465807586
+    },
+    "NODE_0000002": {
+      "country": "Germany",
+      "country_confidence": {
+        "Democratic Republic of the Congo": 0.2146880090228379,
+        "Germany": 0.30875743410205914,
+        "Netherlands": 0.18453889912344223,
+        "Uganda": 0.24497083767522024
+      },
+      "country_entropy": 1.557446501468533
+    },
+    "NODE_0000003": {
+      "country": "Uganda",
+      "country_confidence": {
+        "Democratic Republic of the Congo": 0.37805367765471537,
+        "Germany": 0.08521579748863989,
+        "Netherlands": 0.050309779237020354,
+        "Uganda": 0.46378177321557684
+      },
+      "country_entropy": 1.2010560201241738
+    },
+    "NODE_0000004": {
+      "country": "Uganda",
+      "country_confidence": {
+        "Democratic Republic of the Congo": 0.0031100136913124444,
+        "Uganda": 0.9959784969225245
+      },
+      "country_entropy": 0.029613226001808213
+    },
+    "NODE_0000005": {
+      "country": "Uganda",
+      "country_confidence": {
+        "Uganda": 0.9997762208255437
+      },
+      "country_entropy": 0.0022629638771796555
+    },
+    "NODE_0000006": {
+      "country": "Uganda",
+      "country_confidence": {
+        "Uganda": 0.9999781741942164
+      },
+      "country_entropy": 0.00027833092059251495
+    },
+    "NODE_0000007": {
+      "country": "Democratic Republic of the Congo",
+      "country_confidence": {
+        "Democratic Republic of the Congo": 0.19992099745148806,
+        "Germany": 0.13848826432527062,
+        "Sierra Leone": 0.19048597896435912,
+        "Uganda": 0.14632658683336908
+      },
+      "country_entropy": 2.003959641415688
+    },
+    "NODE_0000008": {
+      "country": "Sierra Leone",
+      "country_confidence": {
+        "Angola": 0.18218543989025224,
+        "Ghana": 0.07153028960739992,
+        "Guinea": 0.07491120199492866,
+        "Sierra Leone": 0.5514692578393648
+      },
+      "country_entropy": 1.438761656359798
+    },
+    "NODE_0000009": {
+      "country": "Sierra Leone",
+      "country_confidence": {
+        "Angola": 0.04085341903122914,
+        "Ghana": 0.0163266967210651,
+        "Guinea": 0.01700416274002795,
+        "Sierra Leone": 0.8918099129228348
+      },
+      "country_entropy": 0.5304644785318356
+    },
+    "NODE_0000010": {
+      "country": "Sierra Leone",
+      "country_confidence": {
+        "Sierra Leone": 0.999999996711907
+      },
+      "country_entropy": 7.321573467554639e-08
+    },
+    "NODE_0000013": {
+      "country": "Angola",
+      "country_confidence": {
+        "Angola": 0.42827042158223083,
+        "Ghana": 0.15013051619245804,
+        "Guinea": 0.15932195028029053,
+        "Sierra Leone": 0.1861906893803845
+      },
+      "country_entropy": 1.553522714162617
+    },
+    "NODE_0000014": {
+      "country": "Guinea",
+      "country_confidence": {
+        "Angola": 0.01705358355280091,
+        "Ghana": 0.4679924394654404,
+        "Guinea": 0.49929709197216526,
+        "Sierra Leone": 0.008008358209873943
+      },
+      "country_entropy": 0.8579951994557595
+    },
+    "NODE_0000015": {
+      "country": "Ghana",
+      "country_confidence": {
+        "Ghana": 0.9966749778355979,
+        "Guinea": 0.00311253428105349
+      },
+      "country_entropy": 0.023402455131244174
+    },
+    "NODE_0000016": {
+      "country": "Angola",
+      "country_confidence": {
+        "Angola": 0.9995053745553629
+      },
+      "country_entropy": 0.005076255073050071
+    },
+    "NODE_0000017": {
+      "country": "Angola",
+      "country_confidence": {
+        "Angola": 0.999995433203044
+      },
+      "country_entropy": 6.861681079430143e-05
+    },
+    "NODE_0000018": {
+      "country": "Angola",
+      "country_confidence": {
+        "Angola": 0.9999985843224999
+      },
+      "country_entropy": 2.31565595360076e-05
+    },
+    "NODE_0000019": {
+      "country": "Angola",
+      "country_confidence": {
+        "Angola": 0.9999986045731318
+      },
+      "country_entropy": 2.2848632749702483e-05
+    },
+    "NODE_0000020": {
+      "country": "Angola",
+      "country_confidence": {
+        "Angola": 0.9999986132023103
+      },
+      "country_entropy": 2.2716236009648105e-05
+    },
+    "NODE_0000021": {
+      "country": "Angola",
+      "country_confidence": {
+        "Angola": 0.9999985843221655
+      },
+      "country_entropy": 2.315656463877796e-05
+    },
+    "NODE_0000022": {
+      "country": "Angola",
+      "country_confidence": {
+        "Angola": 0.9999986045205128
+      },
+      "country_entropy": 2.2849438381758206e-05
+    },
+    "NODE_0000023": {
+      "country": "Angola",
+      "country_confidence": {
+        "Angola": 0.9999986047033332
+      },
+      "country_entropy": 2.284665409636661e-05
+    },
+    "NODE_0000024": {
+      "country": "Angola",
+      "country_confidence": {
+        "Angola": 0.999998613203149
+      },
+      "country_entropy": 2.2716223276964975e-05
+    },
+    "NODE_0000025": {
+      "country": "Democratic Republic of the Congo",
+      "country_confidence": {
+        "Democratic Republic of the Congo": 0.7082652090381659,
+        "Germany": 0.0028604031376343137,
+        "Sierra Leone": 0.002615258702566552,
+        "Uganda": 0.27862680392952377
+      },
+      "country_entropy": 0.680376291727338
+    },
+    "NODE_0000026": {
+      "country": "Uganda",
+      "country_confidence": {
+        "Democratic Republic of the Congo": 0.010883678487083031,
+        "Uganda": 0.9887362947337172
+      },
+      "country_entropy": 0.06406086954136726
+    },
+    "NODE_0000027": {
+      "country": "Uganda",
+      "country_confidence": {
+        "Uganda": 0.9998123811555426
+      },
+      "country_entropy": 0.0018366745983837548
+    },
+    "NODE_0000028": {
+      "country": "Uganda",
+      "country_confidence": {
+        "Uganda": 0.9999825979300944
+      },
+      "country_entropy": 0.00022602502520652616
+    },
+    "NODE_0000029": {
+      "country": "Uganda",
+      "country_confidence": {
+        "Uganda": 0.9999912909283073
+      },
+      "country_entropy": 0.00011949403105714273
+    },
+    "NODE_0000030": {
+      "country": "Uganda",
+      "country_confidence": {
+        "Uganda": 0.9999971337647504
+      },
+      "country_entropy": 4.3245139678695676e-05
+    },
+    "NODE_0000031": {
+      "country": "Uganda",
+      "country_confidence": {
+        "Uganda": 0.9999972181615779
+      },
+      "country_entropy": 4.2093797705752255e-05
+    },
+    "NODE_0000032": {
+      "country": "Democratic Republic of the Congo",
+      "country_confidence": {
+        "Democratic Republic of the Congo": 0.9878196746319653,
+        "Uganda": 0.011767519417398783
+      },
+      "country_entropy": 0.06832201253724442
+    },
+    "NODE_0000033": {
+      "country": "Democratic Republic of the Congo",
+      "country_confidence": {
+        "Democratic Republic of the Congo": 0.9999214305683299
+      },
+      "country_entropy": 0.000864352214560997
+    },
+    "NODE_0000034": {
+      "country": "Democratic Republic of the Congo",
+      "country_confidence": {
+        "Democratic Republic of the Congo": 0.9999950863009704
+      },
+      "country_entropy": 7.150403059941855e-05
+    },
+    "NODE_0000035": {
+      "country": "Democratic Republic of the Congo",
+      "country_confidence": {
+        "Democratic Republic of the Congo": 0.9999999405199071
+      },
+      "country_entropy": 1.1090978120616545e-06
+    },
+    "NODE_0000037": {
+      "country": "Democratic Republic of the Congo",
+      "country_confidence": {
+        "Democratic Republic of the Congo": 0.9988818914678503,
+        "Uganda": 0.001072790010142298
+      },
+      "country_entropy": 0.00898506837766123
+    },
+    "NODE_0000038": {
+      "country": "Democratic Republic of the Congo",
+      "country_confidence": {
+        "Democratic Republic of the Congo": 0.9999806127190403
+      },
+      "country_entropy": 0.00025258018223615485
+    },
+    "NODE_0000039": {
+      "country": "Democratic Republic of the Congo",
+      "country_confidence": {
+        "Democratic Republic of the Congo": 0.9999958343689461
+      },
+      "country_entropy": 6.187795366742532e-05
+    },
+    "NODE_0000040": {
+      "country": "Democratic Republic of the Congo",
+      "country_confidence": {
+        "Democratic Republic of the Congo": 0.9999960200273253
+      },
+      "country_entropy": 5.9397450544160696e-05
+    },
+    "NODE_0000041": {
+      "country": "Democratic Republic of the Congo",
+      "country_confidence": {
+        "Democratic Republic of the Congo": 0.999996065939376
+      },
+      "country_entropy": 5.877126375747136e-05
+    },
+    "NODE_0000042": {
+      "country": "Democratic Republic of the Congo",
+      "country_confidence": {
+        "Democratic Republic of the Congo": 0.9999996087648165
+      },
+      "country_entropy": 6.4921791479037225e-06
+    },
+    "NODE_0000044": {
+      "country": "Democratic Republic of the Congo",
+      "country_confidence": {
+        "Democratic Republic of the Congo": 0.9999960179196237
+      },
+      "country_entropy": 5.942540703484552e-05
+    },
+    "NODE_0000045": {
+      "country": "Democratic Republic of the Congo",
+      "country_confidence": {
+        "Democratic Republic of the Congo": 0.9999960659119624
+      },
+      "country_entropy": 5.877162565513955e-05
+    },
+    "NODE_0000046": {
+      "country": "Democratic Republic of the Congo",
+      "country_confidence": {
+        "Democratic Republic of the Congo": 0.9999960653867931
+      },
+      "country_entropy": 5.8778683021479346e-05
+    },
+    "NODE_0000047": {
+      "country": "Democratic Republic of the Congo",
+      "country_confidence": {
+        "Democratic Republic of the Congo": 0.9999999562834494
+      },
+      "country_entropy": 8.346911135815095e-07
+    },
+    "NODE_0000049": {
+      "country": "Democratic Republic of the Congo",
+      "country_confidence": {
+        "Democratic Republic of the Congo": 0.9999961089977659
+      },
+      "country_entropy": 5.818250239060309e-05
+    },
+    "NODE_0000050": {
+      "country": "Democratic Republic of the Congo",
+      "country_confidence": {
+        "Democratic Republic of the Congo": 0.9999960659654065
+      },
+      "country_entropy": 5.877091282296321e-05
+    },
+    "NODE_0000051": {
+      "country": "Democratic Republic of the Congo",
+      "country_confidence": {
+        "Democratic Republic of the Congo": 0.9999960664839994
+      },
+      "country_entropy": 5.8763942834601116e-05
+    },
+    "NODE_0000052": {
+      "country": "Democratic Republic of the Congo",
+      "country_confidence": {
+        "Democratic Republic of the Congo": 0.9999999568086176
+      },
+      "country_entropy": 8.253332362037666e-07
+    },
+    "NODE_0000053": {
+      "country": "Democratic Republic of the Congo",
+      "country_confidence": {
+        "Democratic Republic of the Congo": 0.9999961090043428
+      },
+      "country_entropy": 5.818241484788126e-05
+    },
+    "NODE_0000055": {
+      "country": "Democratic Republic of the Congo",
+      "country_confidence": {
+        "Democratic Republic of the Congo": 0.9999960659720685
+      },
+      "country_entropy": 5.8770824242405714e-05
+    },
+    "NODE_0000056": {
+      "country": "Democratic Republic of the Congo",
+      "country_confidence": {
+        "Democratic Republic of the Congo": 0.9999960664840858
+      },
+      "country_entropy": 5.876394169477677e-05
+    },
+    "OL702894|MARV001|2021-09-08": {
+      "country": "Guinea",
+      "country_confidence": {
+        "Guinea": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12
+    }
+  }
+}

@@ -1,0 +1,3 @@
+NameError in line 190 of /nextstrain/build/Snakefile:
+name 'auspice_config' is not defined
+  File "/nextstrain/build/Snakefile", line 190, in <module>

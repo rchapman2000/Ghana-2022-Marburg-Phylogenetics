@@ -1,0 +1,2078 @@
+{
+  "annotations": {
+    "MARV_gp1": {
+      "end": 2191,
+      "seqid": "config/marburg-reference.gb",
+      "start": 104,
+      "strand": "+",
+      "type": "CDS"
+    },
+    "MARV_gp2": {
+      "end": 3934,
+      "seqid": "config/marburg-reference.gb",
+      "start": 2945,
+      "strand": "+",
+      "type": "CDS"
+    },
+    "MARV_gp3": {
+      "end": 5479,
+      "seqid": "config/marburg-reference.gb",
+      "start": 4568,
+      "strand": "+",
+      "type": "CDS"
+    },
+    "MARV_gp4": {
+      "end": 7986,
+      "seqid": "config/marburg-reference.gb",
+      "start": 5941,
+      "strand": "+",
+      "type": "CDS"
+    },
+    "MARV_gp5": {
+      "end": 9714,
+      "seqid": "config/marburg-reference.gb",
+      "start": 8869,
+      "strand": "+",
+      "type": "CDS"
+    },
+    "MARV_gp6": {
+      "end": 10968,
+      "seqid": "config/marburg-reference.gb",
+      "start": 10207,
+      "strand": "+",
+      "type": "CDS"
+    },
+    "MARV_gp7": {
+      "end": 18476,
+      "seqid": "config/marburg-reference.gb",
+      "start": 11481,
+      "strand": "+",
+      "type": "CDS"
+    },
+    "nuc": {
+      "end": 19111,
+      "seqid": "config/marburg-reference.gb",
+      "start": 1,
+      "strand": "+",
+      "type": "source"
+    }
+  },
+  "generated_by": {
+    "program": "augur",
+    "version": "16.0.3"
+  },
+  "nodes": {
+    "DQ447650|07DRC99|1999-05-XX": {
+      "aa_muts": {
+        "MARV_gp1": [],
+        "MARV_gp2": [],
+        "MARV_gp3": [],
+        "MARV_gp4": [],
+        "MARV_gp5": [],
+        "MARV_gp6": [],
+        "MARV_gp7": []
+      }
+    },
+    "DQ447651|05DRC99|1999-05-XX": {
+      "aa_muts": {
+        "MARV_gp1": [],
+        "MARV_gp2": [],
+        "MARV_gp3": [],
+        "MARV_gp4": [],
+        "MARV_gp5": [],
+        "MARV_gp6": [],
+        "MARV_gp7": []
+      }
+    },
+    "DQ447653|Ang1379c|2005-03-XX": {
+      "aa_muts": {
+        "MARV_gp1": [],
+        "MARV_gp2": [],
+        "MARV_gp3": [],
+        "MARV_gp4": [],
+        "MARV_gp5": [],
+        "MARV_gp6": [],
+        "MARV_gp7": []
+      }
+    },
+    "DQ447654|Ang1381|2005-03-XX": {
+      "aa_muts": {
+        "MARV_gp1": [],
+        "MARV_gp2": [],
+        "MARV_gp3": [],
+        "MARV_gp4": [],
+        "MARV_gp5": [],
+        "MARV_gp6": [],
+        "MARV_gp7": []
+      }
+    },
+    "DQ447655|Ang1386|2005-03-XX": {
+      "aa_muts": {
+        "MARV_gp1": [],
+        "MARV_gp2": [],
+        "MARV_gp3": [],
+        "MARV_gp4": [],
+        "MARV_gp5": [],
+        "MARV_gp6": [],
+        "MARV_gp7": []
+      }
+    },
+    "DQ447656|Ang0126|2005-04-XX": {
+      "aa_muts": {
+        "MARV_gp1": [],
+        "MARV_gp2": [],
+        "MARV_gp3": [],
+        "MARV_gp4": [],
+        "MARV_gp5": [],
+        "MARV_gp6": [],
+        "MARV_gp7": []
+      }
+    },
+    "DQ447657|Ang0214|2005-04-XX": {
+      "aa_muts": {
+        "MARV_gp1": [
+          "Q496L"
+        ],
+        "MARV_gp2": [],
+        "MARV_gp3": [],
+        "MARV_gp4": [],
+        "MARV_gp5": [],
+        "MARV_gp6": [],
+        "MARV_gp7": []
+      }
+    },
+    "DQ447658|Ang0215|2005-04-XX": {
+      "aa_muts": {
+        "MARV_gp1": [],
+        "MARV_gp2": [],
+        "MARV_gp3": [],
+        "MARV_gp4": [],
+        "MARV_gp5": [],
+        "MARV_gp6": [],
+        "MARV_gp7": []
+      }
+    },
+    "DQ447659|Ang0754|2005-04-XX": {
+      "aa_muts": {
+        "MARV_gp1": [],
+        "MARV_gp2": [],
+        "MARV_gp3": [],
+        "MARV_gp4": [],
+        "MARV_gp5": [],
+        "MARV_gp6": [],
+        "MARV_gp7": []
+      }
+    },
+    "DQ447660|Ang0998|2005-05-XX": {
+      "aa_muts": {
+        "MARV_gp1": [],
+        "MARV_gp2": [],
+        "MARV_gp3": [],
+        "MARV_gp4": [],
+        "MARV_gp5": [
+          "S47G"
+        ],
+        "MARV_gp6": [],
+        "MARV_gp7": [
+          "K1511R"
+        ]
+      }
+    },
+    "EF446132|Germany_Marburg|1967-XX-XX": {
+      "aa_muts": {
+        "MARV_gp1": [
+          "I91V",
+          "E492A"
+        ],
+        "MARV_gp2": [
+          "C50R"
+        ],
+        "MARV_gp3": [
+          "D184N"
+        ],
+        "MARV_gp4": [
+          "S261N",
+          "A318T",
+          "P357S"
+        ],
+        "MARV_gp5": [
+          "T16A",
+          "H34Y",
+          "E165D"
+        ],
+        "MARV_gp6": [],
+        "MARV_gp7": [
+          "V1112I",
+          "L1159M",
+          "N1725D",
+          "E1747G",
+          "C1770F",
+          "Q1779P",
+          "L1865R",
+          "N2022S",
+          "R2330T"
+        ]
+      }
+    },
+    "FJ750957|Uganda01Uga07|2007-XX-XX": {
+      "aa_muts": {
+        "MARV_gp1": [],
+        "MARV_gp2": [],
+        "MARV_gp3": [],
+        "MARV_gp4": [
+          "T325S"
+        ],
+        "MARV_gp5": [],
+        "MARV_gp6": [],
+        "MARV_gp7": [
+          "T56I",
+          "A1355T",
+          "C1830G"
+        ]
+      }
+    },
+    "FJ750958|Uganda371Bat2007|2007-XX-XX": {
+      "aa_muts": {
+        "MARV_gp1": [],
+        "MARV_gp2": [],
+        "MARV_gp3": [],
+        "MARV_gp4": [],
+        "MARV_gp5": [],
+        "MARV_gp6": [],
+        "MARV_gp7": [
+          "I83V",
+          "V214I",
+          "C1412Y"
+        ]
+      }
+    },
+    "FJ750959|Uganda331Bat2007|2007-XX-XX": {
+      "aa_muts": {
+        "MARV_gp1": [],
+        "MARV_gp2": [],
+        "MARV_gp3": [],
+        "MARV_gp4": [
+          "E479K"
+        ],
+        "MARV_gp5": [],
+        "MARV_gp6": [
+          "V220A"
+        ],
+        "MARV_gp7": [
+          "P140L",
+          "A1355T",
+          "S1690P"
+        ]
+      }
+    },
+    "Ghana-MV-22-106|2022-06-XX": {
+      "aa_muts": {
+        "MARV_gp1": [],
+        "MARV_gp2": [],
+        "MARV_gp3": [],
+        "MARV_gp4": [],
+        "MARV_gp5": [],
+        "MARV_gp6": [],
+        "MARV_gp7": []
+      }
+    },
+    "Ghana-MV-22-114C|2022-06-XX": {
+      "aa_muts": {
+        "MARV_gp1": [],
+        "MARV_gp2": [],
+        "MARV_gp3": [],
+        "MARV_gp4": [],
+        "MARV_gp5": [],
+        "MARV_gp6": [],
+        "MARV_gp7": [
+          "N550K"
+        ]
+      }
+    },
+    "JN408064|Leiden|2008-XX-XX": {
+      "aa_muts": {
+        "MARV_gp1": [
+          "D474N",
+          "S601T"
+        ],
+        "MARV_gp2": [
+          "W313G"
+        ],
+        "MARV_gp3": [],
+        "MARV_gp4": [
+          "I242N",
+          "I267T",
+          "Y279H",
+          "K287T",
+          "L290P",
+          "G317S",
+          "T362I",
+          "A478T"
+        ],
+        "MARV_gp5": [],
+        "MARV_gp6": [],
+        "MARV_gp7": [
+          "E947K",
+          "I1635T",
+          "P1711L",
+          "T1721I",
+          "L1731Q",
+          "S1795F",
+          "T1843I",
+          "I1845S",
+          "S1894Y",
+          "R1998K"
+        ]
+      }
+    },
+    "JX458825|MARV/H.sapiens-tc/COD/1999/04DRC|1999-XX-XX": {
+      "aa_muts": {
+        "MARV_gp1": [],
+        "MARV_gp2": [],
+        "MARV_gp3": [],
+        "MARV_gp4": [],
+        "MARV_gp5": [],
+        "MARV_gp6": [],
+        "MARV_gp7": []
+      }
+    },
+    "JX458826|MARV/H.sapiens-tc/COD/1999/03DRC|1999-XX-XX": {
+      "aa_muts": {
+        "MARV_gp1": [],
+        "MARV_gp2": [
+          "I94M"
+        ],
+        "MARV_gp3": [],
+        "MARV_gp4": [],
+        "MARV_gp5": [],
+        "MARV_gp6": [],
+        "MARV_gp7": []
+      }
+    },
+    "JX458827|MARV/H.sapiens-tc/COD/2000/32DRC|2000-XX-XX": {
+      "aa_muts": {
+        "MARV_gp1": [],
+        "MARV_gp2": [],
+        "MARV_gp3": [],
+        "MARV_gp4": [
+          "T209A"
+        ],
+        "MARV_gp5": [],
+        "MARV_gp6": [],
+        "MARV_gp7": [
+          "D1847N"
+        ]
+      }
+    },
+    "JX458828|MARV/H.sapiens-tc/COD/2000/19DRC|2000-XX-XX": {
+      "aa_muts": {
+        "MARV_gp1": [
+          "S658P"
+        ],
+        "MARV_gp2": [],
+        "MARV_gp3": [],
+        "MARV_gp4": [],
+        "MARV_gp5": [],
+        "MARV_gp6": [],
+        "MARV_gp7": []
+      }
+    },
+    "JX458829|MARV/H.sapiens-tc/COD/2000/34DRC|2000-XX-XX": {
+      "aa_muts": {
+        "MARV_gp1": [],
+        "MARV_gp2": [],
+        "MARV_gp3": [],
+        "MARV_gp4": [],
+        "MARV_gp5": [],
+        "MARV_gp6": [],
+        "MARV_gp7": [
+          "R1129K"
+        ]
+      }
+    },
+    "JX458830|MARV/H.sapiens-tc/COD/1999/06DRC|1999-XX-XX": {
+      "aa_muts": {
+        "MARV_gp1": [],
+        "MARV_gp2": [],
+        "MARV_gp3": [],
+        "MARV_gp4": [],
+        "MARV_gp5": [],
+        "MARV_gp6": [],
+        "MARV_gp7": []
+      }
+    },
+    "JX458831|MARV/H.sapiens-tc/COD/2000/14DRC|2000-XX-XX": {
+      "aa_muts": {
+        "MARV_gp1": [
+          "Q488R"
+        ],
+        "MARV_gp2": [],
+        "MARV_gp3": [],
+        "MARV_gp4": [],
+        "MARV_gp5": [],
+        "MARV_gp6": [],
+        "MARV_gp7": []
+      }
+    },
+    "JX458832|MARV/H.sapiens-tc/COD/2000/30DRC|2000-XX-XX": {
+      "aa_muts": {
+        "MARV_gp1": [
+          "S476R"
+        ],
+        "MARV_gp2": [],
+        "MARV_gp3": [],
+        "MARV_gp4": [
+          "T328I"
+        ],
+        "MARV_gp5": [
+          "I19L"
+        ],
+        "MARV_gp6": [],
+        "MARV_gp7": [
+          "S1694N"
+        ]
+      }
+    },
+    "JX458833|MARV/H.sapiens-tc/COD/1999/01DRC|1999-XX-XX": {
+      "aa_muts": {
+        "MARV_gp1": [
+          "Q424K"
+        ],
+        "MARV_gp2": [],
+        "MARV_gp3": [],
+        "MARV_gp4": [
+          "N373K",
+          "N408S"
+        ],
+        "MARV_gp5": [],
+        "MARV_gp6": [],
+        "MARV_gp7": [
+          "S1685P"
+        ]
+      }
+    },
+    "JX458835|MARV/H.sapiens-tc/COD/2000/23DRC|2000-XX-XX": {
+      "aa_muts": {
+        "MARV_gp1": [
+          "A433V"
+        ],
+        "MARV_gp2": [],
+        "MARV_gp3": [],
+        "MARV_gp4": [
+          "P298L"
+        ],
+        "MARV_gp5": [
+          "K279R"
+        ],
+        "MARV_gp6": [],
+        "MARV_gp7": [
+          "A1355S"
+        ]
+      }
+    },
+    "JX458836|MARV/H.sapiens-tc/COD/2000/29DRC|2000-XX-XX": {
+      "aa_muts": {
+        "MARV_gp1": [],
+        "MARV_gp2": [],
+        "MARV_gp3": [],
+        "MARV_gp4": [],
+        "MARV_gp5": [],
+        "MARV_gp6": [],
+        "MARV_gp7": []
+      }
+    },
+    "JX458837|MARV/H.sapiens-tc/COD/2000/27DRC|2000-XX-XX": {
+      "aa_muts": {
+        "MARV_gp1": [],
+        "MARV_gp2": [],
+        "MARV_gp3": [],
+        "MARV_gp4": [
+          "L428P"
+        ],
+        "MARV_gp5": [],
+        "MARV_gp6": [],
+        "MARV_gp7": []
+      }
+    },
+    "JX458838|MARV/H.sapiens-tc/COD/2000/17DRC|2000-XX-XX": {
+      "aa_muts": {
+        "MARV_gp1": [],
+        "MARV_gp2": [],
+        "MARV_gp3": [],
+        "MARV_gp4": [],
+        "MARV_gp5": [],
+        "MARV_gp6": [],
+        "MARV_gp7": []
+      }
+    },
+    "JX458839|MARV/H.sapiens-tc/COD/2000/16DRC|2000-XX-XX": {
+      "aa_muts": {
+        "MARV_gp1": [],
+        "MARV_gp2": [],
+        "MARV_gp3": [],
+        "MARV_gp4": [],
+        "MARV_gp5": [],
+        "MARV_gp6": [],
+        "MARV_gp7": []
+      }
+    },
+    "JX458841|MARV/H.sapiens-tc/COD/2000/20DRC|2000-XX-XX": {
+      "aa_muts": {
+        "MARV_gp1": [],
+        "MARV_gp2": [],
+        "MARV_gp3": [],
+        "MARV_gp4": [],
+        "MARV_gp5": [],
+        "MARV_gp6": [],
+        "MARV_gp7": []
+      }
+    },
+    "JX458842|MARV/H.sapiens-tc/COD/2000/18DRC|2000-XX-XX": {
+      "aa_muts": {
+        "MARV_gp1": [],
+        "MARV_gp2": [],
+        "MARV_gp3": [],
+        "MARV_gp4": [],
+        "MARV_gp5": [],
+        "MARV_gp6": [],
+        "MARV_gp7": []
+      }
+    },
+    "JX458843|MARV/H.sapiens-tc/COD/2000/21DRC|2000-XX-XX": {
+      "aa_muts": {
+        "MARV_gp1": [],
+        "MARV_gp2": [],
+        "MARV_gp3": [],
+        "MARV_gp4": [],
+        "MARV_gp5": [],
+        "MARV_gp6": [],
+        "MARV_gp7": []
+      }
+    },
+    "JX458844|MARV/H.sapiens-tc/COD/2000/26DRC|2000-XX-XX": {
+      "aa_muts": {
+        "MARV_gp1": [],
+        "MARV_gp2": [],
+        "MARV_gp3": [],
+        "MARV_gp4": [
+          "T267I"
+        ],
+        "MARV_gp5": [],
+        "MARV_gp6": [],
+        "MARV_gp7": []
+      }
+    },
+    "JX458845|MARV/H.sapiens-tc/COD/2000/13DRC|2000-XX-XX": {
+      "aa_muts": {
+        "MARV_gp1": [],
+        "MARV_gp2": [],
+        "MARV_gp3": [],
+        "MARV_gp4": [],
+        "MARV_gp5": [],
+        "MARV_gp6": [],
+        "MARV_gp7": []
+      }
+    },
+    "JX458846|MARV/H.sapiens-tc/COD/2000/28DRC|2000-XX-XX": {
+      "aa_muts": {
+        "MARV_gp1": [],
+        "MARV_gp2": [],
+        "MARV_gp3": [],
+        "MARV_gp4": [
+          "T221M"
+        ],
+        "MARV_gp5": [],
+        "MARV_gp6": [
+          "F45L"
+        ],
+        "MARV_gp7": []
+      }
+    },
+    "JX458847|MARV/H.sapiens-tc/COD/2000/15DRC|2000-XX-XX": {
+      "aa_muts": {
+        "MARV_gp1": [],
+        "MARV_gp2": [
+          "S193L"
+        ],
+        "MARV_gp3": [
+          "M263I"
+        ],
+        "MARV_gp4": [],
+        "MARV_gp5": [],
+        "MARV_gp6": [],
+        "MARV_gp7": [
+          "V234I",
+          "H705R"
+        ]
+      }
+    },
+    "JX458848|MARV/H.sapiens-tc/COD/2000/22DRC|2000-XX-XX": {
+      "aa_muts": {
+        "MARV_gp1": [],
+        "MARV_gp2": [],
+        "MARV_gp3": [],
+        "MARV_gp4": [],
+        "MARV_gp5": [
+          "S46G"
+        ],
+        "MARV_gp6": [],
+        "MARV_gp7": []
+      }
+    },
+    "JX458849|MARV/H.sapiens-tc/COD/2000/25DRC|2000-XX-XX": {
+      "aa_muts": {
+        "MARV_gp1": [],
+        "MARV_gp2": [],
+        "MARV_gp3": [],
+        "MARV_gp4": [
+          "P421S"
+        ],
+        "MARV_gp5": [
+          "F122L"
+        ],
+        "MARV_gp6": [],
+        "MARV_gp7": [
+          "A25T",
+          "D435N",
+          "P1627S",
+          "S2191N"
+        ]
+      }
+    },
+    "JX458850|MARV/H.sapiens-tc/COD/2000/33DRC|2000-XX-XX": {
+      "aa_muts": {
+        "MARV_gp1": [],
+        "MARV_gp2": [
+          "V279M"
+        ],
+        "MARV_gp3": [],
+        "MARV_gp4": [
+          "K287E",
+          "T353I"
+        ],
+        "MARV_gp5": [],
+        "MARV_gp6": [],
+        "MARV_gp7": [
+          "V1019E",
+          "N1027Y",
+          "S1820P",
+          "N1835D"
+        ]
+      }
+    },
+    "JX458851|MARV/H.sapiens-tc/COD/1999/02DRC|1999-XX-XX": {
+      "aa_muts": {
+        "MARV_gp1": [
+          "K12R",
+          "L500F"
+        ],
+        "MARV_gp2": [],
+        "MARV_gp3": [],
+        "MARV_gp4": [
+          "K103R",
+          "D208G",
+          "T256I",
+          "G274E",
+          "K287E",
+          "E321G",
+          "T327A",
+          "R618K"
+        ],
+        "MARV_gp5": [
+          "P61L",
+          "E143D"
+        ],
+        "MARV_gp6": [],
+        "MARV_gp7": [
+          "G345D",
+          "L374I",
+          "A1730D",
+          "R1750Q",
+          "P1751S",
+          "L1827F"
+        ]
+      }
+    },
+    "JX458852|MARV/R.aegyptiacus-tc/UGA/2008/53Qbat|2008-XX-XX": {
+      "aa_muts": {
+        "MARV_gp1": [
+          "V334I"
+        ],
+        "MARV_gp2": [],
+        "MARV_gp3": [],
+        "MARV_gp4": [],
+        "MARV_gp5": [],
+        "MARV_gp6": [],
+        "MARV_gp7": [
+          "L1187P",
+          "A1871S"
+        ]
+      }
+    },
+    "JX458853|MARV/R.aegyptiacus-tc/UGA/2008/164Qbat|2008-XX-XX": {
+      "aa_muts": {
+        "MARV_gp1": [
+          "N20S",
+          "V102M",
+          "A347T",
+          "I572V",
+          "V664I"
+        ],
+        "MARV_gp2": [
+          "F289L"
+        ],
+        "MARV_gp3": [
+          "T114A",
+          "I130T"
+        ],
+        "MARV_gp4": [
+          "N510D"
+        ],
+        "MARV_gp5": [],
+        "MARV_gp6": [
+          "I88M"
+        ],
+        "MARV_gp7": [
+          "N353H",
+          "M1738T",
+          "N1744K"
+        ]
+      }
+    },
+    "JX458854|MARV/R.aegyptiacus-tc/UGA/2009/1175Qbat|2009-XX-XX": {
+      "aa_muts": {
+        "MARV_gp1": [],
+        "MARV_gp2": [],
+        "MARV_gp3": [],
+        "MARV_gp4": [],
+        "MARV_gp5": [],
+        "MARV_gp6": [],
+        "MARV_gp7": [
+          "P1751S",
+          "I2188L"
+        ]
+      }
+    },
+    "JX458855|MARV/R.aegyptiacus-tc/UGA/2009/843Qbat|2009-XX-XX": {
+      "aa_muts": {
+        "MARV_gp1": [],
+        "MARV_gp2": [],
+        "MARV_gp3": [],
+        "MARV_gp4": [
+          "H349N"
+        ],
+        "MARV_gp5": [],
+        "MARV_gp6": [],
+        "MARV_gp7": [
+          "R1756S",
+          "D2133N"
+        ]
+      }
+    },
+    "JX458856|MARV/R.aegyptiacus-tc/UGA/2009/914Qbat|2009-XX-XX": {
+      "aa_muts": {
+        "MARV_gp1": [],
+        "MARV_gp2": [],
+        "MARV_gp3": [],
+        "MARV_gp4": [
+          "T361I",
+          "G506E"
+        ],
+        "MARV_gp5": [
+          "S138L"
+        ],
+        "MARV_gp6": [],
+        "MARV_gp7": [
+          "F945S",
+          "E1151V",
+          "I1643T",
+          "S1695L",
+          "N1704S",
+          "S1804P"
+        ]
+      }
+    },
+    "JX458858|MARV/R.aegyptiacus-tc/UGA/2009/1328Qbat|2009-XX-XX": {
+      "aa_muts": {
+        "MARV_gp1": [],
+        "MARV_gp2": [
+          "G322D"
+        ],
+        "MARV_gp3": [],
+        "MARV_gp4": [
+          "M294V",
+          "T312A",
+          "D365G",
+          "T382A"
+        ],
+        "MARV_gp5": [],
+        "MARV_gp6": [],
+        "MARV_gp7": [
+          "A1364V",
+          "M1591I",
+          "I1635V",
+          "P1782L",
+          "S1814L",
+          "T1839I"
+        ]
+      }
+    },
+    "KC545387|Mbg-422-2012|2012-XX-XX": {
+      "aa_muts": {
+        "MARV_gp1": [],
+        "MARV_gp2": [],
+        "MARV_gp3": [],
+        "MARV_gp4": [],
+        "MARV_gp5": [],
+        "MARV_gp6": [],
+        "MARV_gp7": []
+      }
+    },
+    "KC545388|Mbg-423-2012|2012-XX-XX": {
+      "aa_muts": {
+        "MARV_gp1": [],
+        "MARV_gp2": [],
+        "MARV_gp3": [],
+        "MARV_gp4": [],
+        "MARV_gp5": [],
+        "MARV_gp6": [],
+        "MARV_gp7": []
+      }
+    },
+    "KU978782|Angolaprototype20051379|2005-01-01": {
+      "aa_muts": {
+        "MARV_gp1": [],
+        "MARV_gp2": [],
+        "MARV_gp3": [],
+        "MARV_gp4": [],
+        "MARV_gp5": [],
+        "MARV_gp6": [],
+        "MARV_gp7": []
+      }
+    },
+    "KY047763|Marburgvirus/H.sapiens-tc/AGO/2005/Angola-368|2005-XX-XX": {
+      "aa_muts": {
+        "MARV_gp1": [],
+        "MARV_gp2": [],
+        "MARV_gp3": [],
+        "MARV_gp4": [],
+        "MARV_gp5": [],
+        "MARV_gp6": [],
+        "MARV_gp7": []
+      }
+    },
+    "MN187403|1000KasbatSL2018|2018-XX-XX": {
+      "aa_muts": {
+        "MARV_gp1": [],
+        "MARV_gp2": [],
+        "MARV_gp3": [],
+        "MARV_gp4": [],
+        "MARV_gp5": [],
+        "MARV_gp6": [],
+        "MARV_gp7": []
+      }
+    },
+    "MN187404|968KasbatSL2018|2018-XX-XX": {
+      "aa_muts": {
+        "MARV_gp1": [],
+        "MARV_gp2": [],
+        "MARV_gp3": [],
+        "MARV_gp4": [],
+        "MARV_gp5": [],
+        "MARV_gp6": [],
+        "MARV_gp7": []
+      }
+    },
+    "MN187405|960KasbatSL2018|2018-XX-XX": {
+      "aa_muts": {
+        "MARV_gp1": [],
+        "MARV_gp2": [],
+        "MARV_gp3": [],
+        "MARV_gp4": [],
+        "MARV_gp5": [],
+        "MARV_gp6": [],
+        "MARV_gp7": []
+      }
+    },
+    "MN187406|960LNKasbatSL2018|2018-XX-XX": {
+      "aa_muts": {
+        "MARV_gp1": [],
+        "MARV_gp2": [],
+        "MARV_gp3": [],
+        "MARV_gp4": [],
+        "MARV_gp5": [],
+        "MARV_gp6": [],
+        "MARV_gp7": []
+      }
+    },
+    "MN258361|PREDICT_SLAB3960Kakbat_SL_2017|2017-12-06": {
+      "aa_muts": {
+        "MARV_gp1": [
+          "G505E",
+          "I572T",
+          "E608G",
+          "V664I"
+        ],
+        "MARV_gp2": [],
+        "MARV_gp3": [],
+        "MARV_gp4": [
+          "T4I",
+          "C5W",
+          "P236S",
+          "L244P",
+          "Y279H",
+          "A285T",
+          "L290P",
+          "S291P",
+          "N313S",
+          "S315H",
+          "V319A",
+          "T327I",
+          "S342P",
+          "T343P",
+          "L351P",
+          "S355P",
+          "V356A",
+          "I358T",
+          "P379L",
+          "V406A",
+          "K412E",
+          "F414S",
+          "T420A",
+          "S423L",
+          "Q426P",
+          "N436S",
+          "N463D"
+        ],
+        "MARV_gp5": [
+          "T32A",
+          "N33S"
+        ],
+        "MARV_gp6": [],
+        "MARV_gp7": [
+          "T56I",
+          "A348S",
+          "V447M",
+          "Q494R",
+          "R1082K",
+          "V1112I",
+          "D1162N",
+          "L1392S",
+          "L1504P",
+          "R1620K",
+          "S1645C",
+          "L1687P",
+          "L1689F",
+          "S1728T",
+          "M1738I",
+          "I1755T",
+          "S1814P",
+          "T1822I",
+          "E2084D"
+        ]
+      }
+    },
+    "NODE_0000000": {
+      "aa_muts": {},
+      "aa_sequences": {
+        "MARV_gp1": "MDLHSLLELGTKPTAPHVRNKKVILFDTNHQVSICNQIIDAINSGIDLGDLLEGGLLTLCVEHYYNSDKDKFNTSPIAKYLRDAGYEFDVIKNADATRFLDVIPNEPHYSPLILALKTLESTESQRGRIGLFLSFCSLFLPKLVVGDRASIEKALRQVTVHQEQGIVTYPNHWLTTGHMKVIFGILRSSFILKFVLIHQGVNLVTGHDAYDSIISNSVGQTRFSGLLIVKTVLEFILQKTDSGVTLHPLVRTSKVKNEVASFKQALSNLARHGEYAPFARVLNLSGINNLEHGLYPQLSAIALGVATAHGSTLAGVNVGEQYQQLREAAHDAEVKLQRRHEHQEIQAIAEDDEERKILEQFHLQKTEITHSQTLAVLSQKREKLARLAAEIENNIVEDQGFKQSQNRVSQSFLNDPTPVEVTVQARPINRPTALPPPVDDKIEHESTEDSSSSSSFVDLNDPFALLNEDEDTLDDSVMIPSTTSREFQGIPEPPRQSQDLDNSQGKQEDESTNPIKKQFLRYQELPPVQEDDESEYTTDSQESIDQPGSDNEQGVDLPPPPLYAQEKRQDPIQHPAVSSQDPFGSIGDVNGDILEPIRSPSSPSAPQEDTRAREAYELSPDFTNYEDNQQNWPQRVVTKKGRTFLYPNDLLQTNPPESLITALVEEYQNPVSAKELQADWPDMSFDERRHVAMNL*",
+        "MARV_gp2": "MWDSSYMQQVSEGLMTGKVPIDQVFGANPLEKLYKRRKPKGTVGLQCSPCLMSKATSTDDIIWDQLIVKKTLADLLIPINRQISDIQSTLSEVTTRVHEIERQLHEITPVLKMGRTLEAISKGMSEMLAKYDHLVISTGRTTAPAAAFDAYLNEHGVPPPQPAIFKDLGVAQQACSKGTMVKNATTDAADKMSKVLELSEETFSKPNLSAKDLALLLFTHLPGNNTPFHILAQVLSKIAYKSGKSGAFLDAFHQILSEGENAQAALTRLSRTFDAFLGVVPPVIRVKNFQTVPRPCQKSLRAVPPNPTIDKGWVCVYSSEQGETRALKI*",
+        "MARV_gp3": "MASSSNYNTYMQYLNPPPYADHGANQLIPADQLSNQQGITPNYVGDLNLDDQFKGNVCHAFTLEAIIDISAYNERTVKGVPAWLPLGIMSNFEYPLAHTVAALLTGSYTITQFTHNGQKFVRVNRLGTGIPAHPLRMLREGNQAFIQNMVIPRNFSTNQFTYNLTNLVLSVQKLPDDAWRPSKDKLIGNTMHPAVSIHPNLPPIVLPTVKKQAYRQHKNPNNGPLLAISGILHQLRVEKVPEKTSLFRISLPADMFSVKEGMMKKRGENSPVVYFQAPENFPLNGFNNRQVVLAYANPTLSAV*",
+        "MARV_gp4": "MKTTCLFISLILIQGIKTLPILEIASNNQPQNVDSVCSGTLQKTEDVHLMGFTLSGQKVADSPLEASKRWAFRTGVPPKNVEYTEGEEAKTCYNISVTDPSGKSLLLDPPTNIRDYPKCKTIHHIQGQNPHAQGIALHLWGAFFLYDRIASTTMYRGKVFTEGNIAAMIVNKTVHKMIFSRQGQGYRHMNLTSTNKYWTSSNGTQTNDTGCFGTLQEYNSTKNQTCAPSKTPPPLPTAHPEIKPTSTPTDATKLNTTDPNSDDEDLTTSGSGSGEQEPYTTSDAVTKQGLSSTMPPTPSPQPSTPQQGGNNTNHSQGAVTEPDKTNTTAQPSMPPHNTTTISTNNTSKHNLSTLSVPLQNTTNYNTQSTATENEQTSAPSKTTLPPTENPTTAKSTNNTKSPTTTAPNTTNGHFTSPSPTPNSTTQHLVYFRRKRSILWREGDMFPFLDGLINAPIDFDPVPNTKTIFDESSSSGASAEEDQHASPNISLTLSYFPNINENTAYSGENENDCDAELRIWSVQEDDLAAGLSWIPFFGPGIEGLYTAGLIKNQNNLVCRLRRLANQTAKSLELLLRVTTEERTFSLINRHAIDFLLTRWGGTCKVLGPDCCIGIEDLSRNISEQIDQIKKDEQKEGTGWGLGGKWWTSDWGVLTNLGILLLLSIAVLIALSCICRIFTKYIG*",
+        "MARV_gp5": "MQQPRGRSRTRNHQATPSIYHETQLPSKPHYTNHHPRARSMSSTRSSAESSPTNHIPRARPPSTFNLSKPPPPPKDMCRNMKIGLPCTDPTCNRDHDLDNLTNRELLLLMARKMLPNTDKTFRSPQDCGSPSLSKGLSKDKQEQTKDVLTLENLGHILNYLHRSEIGKLDETSLRAALSLTCAGIRKTNRSLINTMTELHINHENLPQDQNGVIKQTYTGIHLDKGGQFEAALWQGWDKRSISLFVQAALYVMNNIPCESSISVQASYDHFILPQSQGKGQ*",
+        "MARV_gp6": "MAELSTRYNLPANVTEKSINLDLNSTARWIKEPSVGGWTVKWGNFVFHIPNTGMTLLHHLKSNFVVPEWQQTRNLFSHLFKNPKSTIIEPFLALRILLGVALKDQELQQSLIPGFRSIVHMLSEWLLLEVTSAIHISPNLLGIYLTSDMFKILMAGVKNFFNKMFTLHVVNDHGKPSSIEIKLTGQQIIITRVNMGFLVEVRRIDIEPCCGETVLSESVVFGLVAEAVLREHSQMEKGQPLNLTQYMNSKIAI*",
+        "MARV_gp7": "MQHPTQYPDARLSSPIILDQCDLLARSLGLYSHYSHNPKLRNCRIPHHIYRLRNSTALKTFLQNCSILTVPFHSIWDHILTSIQYDAINHVDDFKYLLPSELVKYANWDNEFLKAYLNKILGLDHVFPASARSQCEDFSPKENPYYWGMLLLVHLSQLARRIKGQRGSLRSNWKFIGTDLELFGIADFIIFKVPVKTIIRNAVSLQASKPGLRVWYRDQNLTPYLCDDEFIVSVASYECFIMIKDVFIERYNTWEICARAWLEDSDGADYPPLDVLGELYNQGDQIIAMYLEDGFKLIKHLEPLCVSCIQTHGIFTPRKYWFQSQMIKSYYDELCGLNLKLQISDNKAECAQNFIKTIIQAKLTPQQYCELFSLQKHWGHPVLYNDVALDKVKKHAQSTKILKPKVMFETFCVFKFIVAKNHYHSQGSWYKTTHDLHLTPYLRQHIVSNSFPSQAEIYQHLWEWYFVEHEPLFSTKIISDLSIFIKDRATAVNQECWDSVFDRSVLGYNPPVRFQSKRVPEQFLGQADFSLNQILDFAEKLEYLAPSYRNFSFSLKEKELNIGRTFGKLPYRVRNVQTLAEALLADGLAKAFPSNMMVVTEREQKEALLHQASWHHNSASIGENAIVRGASFVTDLEKYNLAFRYEFTRHFIDYCNRCYGVKNLFDWMHFLIPLCYMHVSDFYSPPHCVTEDNRNNPPDCANAYHYHLGGIEGLQQKLWTCISCAQITLVELKTKLKLKSSVMGDNQCITTLSLFPIDAPNDYQENEAELNAARVAVELAITTGYSGIFLKPEETFVHSGFIYFGKKQYLNGVQLPQSLKTMARCGPLSDSIFDDLQGSLASIGTSFERGTSETRHIFPSRWIASFHSMLAINLLNQNHLGFPLGFNIDISCFKKPLTFSEKLIALITPQVLGGLSFLNPEKLFYRNISDPLTSGLFQLKNALEFLEKEELFYILIAKKPGLADASDFVMNPLGLNVPGSREIITFLRQTVRENITITSQNRIINSLFHIGSDLEDQRVCEWLLSSNPVMSRFAADIFSRTPSGKRLQVLGYLEGTRTLLASRTISLTTEGTMLMKLRELTRNRWKSWFSYIDALDDDLSESLEKFTCTVDVANFLRAYSWSDVLKGKRLIGATLPCLLEQFKVKWINLSEDLREQFNLSSESESTINLLPYDCKELRLGGSNDTELNYVSCALDRKVVQKHPSVNRLAWTIGNRAPYIGSRTEDKIGYPPLRVNCPSAALKEAIEMVSRLLWVTQGTADREKLLIPLLNSRVNLDYQTVLNFLPTHYSGNIVHRYNDQYGQHSFMANRMSNTSTRAIISTNTLGKYAGGGQAAIDSNIIFQNTINLGVAVLDIALSLAKLSSASNVTFRLMLNKCCTRHVPSEYLFFDKPLDVDLNKYMDNELVYDNDPLCSGIKGRLGRVSRSTLSLSLNVSDIGSYDFPTIAAWTLGETIVGSIFSDESSQSTDPISSGCTKTFVTHFLVYPVESIFYAFGANLIVESLSLSRIKSIKNLSDLTFLISSTIRNLSHRSLRILQSTFRHELVLTRLAHHIPLISLMLGGSAGEKSSSDAVRLFLTASYQNFINNFSCLMKKGQSSLPVWLYFPSEGQQLKPILKILQRLSDLLSPDKVQKRKILADTCCPIDSFWVYPSKSTRTNHYYASLNYWRDKANKVKNTPFSHLINCSFLELSSHTSSVSSNQQVTNSKYIVHPENIPEINARTKLINYGSTALQGMDIKMPLSEQNLVENCRPSKGIRFKDNQKITKHDQRYEKKESSSRQMSPEDNMQTPAYIHSSSPSQTLIKSLDVHEDFDASKVILNSEINNLNLTDCTLNTKLLTTPTGTEILGTSPLQSSRYSSTSRERSLLSREQASYLYVDCSNIPSISLDPGFRNMSDQNQVQMLINAYKRDLHACFDSNQFCRFTGVVSSMHYKLYDLLPPGELRKAICLAEGEGSGARLLLKWKETDYLFFNTLATDSQQEAEILSGRVIPRMLYNIDRLSALLESRRLILNNLTIQITDITNPLWLDSVIQYLPEDSDILTMDAETTKDETREQLYKTIVNIWTRTSPNIPKISIIKVFLLDYEGTLFLMRNAIQYYGQVQLKKPYSSNAKNSEWYLCCGKRRIQRLQIDFSDQVGIFLICKAMSRQRQAIPYWLKHIEKNYPASLHEFFLTLGFPSLESSFCHRYTIPFSEGKALFHKVQSYVRQGKQHLHSLMLDYENNSPLLDLRNHFICSLRGKITKYYNDILKLNLVIKAVEKGKNWSQLVETLPNMHSVCIVHVDHECFGCEKRLLLKLDFIRNTKIAEQKLLNRVIGYILFFPFGLFKSGSLRA*"
+      }
+    },
+    "NODE_0000001": {
+      "aa_muts": {
+        "MARV_gp1": [
+          "V334I",
+          "R407Q",
+          "D440N",
+          "D501N"
+        ],
+        "MARV_gp2": [
+          "I62V",
+          "S91N",
+          "A184E"
+        ],
+        "MARV_gp3": [],
+        "MARV_gp4": [
+          "K158R",
+          "S201N",
+          "T214A",
+          "T231I",
+          "P233S",
+          "H239R",
+          "K253T",
+          "T267I",
+          "G308E",
+          "N313D",
+          "D323N",
+          "T340A",
+          "H349N",
+          "L351F",
+          "N365D",
+          "E388G",
+          "P390L",
+          "S401G",
+          "T409M",
+          "F414L",
+          "S423P",
+          "R433K"
+        ],
+        "MARV_gp5": [
+          "P17S",
+          "S63P",
+          "P125L",
+          "I262T",
+          "G278S"
+        ],
+        "MARV_gp6": [],
+        "MARV_gp7": [
+          "G336S",
+          "L341F",
+          "D345G",
+          "T399V",
+          "N761D",
+          "N887S",
+          "G1181R",
+          "R1633H",
+          "K1634Q",
+          "Q1761P",
+          "I1763T",
+          "R1769G",
+          "Y1770C",
+          "E1771V",
+          "K1772G",
+          "E1774D",
+          "S1777P",
+          "S1796P",
+          "S1798Y",
+          "I1802T",
+          "L1805P",
+          "L1836S",
+          "T1848I",
+          "Q1852R",
+          "R1891Q",
+          "A1905T",
+          "E1964K",
+          "S2000N",
+          "Q2128K",
+          "E2168K",
+          "G2327E"
+        ]
+      }
+    },
+    "NODE_0000002": {
+      "aa_muts": {
+        "MARV_gp1": [],
+        "MARV_gp2": [],
+        "MARV_gp3": [],
+        "MARV_gp4": [
+          "A238T",
+          "T253A",
+          "N349S",
+          "V356A"
+        ],
+        "MARV_gp5": [],
+        "MARV_gp6": [],
+        "MARV_gp7": []
+      }
+    },
+    "NODE_0000003": {
+      "aa_muts": {
+        "MARV_gp1": [
+          "G489R"
+        ],
+        "MARV_gp2": [],
+        "MARV_gp3": [],
+        "MARV_gp4": [
+          "S9G",
+          "G15R",
+          "V33M",
+          "S380L",
+          "G412E"
+        ],
+        "MARV_gp5": [],
+        "MARV_gp6": [],
+        "MARV_gp7": [
+          "R443K",
+          "P1805S"
+        ]
+      }
+    },
+    "NODE_0000004": {
+      "aa_muts": {
+        "MARV_gp1": [
+          "A564T"
+        ],
+        "MARV_gp2": [],
+        "MARV_gp3": [],
+        "MARV_gp4": [
+          "P240S",
+          "L290F",
+          "L358P"
+        ],
+        "MARV_gp5": [],
+        "MARV_gp6": [],
+        "MARV_gp7": [
+          "Y85H",
+          "A131T",
+          "N1408S",
+          "G1754D",
+          "T1802I",
+          "T1841P",
+          "E2053K"
+        ]
+      }
+    },
+    "NODE_0000005": {
+      "aa_muts": {
+        "MARV_gp1": [],
+        "MARV_gp2": [],
+        "MARV_gp3": [],
+        "MARV_gp4": [],
+        "MARV_gp5": [],
+        "MARV_gp6": [],
+        "MARV_gp7": [
+          "K1706N"
+        ]
+      }
+    },
+    "NODE_0000006": {
+      "aa_muts": {
+        "MARV_gp1": [],
+        "MARV_gp2": [],
+        "MARV_gp3": [],
+        "MARV_gp4": [
+          "I267T",
+          "Y279H",
+          "A478D"
+        ],
+        "MARV_gp5": [
+          "S276N"
+        ],
+        "MARV_gp6": [
+          "I190V"
+        ],
+        "MARV_gp7": [
+          "V1454I",
+          "P1789H",
+          "K2325E"
+        ]
+      }
+    },
+    "NODE_0000007": {
+      "aa_muts": {
+        "MARV_gp1": [],
+        "MARV_gp2": [],
+        "MARV_gp3": [],
+        "MARV_gp4": [],
+        "MARV_gp5": [],
+        "MARV_gp6": [],
+        "MARV_gp7": []
+      }
+    },
+    "NODE_0000008": {
+      "aa_muts": {
+        "MARV_gp1": [
+          "P514L",
+          "Q518P"
+        ],
+        "MARV_gp2": [
+          "A27T",
+          "M180T"
+        ],
+        "MARV_gp3": [],
+        "MARV_gp4": [
+          "F7L",
+          "I16V",
+          "T231K",
+          "I242V",
+          "P244L",
+          "P248S",
+          "V285A",
+          "L354P",
+          "L358I",
+          "T361A",
+          "N398S",
+          "A406V",
+          "G412K",
+          "H413Y",
+          "T425A",
+          "S436N",
+          "N497K",
+          "I498V"
+        ],
+        "MARV_gp5": [
+          "N159S"
+        ],
+        "MARV_gp6": [],
+        "MARV_gp7": [
+          "D124N",
+          "I189V",
+          "G336C",
+          "I757V",
+          "E1162D",
+          "A1364S",
+          "S1505N",
+          "M1591I",
+          "L1625F",
+          "C1641Y",
+          "S1697P",
+          "V1702M",
+          "I1717M",
+          "K1722E",
+          "A1730T",
+          "F1757C",
+          "S1781P",
+          "S1794G",
+          "I1822T",
+          "P1840L",
+          "S1853P",
+          "R1861K",
+          "R1998K",
+          "A2001V"
+        ]
+      }
+    },
+    "NODE_0000009": {
+      "aa_muts": {
+        "MARV_gp1": [
+          "H444R"
+        ],
+        "MARV_gp2": [
+          "N80S",
+          "S88G"
+        ],
+        "MARV_gp3": [],
+        "MARV_gp4": [],
+        "MARV_gp5": [],
+        "MARV_gp6": [],
+        "MARV_gp7": [
+          "E136D",
+          "P1677S",
+          "Q1787K"
+        ]
+      }
+    },
+    "NODE_0000010": {
+      "aa_muts": {
+        "MARV_gp1": [
+          "I428L",
+          "P493S",
+          "L500F"
+        ],
+        "MARV_gp2": [
+          "I79L"
+        ],
+        "MARV_gp3": [],
+        "MARV_gp4": [
+          "S229T",
+          "H239R",
+          "P240S",
+          "N365D",
+          "T371I",
+          "K394T",
+          "M444I",
+          "K497N"
+        ],
+        "MARV_gp5": [],
+        "MARV_gp6": [],
+        "MARV_gp7": [
+          "T178A",
+          "R1018K",
+          "G1180E",
+          "S1182G",
+          "I1335V",
+          "R1421K",
+          "S1626L",
+          "S1645G",
+          "A1719E",
+          "I1736V",
+          "M1786I",
+          "P1789S",
+          "E1821K",
+          "L1827P",
+          "R1943K",
+          "Y2083C",
+          "R2330K"
+        ]
+      }
+    },
+    "NODE_0000013": {
+      "aa_muts": {
+        "MARV_gp1": [
+          "D440G"
+        ],
+        "MARV_gp2": [
+          "K69R"
+        ],
+        "MARV_gp3": [],
+        "MARV_gp4": [
+          "N28I",
+          "P233S",
+          "A318V",
+          "D323G",
+          "P385L"
+        ],
+        "MARV_gp5": [],
+        "MARV_gp6": [
+          "A12V"
+        ],
+        "MARV_gp7": [
+          "A129T",
+          "I1643V",
+          "S1694I",
+          "T1764I",
+          "E1771G",
+          "P1781L",
+          "E1783K",
+          "L1801I",
+          "L1825P",
+          "L1836F"
+        ]
+      }
+    },
+    "NODE_0000014": {
+      "aa_muts": {
+        "MARV_gp1": [
+          "K79R",
+          "A260T",
+          "H342R",
+          "P491S",
+          "A615V",
+          "N628D",
+          "I660M"
+        ],
+        "MARV_gp2": [],
+        "MARV_gp3": [
+          "N56D"
+        ],
+        "MARV_gp4": [
+          "L10I",
+          "T214I",
+          "S229P",
+          "K253E",
+          "P259T",
+          "T353A",
+          "N363D",
+          "M444T",
+          "P446L",
+          "N463S",
+          "T464I",
+          "P486S",
+          "V498I"
+        ],
+        "MARV_gp5": [],
+        "MARV_gp6": [
+          "T15P"
+        ],
+        "MARV_gp7": [
+          "N42D",
+          "V70I",
+          "H125R",
+          "N346H",
+          "L1169V",
+          "I1335L",
+          "E1688G",
+          "E1712K",
+          "N1748G",
+          "R1750Q",
+          "P1751L",
+          "N1760Y",
+          "D1806G",
+          "I1845T",
+          "P1853L",
+          "R1943K",
+          "E2288K"
+        ]
+      }
+    },
+    "NODE_0000015": {
+      "aa_muts": {
+        "MARV_gp1": [
+          "A209S",
+          "P494T"
+        ],
+        "MARV_gp2": [],
+        "MARV_gp3": [],
+        "MARV_gp4": [],
+        "MARV_gp5": [],
+        "MARV_gp6": [],
+        "MARV_gp7": [
+          "V1630A",
+          "T1843A"
+        ]
+      }
+    },
+    "NODE_0000016": {
+      "aa_muts": {
+        "MARV_gp1": [
+          "G440S",
+          "L500I"
+        ],
+        "MARV_gp2": [
+          "I67V"
+        ],
+        "MARV_gp3": [
+          "I197V"
+        ],
+        "MARV_gp4": [
+          "T74A",
+          "S233L",
+          "T371P",
+          "F414S",
+          "Y504H",
+          "T596A"
+        ],
+        "MARV_gp5": [],
+        "MARV_gp6": [],
+        "MARV_gp7": [
+          "S1163A",
+          "L1169F",
+          "N1374S",
+          "M1717T",
+          "I1724M",
+          "R1778Q"
+        ]
+      }
+    },
+    "NODE_0000017": {
+      "aa_muts": {
+        "MARV_gp1": [],
+        "MARV_gp2": [],
+        "MARV_gp3": [],
+        "MARV_gp4": [],
+        "MARV_gp5": [],
+        "MARV_gp6": [],
+        "MARV_gp7": []
+      }
+    },
+    "NODE_0000018": {
+      "aa_muts": {
+        "MARV_gp1": [],
+        "MARV_gp2": [],
+        "MARV_gp3": [],
+        "MARV_gp4": [],
+        "MARV_gp5": [],
+        "MARV_gp6": [],
+        "MARV_gp7": []
+      }
+    },
+    "NODE_0000019": {
+      "aa_muts": {
+        "MARV_gp1": [],
+        "MARV_gp2": [],
+        "MARV_gp3": [],
+        "MARV_gp4": [],
+        "MARV_gp5": [],
+        "MARV_gp6": [],
+        "MARV_gp7": []
+      }
+    },
+    "NODE_0000020": {
+      "aa_muts": {
+        "MARV_gp1": [],
+        "MARV_gp2": [],
+        "MARV_gp3": [],
+        "MARV_gp4": [],
+        "MARV_gp5": [],
+        "MARV_gp6": [],
+        "MARV_gp7": []
+      }
+    },
+    "NODE_0000021": {
+      "aa_muts": {
+        "MARV_gp1": [],
+        "MARV_gp2": [],
+        "MARV_gp3": [],
+        "MARV_gp4": [],
+        "MARV_gp5": [],
+        "MARV_gp6": [
+          "S216L"
+        ],
+        "MARV_gp7": []
+      }
+    },
+    "NODE_0000022": {
+      "aa_muts": {
+        "MARV_gp1": [],
+        "MARV_gp2": [],
+        "MARV_gp3": [],
+        "MARV_gp4": [],
+        "MARV_gp5": [],
+        "MARV_gp6": [],
+        "MARV_gp7": []
+      }
+    },
+    "NODE_0000023": {
+      "aa_muts": {
+        "MARV_gp1": [],
+        "MARV_gp2": [],
+        "MARV_gp3": [],
+        "MARV_gp4": [],
+        "MARV_gp5": [],
+        "MARV_gp6": [],
+        "MARV_gp7": []
+      }
+    },
+    "NODE_0000024": {
+      "aa_muts": {
+        "MARV_gp1": [],
+        "MARV_gp2": [],
+        "MARV_gp3": [],
+        "MARV_gp4": [],
+        "MARV_gp5": [],
+        "MARV_gp6": [],
+        "MARV_gp7": []
+      }
+    },
+    "NODE_0000025": {
+      "aa_muts": {
+        "MARV_gp1": [
+          "I428V",
+          "E448G",
+          "P493S",
+          "R495G",
+          "V577A",
+          "N654S",
+          "I660V"
+        ],
+        "MARV_gp2": [
+          "T94I"
+        ],
+        "MARV_gp3": [
+          "Q37H",
+          "V195I",
+          "N269S",
+          "V303I"
+        ],
+        "MARV_gp4": [
+          "K2R",
+          "L6F",
+          "N28D",
+          "I113V",
+          "L235P",
+          "K253R",
+          "D258N",
+          "S303G",
+          "G317D",
+          "V319A",
+          "P322L",
+          "K324N",
+          "S332P",
+          "M333T",
+          "P335S",
+          "V356E",
+          "L358P",
+          "Y364P",
+          "T369M",
+          "Q375K",
+          "S380P",
+          "N389S",
+          "A393E",
+          "T405M",
+          "A406E",
+          "P419S",
+          "V429I",
+          "P486S",
+          "F495L",
+          "N497H",
+          "I498T",
+          "N499S"
+        ],
+        "MARV_gp5": [
+          "T16I",
+          "H30N",
+          "A48T",
+          "P90L",
+          "T121A",
+          "R123K"
+        ],
+        "MARV_gp6": [
+          "H48R",
+          "V214I"
+        ],
+        "MARV_gp7": [
+          "I17V",
+          "A115T",
+          "Q282Y",
+          "G336D",
+          "Q342R",
+          "S398A",
+          "D653N",
+          "E947G",
+          "R1018K",
+          "S1161P",
+          "S1165L",
+          "N1206K",
+          "N1585H",
+          "K1632R",
+          "R1633C",
+          "I1635T",
+          "P1642S",
+          "Q1701H",
+          "N1713E",
+          "A1719T",
+          "N1725E",
+          "G1733R",
+          "L1740P",
+          "V1746G",
+          "G1754D",
+          "D1759G",
+          "S1777L",
+          "R1778Q",
+          "P1789L",
+          "I1792M",
+          "S1794N",
+          "L1801F",
+          "L1805I",
+          "K1815R",
+          "E1821K",
+          "L1825F",
+          "L1832I",
+          "K1835N",
+          "I1845F",
+          "G1847D",
+          "S1860P",
+          "V1899I",
+          "Y1967H",
+          "G2120S",
+          "S2132P",
+          "G2327R"
+        ]
+      }
+    },
+    "NODE_0000026": {
+      "aa_muts": {
+        "MARV_gp1": [],
+        "MARV_gp2": [],
+        "MARV_gp3": [],
+        "MARV_gp4": [
+          "A227T",
+          "P357L",
+          "P379S"
+        ],
+        "MARV_gp5": [],
+        "MARV_gp6": [],
+        "MARV_gp7": [
+          "R1720K",
+          "I1832S",
+          "A2195T"
+        ]
+      }
+    },
+    "NODE_0000027": {
+      "aa_muts": {
+        "MARV_gp1": [],
+        "MARV_gp2": [],
+        "MARV_gp3": [],
+        "MARV_gp4": [
+          "Y279D"
+        ],
+        "MARV_gp5": [],
+        "MARV_gp6": [],
+        "MARV_gp7": []
+      }
+    },
+    "NODE_0000028": {
+      "aa_muts": {
+        "MARV_gp1": [],
+        "MARV_gp2": [],
+        "MARV_gp3": [
+          "V57I"
+        ],
+        "MARV_gp4": [
+          "P234S"
+        ],
+        "MARV_gp5": [],
+        "MARV_gp6": [],
+        "MARV_gp7": [
+          "V1673A"
+        ]
+      }
+    },
+    "NODE_0000029": {
+      "aa_muts": {
+        "MARV_gp1": [
+          "D499N"
+        ],
+        "MARV_gp2": [],
+        "MARV_gp3": [],
+        "MARV_gp4": [
+          "H239Y"
+        ],
+        "MARV_gp5": [],
+        "MARV_gp6": [],
+        "MARV_gp7": [
+          "N2092Y"
+        ]
+      }
+    },
+    "NODE_0000030": {
+      "aa_muts": {
+        "MARV_gp1": [
+          "N502D"
+        ],
+        "MARV_gp2": [],
+        "MARV_gp3": [],
+        "MARV_gp4": [
+          "P248S"
+        ],
+        "MARV_gp5": [],
+        "MARV_gp6": [
+          "A225V"
+        ],
+        "MARV_gp7": [
+          "E1164D",
+          "L1687F",
+          "D1784N"
+        ]
+      }
+    },
+    "NODE_0000031": {
+      "aa_muts": {
+        "MARV_gp1": [],
+        "MARV_gp2": [],
+        "MARV_gp3": [],
+        "MARV_gp4": [],
+        "MARV_gp5": [],
+        "MARV_gp6": [],
+        "MARV_gp7": []
+      }
+    },
+    "NODE_0000032": {
+      "aa_muts": {
+        "MARV_gp1": [
+          "A564T"
+        ],
+        "MARV_gp2": [],
+        "MARV_gp3": [],
+        "MARV_gp4": [],
+        "MARV_gp5": [],
+        "MARV_gp6": [],
+        "MARV_gp7": [
+          "G122R",
+          "V1709F",
+          "L1866P"
+        ]
+      }
+    },
+    "NODE_0000033": {
+      "aa_muts": {
+        "MARV_gp1": [
+          "V334I",
+          "N502D",
+          "Q553H"
+        ],
+        "MARV_gp2": [
+          "Q173H"
+        ],
+        "MARV_gp3": [],
+        "MARV_gp4": [
+          "I242V",
+          "S246R",
+          "E321K",
+          "A370V"
+        ],
+        "MARV_gp5": [],
+        "MARV_gp6": [],
+        "MARV_gp7": [
+          "F1709S",
+          "P1751S",
+          "C1830G"
+        ]
+      }
+    },
+    "NODE_0000034": {
+      "aa_muts": {
+        "MARV_gp1": [],
+        "MARV_gp2": [],
+        "MARV_gp3": [
+          "A253T"
+        ],
+        "MARV_gp4": [
+          "T328A",
+          "T464A",
+          "S485F"
+        ],
+        "MARV_gp5": [],
+        "MARV_gp6": [],
+        "MARV_gp7": [
+          "Y85F",
+          "S1182N",
+          "S1854F",
+          "Q2128R"
+        ]
+      }
+    },
+    "NODE_0000035": {
+      "aa_muts": {
+        "MARV_gp1": [],
+        "MARV_gp2": [],
+        "MARV_gp3": [],
+        "MARV_gp4": [],
+        "MARV_gp5": [
+          "T23A",
+          "V246I"
+        ],
+        "MARV_gp6": [],
+        "MARV_gp7": [
+          "S1795P"
+        ]
+      }
+    },
+    "NODE_0000037": {
+      "aa_muts": {
+        "MARV_gp1": [],
+        "MARV_gp2": [],
+        "MARV_gp3": [],
+        "MARV_gp4": [],
+        "MARV_gp5": [],
+        "MARV_gp6": [],
+        "MARV_gp7": []
+      }
+    },
+    "NODE_0000038": {
+      "aa_muts": {
+        "MARV_gp1": [
+          "K517R"
+        ],
+        "MARV_gp2": [],
+        "MARV_gp3": [],
+        "MARV_gp4": [
+          "H239R",
+          "P331L"
+        ],
+        "MARV_gp5": [
+          "D127E"
+        ],
+        "MARV_gp6": [],
+        "MARV_gp7": [
+          "S504N",
+          "N1704D"
+        ]
+      }
+    },
+    "NODE_0000039": {
+      "aa_muts": {
+        "MARV_gp1": [],
+        "MARV_gp2": [],
+        "MARV_gp3": [],
+        "MARV_gp4": [],
+        "MARV_gp5": [
+          "I16M"
+        ],
+        "MARV_gp6": [],
+        "MARV_gp7": [
+          "T2047I"
+        ]
+      }
+    },
+    "NODE_0000040": {
+      "aa_muts": {
+        "MARV_gp1": [],
+        "MARV_gp2": [],
+        "MARV_gp3": [],
+        "MARV_gp4": [
+          "T387I"
+        ],
+        "MARV_gp5": [],
+        "MARV_gp6": [],
+        "MARV_gp7": []
+      }
+    },
+    "NODE_0000041": {
+      "aa_muts": {
+        "MARV_gp1": [],
+        "MARV_gp2": [],
+        "MARV_gp3": [],
+        "MARV_gp4": [],
+        "MARV_gp5": [],
+        "MARV_gp6": [],
+        "MARV_gp7": []
+      }
+    },
+    "NODE_0000042": {
+      "aa_muts": {
+        "MARV_gp1": [],
+        "MARV_gp2": [],
+        "MARV_gp3": [],
+        "MARV_gp4": [
+          "R2W",
+          "T333M"
+        ],
+        "MARV_gp5": [
+          "A121V"
+        ],
+        "MARV_gp6": [],
+        "MARV_gp7": [
+          "R342Q",
+          "V1124I",
+          "Y1791C",
+          "D1829N",
+          "T1859N",
+          "R2091K"
+        ]
+      }
+    },
+    "NODE_0000044": {
+      "aa_muts": {
+        "MARV_gp1": [],
+        "MARV_gp2": [],
+        "MARV_gp3": [],
+        "MARV_gp4": [
+          "Q216R"
+        ],
+        "MARV_gp5": [],
+        "MARV_gp6": [],
+        "MARV_gp7": []
+      }
+    },
+    "NODE_0000045": {
+      "aa_muts": {
+        "MARV_gp1": [],
+        "MARV_gp2": [],
+        "MARV_gp3": [],
+        "MARV_gp4": [],
+        "MARV_gp5": [],
+        "MARV_gp6": [],
+        "MARV_gp7": [
+          "S1691P"
+        ]
+      }
+    },
+    "NODE_0000046": {
+      "aa_muts": {
+        "MARV_gp1": [],
+        "MARV_gp2": [],
+        "MARV_gp3": [],
+        "MARV_gp4": [
+          "T409K"
+        ],
+        "MARV_gp5": [],
+        "MARV_gp6": [],
+        "MARV_gp7": []
+      }
+    },
+    "NODE_0000047": {
+      "aa_muts": {
+        "MARV_gp1": [],
+        "MARV_gp2": [],
+        "MARV_gp3": [],
+        "MARV_gp4": [],
+        "MARV_gp5": [],
+        "MARV_gp6": [],
+        "MARV_gp7": []
+      }
+    },
+    "NODE_0000049": {
+      "aa_muts": {
+        "MARV_gp1": [],
+        "MARV_gp2": [],
+        "MARV_gp3": [],
+        "MARV_gp4": [
+          "A284E"
+        ],
+        "MARV_gp5": [],
+        "MARV_gp6": [],
+        "MARV_gp7": []
+      }
+    },
+    "NODE_0000050": {
+      "aa_muts": {
+        "MARV_gp1": [],
+        "MARV_gp2": [],
+        "MARV_gp3": [],
+        "MARV_gp4": [],
+        "MARV_gp5": [],
+        "MARV_gp6": [],
+        "MARV_gp7": []
+      }
+    },
+    "NODE_0000051": {
+      "aa_muts": {
+        "MARV_gp1": [],
+        "MARV_gp2": [],
+        "MARV_gp3": [],
+        "MARV_gp4": [],
+        "MARV_gp5": [],
+        "MARV_gp6": [],
+        "MARV_gp7": [
+          "K174R"
+        ]
+      }
+    },
+    "NODE_0000052": {
+      "aa_muts": {
+        "MARV_gp1": [],
+        "MARV_gp2": [],
+        "MARV_gp3": [],
+        "MARV_gp4": [],
+        "MARV_gp5": [],
+        "MARV_gp6": [],
+        "MARV_gp7": []
+      }
+    },
+    "NODE_0000053": {
+      "aa_muts": {
+        "MARV_gp1": [],
+        "MARV_gp2": [],
+        "MARV_gp3": [],
+        "MARV_gp4": [],
+        "MARV_gp5": [],
+        "MARV_gp6": [],
+        "MARV_gp7": []
+      }
+    },
+    "NODE_0000055": {
+      "aa_muts": {
+        "MARV_gp1": [],
+        "MARV_gp2": [],
+        "MARV_gp3": [],
+        "MARV_gp4": [],
+        "MARV_gp5": [],
+        "MARV_gp6": [],
+        "MARV_gp7": [
+          "F1890L"
+        ]
+      }
+    },
+    "NODE_0000056": {
+      "aa_muts": {
+        "MARV_gp1": [],
+        "MARV_gp2": [],
+        "MARV_gp3": [],
+        "MARV_gp4": [],
+        "MARV_gp5": [],
+        "MARV_gp6": [],
+        "MARV_gp7": []
+      }
+    },
+    "OL702894|MARV001|2021-09-08": {
+      "aa_muts": {
+        "MARV_gp1": [],
+        "MARV_gp2": [],
+        "MARV_gp3": [
+          "V44M"
+        ],
+        "MARV_gp4": [],
+        "MARV_gp5": [],
+        "MARV_gp6": [],
+        "MARV_gp7": []
+      }
+    }
+  },
+  "reference": {
+    "MARV_gp1": "MDLHSLLELGTKPTAPHVRNKKVILFDTNHQVSICNQIIDAINSGIDLGDLLEGGLLTLCVEHYYNSDKDKFNTSPIAKYLRDAGYEFDVIKNADATRFLDVIPNEPHYSPLILALKTLESTESQRGRIGLFLSFCSLFLPKLVVGDRASIEKALRQVTVHQEQGIVTYPNHWLTTGHMKVIFGILRSSFILKFVLIHQGVNLVTGHDAYDSIISNSVGQTRFSGLLIVKTVLEFILQKTDSGVTLHPLVRTSKVKNEVASFKQALSNLARHGEYAPFARVLNLSGINNLEHGLYPQLSAIALGVATAHGSTLAGVNVGEQYQQLREAAHDAEVKLQRRHEHQEIQAIAEDDEERKILEQFHLQKTEITHSQTLAVLSQKREKLARLAAEIENNIVEDQGFKQSQNRVSQSFLNDPTPVEVTVQARPINRPTALPPPVDDKIEHESTEDSSSSSSFVDLNDPFALLNEDEDTLDDSVMIPSTTSREFQGIPEPPRQSQDLDNSQGKQEDESTNPIKKQFLRYQELPPVQEDDESEYTTDSQESIDQPGSDNEQGVDLPPPPLYAQEKRQDPIQHPAVSSQDPFGSIGDVNGDILEPIRSPSSPSAPQEDTRAREAYELSPDFTNYEDNQQNWPQRVVTKKGRTFLYPNDLLQTNPPESLITALVEEYQNPVSAKELQADWPDMSFDERRHVAMNL*",
+    "MARV_gp2": "MWDSSYMQQVSEGLMTGKVPIDQVFGANPLEKLYKRRKPKGTVGLQCSPCLMSKATSTDDIIWDQLIVKKTLADLLIPINRQISDIQSTLSEVTTRVHEIERQLHEITPVLKMGRTLEAISKGMSEMLAKYDHLVISTGRTTAPAAAFDAYLNEHGVPPPQPAIFKDLGVAQQACSKGTMVKNATTDAADKMSKVLELSEETFSKPNLSAKDLALLLFTHLPGNNTPFHILAQVLSKIAYKSGKSGAFLDAFHQILSEGENAQAALTRLSRTFDAFLGVVPPVIRVKNFQTVPRPCQKSLRAVPPNPTIDKGWVCVYSSEQGETRALKI*",
+    "MARV_gp3": "MASSSNYNTYMQYLNPPPYADHGANQLIPADQLSNQQGITPNYVGDLNLDDQFKGNVCHAFTLEAIIDISAYNERTVKGVPAWLPLGIMSNFEYPLAHTVAALLTGSYTITQFTHNGQKFVRVNRLGTGIPAHPLRMLREGNQAFIQNMVIPRNFSTNQFTYNLTNLVLSVQKLPDDAWRPSKDKLIGNTMHPAVSIHPNLPPIVLPTVKKQAYRQHKNPNNGPLLAISGILHQLRVEKVPEKTSLFRISLPADMFSVKEGMMKKRGENSPVVYFQAPENFPLNGFNNRQVVLAYANPTLSAV*",
+    "MARV_gp4": "MKTTCLFISLILIQGIKTLPILEIASNNQPQNVDSVCSGTLQKTEDVHLMGFTLSGQKVADSPLEASKRWAFRTGVPPKNVEYTEGEEAKTCYNISVTDPSGKSLLLDPPTNIRDYPKCKTIHHIQGQNPHAQGIALHLWGAFFLYDRIASTTMYRGKVFTEGNIAAMIVNKTVHKMIFSRQGQGYRHMNLTSTNKYWTSSNGTQTNDTGCFGTLQEYNSTKNQTCAPSKTPPPLPTAHPEIKPTSTPTDATKLNTTDPNSDDEDLTTSGSGSGEQEPYTTSDAVTKQGLSSTMPPTPSPQPSTPQQGGNNTNHSQGAVTEPDKTNTTAQPSMPPHNTTTISTNNTSKHNLSTLSVPLQNTTNYNTQSTATENEQTSAPSKTTLPPTENPTTAKSTNNTKSPTTTAPNTTNGHFTSPSPTPNSTTQHLVYFRRKRSILWREGDMFPFLDGLINAPIDFDPVPNTKTIFDESSSSGASAEEDQHASPNISLTLSYFPNINENTAYSGENENDCDAELRIWSVQEDDLAAGLSWIPFFGPGIEGLYTAGLIKNQNNLVCRLRRLANQTAKSLELLLRVTTEERTFSLINRHAIDFLLTRWGGTCKVLGPDCCIGIEDLSRNISEQIDQIKKDEQKEGTGWGLGGKWWTSDWGVLTNLGILLLLSIAVLIALSCICRIFTKYIG*",
+    "MARV_gp5": "MQQPRGRSRTRNHQATPSIYHETQLPSKPHYTNHHPRARSMSSTRSSAESSPTNHIPRARPPSTFNLSKPPPPPKDMCRNMKIGLPCTDPTCNRDHDLDNLTNRELLLLMARKMLPNTDKTFRSPQDCGSPSLSKGLSKDKQEQTKDVLTLENLGHILNYLHRSEIGKLDETSLRAALSLTCAGIRKTNRSLINTMTELHINHENLPQDQNGVIKQTYTGIHLDKGGQFEAALWQGWDKRSISLFVQAALYVMNNIPCESSISVQASYDHFILPQSQGKGQ*",
+    "MARV_gp6": "MAELSTRYNLPANVTEKSINLDLNSTARWIKEPSVGGWTVKWGNFVFHIPNTGMTLLHHLKSNFVVPEWQQTRNLFSHLFKNPKSTIIEPFLALRILLGVALKDQELQQSLIPGFRSIVHMLSEWLLLEVTSAIHISPNLLGIYLTSDMFKILMAGVKNFFNKMFTLHVVNDHGKPSSIEIKLTGQQIIITRVNMGFLVEVRRIDIEPCCGETVLSESVVFGLVAEAVLREHSQMEKGQPLNLTQYMNSKIAI*",
+    "MARV_gp7": "MQHPTQYPDARLSSPIILDQCDLLARSLGLYSHYSHNPKLRNCRIPHHIYRLRNSTALKTFLQNCSILTVPFHSIWDHILTSIQYDAINHVDDFKYLLPSELVKYANWDNEFLKAYLNKILGLDHVFPASARSQCEDFSPKENPYYWGMLLLVHLSQLARRIKGQRGSLRSNWKFIGTDLELFGIADFIIFKVPVKTIIRNAVSLQASKPGLRVWYRDQNLTPYLCDDEFIVSVASYECFIMIKDVFIERYNTWEICARAWLEDSDGADYPPLDVLGELYNQGDQIIAMYLEDGFKLIKHLEPLCVSCIQTHGIFTPRKYWFQSQMIKSYYDELCGLNLKLQISDNKAECAQNFIKTIIQAKLTPQQYCELFSLQKHWGHPVLYNDVALDKVKKHAQSTKILKPKVMFETFCVFKFIVAKNHYHSQGSWYKTTHDLHLTPYLRQHIVSNSFPSQAEIYQHLWEWYFVEHEPLFSTKIISDLSIFIKDRATAVNQECWDSVFDRSVLGYNPPVRFQSKRVPEQFLGQADFSLNQILDFAEKLEYLAPSYRNFSFSLKEKELNIGRTFGKLPYRVRNVQTLAEALLADGLAKAFPSNMMVVTEREQKEALLHQASWHHNSASIGENAIVRGASFVTDLEKYNLAFRYEFTRHFIDYCNRCYGVKNLFDWMHFLIPLCYMHVSDFYSPPHCVTEDNRNNPPDCANAYHYHLGGIEGLQQKLWTCISCAQITLVELKTKLKLKSSVMGDNQCITTLSLFPIDAPNDYQENEAELNAARVAVELAITTGYSGIFLKPEETFVHSGFIYFGKKQYLNGVQLPQSLKTMARCGPLSDSIFDDLQGSLASIGTSFERGTSETRHIFPSRWIASFHSMLAINLLNQNHLGFPLGFNIDISCFKKPLTFSEKLIALITPQVLGGLSFLNPEKLFYRNISDPLTSGLFQLKNALEFLEKEELFYILIAKKPGLADASDFVMNPLGLNVPGSREIITFLRQTVRENITITSQNRIINSLFHIGSDLEDQRVCEWLLSSNPVMSRFAADIFSRTPSGKRLQVLGYLEGTRTLLASRTISLTTEGTMLMKLRELTRNRWKSWFSYIDALDDDLSESLEKFTCTVDVANFLRAYSWSDVLKGKRLIGATLPCLLEQFKVKWINLSEDLREQFNLSSESESTINLLPYDCKELRLGGSNDTELNYVSCALDRKVVQKHPSVNRLAWTIGNRAPYIGSRTEDKIGYPPLRVNCPSAALKEAIEMVSRLLWVTQGTADREKLLIPLLNSRVNLDYQTVLNFLPTHYSGNIVHRYNDQYGQHSFMANRMSNTSTRAIISTNTLGKYAGGGQAAIDSNIIFQNTINLGVAVLDIALSLAKLSSASNVTFRLMLNKCCTRHVPSEYLFFDKPLDVDLNKYMDNELVYDNDPLCSGIKGRLGRVSRSTLSLSLNVSDIGSYDFPTIAAWTLGETIVGSIFSDESSQSTDPISSGCTKTFVTHFLVYPVESIFYAFGANLIVESLSLSRIKSIKNLSDLTFLISSTIRNLSHRSLRILQSTFRHELVLTRLAHHIPLISLMLGGSAGEKSSSDAVRLFLTASYQNFINNFSCLMKKGQSSLPVWLYFPSEGQQLKPILKILQRLSDLLSPDKVQKRKILADTCCPIDSFWVYPSKSTRTNHYYASLNYWRDKANKVKNTPFSHLINCSFLELSSHTSSVSSNQQVTNSKYIVHPENIPEINARTKLINYGSTALQGMDIKMPLSEQNLVENCRPSKGIRFKDNQKITKHDQRYEKKESSSRQMSPEDNMQTPAYIHSSSPSQTLIKSLDVHEDFDASKVILNSEINNLNLTDCTLNTKLLTTPTGTEILGTSPLQSSRYSSTSRERSLLSREQASYLYVDCSNIPSISLDPGFRNMSDQNQVQMLINAYKRDLHACFDSNQFCRFTGVVSSMHYKLYDLLPPGELRKAICLAEGEGSGARLLLKWKETDYLFFNTLATDSQQEAEILSGRVIPRMLYNIDRLSALLESRRLILNNLTIQITDITNPLWLDSVIQYLPEDSDILTMDAETTKDETREQLYKTIVNIWTRTSPNIPKISIIKVFLLDYEGTLFLMRNAIQYYGQVQLKKPYSSNAKNSEWYLCCGKRRIQRLQIDFSDQVGIFLICKAMSRQRQAIPYWLKHIEKNYPASLHEFFLTLGFPSLESSFCHRYTIPFSEGKALFHKVQSYVRQGKQHLHSLMLDYENNSPLLDLRNHFICSLRGKITKYYNDILKLNLVIKAVEKGKNWSQLVETLPNMHSVCIVHVDHECFGCEKRLLLKLDFIRNTKIAEQKLLNRVIGYILFFPFGLFKSGSLRA*"
+  }
+}

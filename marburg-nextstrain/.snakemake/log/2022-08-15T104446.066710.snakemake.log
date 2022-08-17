@@ -1,0 +1,3 @@
+NameError in line 189 of /nextstrain/build/Snakefile:
+name 'lat_longs' is not defined
+  File "/nextstrain/build/Snakefile", line 189, in <module>

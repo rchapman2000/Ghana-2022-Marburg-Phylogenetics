@@ -1,0 +1,40 @@
+Building DAG of jobs...
+Using shell: /bin/bash
+Provided cores: 1 (use --cores to define parallelism)
+Rules claiming more threads will be scaled down.
+Job counts:
+	count	jobs
+	1	align
+	1	all
+	1	ancestral
+	1	export
+	1	filter
+	1	refine
+	1	traits
+	1	translate
+	1	tree
+	9
+
+[Mon Aug 15 10:46:27 2022]
+Job 8: 
+        Filtering to
+          - from 1900 onwards
+          - excluding strains in config/dropped_strains.txt
+        
+
+
+        augur filter             --sequences data/sequences.fasta             --sequence-index results/sequence_index.tsv             --metadata data/metadata.tsv             --exclude config/dropped_strains.txt             --output results/filtered.fasta             --group-by country date             --min-date 1900
+        
+[Mon Aug 15 10:46:30 2022]
+Error in rule filter:
+    jobid: 8
+    output: results/filtered.fasta
+    shell:
+        
+        augur filter             --sequences data/sequences.fasta             --sequence-index results/sequence_index.tsv             --metadata data/metadata.tsv             --exclude config/dropped_strains.txt             --output results/filtered.fasta             --group-by country date             --min-date 1900
+        
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+
+Shutting down, this might take some time.
+Exiting because a job execution failed. Look above for error message
+Complete log: /nextstrain/build/.snakemake/log/2022-08-15T104626.904531.snakemake.log

@@ -1,0 +1,2 @@
+SyntaxError in line 44 of /nextstrain/build/Snakefile:
+Unexpected keyword sequences_per_group in rule definition (Snakefile, line 44)
