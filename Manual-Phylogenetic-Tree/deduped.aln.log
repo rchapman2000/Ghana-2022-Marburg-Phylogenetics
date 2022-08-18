@@ -1,0 +1,184 @@
+IQ-TREE multicore version 2.0.3 for Linux 64-bit built Dec 20 2020
+Developed by Bui Quang Minh, Nguyen Lam Tung, Olga Chernomor,
+Heiko Schmidt, Dominik Schrempf, Michael Woodhams.
+
+Host:    DESKTOP-TANFPAR (AVX2, FMA3, 100 GB RAM)
+Command: iqtree -s deduped.aln -m GTR -B 1000 --date sample-dates-format.tsv
+Seed:    374919 (Using SPRNG - Scalable Parallel Random Number Generator)
+Time:    Thu Aug 18 15:35:17 2022
+Kernel:  AVX+FMA - 1 threads (16 CPU cores detected)
+
+HINT: Use -nt option to specify number of threads because your CPU has 16 cores!
+HINT: -nt AUTO will automatically determine the best number of threads to use.
+
+Reading alignment file deduped.aln ... Fasta format detected
+Alignment most likely contains DNA/RNA sequences
+Alignment has 54 sequences with 19115 columns, 991 distinct patterns
+2815 parsimony-informative, 971 singleton sites, 15329 constant sites
+                                                                         Gap/Ambiguity  Composition  p-value
+   1  DQ447651|05DRC99|1999-05-XX                                                0.01%    passed     99.31%
+   2  JX458843|MARV/H.sapiens-tc/COD/2000/21DRC|2000-XX-XX                       0.01%    passed     99.06%
+   3  JX458841|MARV/H.sapiens-tc/COD/2000/20DRC|2000-XX-XX                       0.01%    passed     98.95%
+   4  JX458839|MARV/H.sapiens-tc/COD/2000/16DRC|2000-XX-XX                       0.01%    passed     98.83%
+   5  JX458842|MARV/H.sapiens-tc/COD/2000/18DRC|2000-XX-XX                       0.01%    passed     98.95%
+   6  JX458848|MARV/H.sapiens-tc/COD/2000/22DRC|2000-XX-XX                       0.01%    passed     99.11%
+   7  JX458844|MARV/H.sapiens-tc/COD/2000/26DRC|2000-XX-XX                       0.01%    passed     99.15%
+   8  JX458837|MARV/H.sapiens-tc/COD/2000/27DRC|2000-XX-XX                       0.01%    passed     99.11%
+   9  JX458836|MARV/H.sapiens-tc/COD/2000/29DRC|2000-XX-XX                       0.01%    passed     98.84%
+  10  JX458845|MARV/H.sapiens-tc/COD/2000/13DRC|2000-XX-XX                       0.01%    passed     98.64%
+  11  JX458846|MARV/H.sapiens-tc/COD/2000/28DRC|2000-XX-XX                       0.01%    passed     99.22%
+  12  JX458847|MARV/H.sapiens-tc/COD/2000/15DRC|2000-XX-XX                       0.01%    passed     98.89%
+  13  JX458850|MARV/H.sapiens-tc/COD/2000/33DRC|2000-XX-XX                       0.01%    passed     99.58%
+  14  JX458849|MARV/H.sapiens-tc/COD/2000/25DRC|2000-XX-XX                       0.01%    passed     99.42%
+  15  JX458834|MARV/H.sapiens-tc/COD/2000/24DRC|2000-XX-XX                       0.01%    passed     99.92%
+  16  DQ447650|07DRC99|1999-05-XX                                                0.01%    passed     99.94%
+  17  JX458831|MARV/H.sapiens-tc/COD/2000/14DRC|2000-XX-XX                       0.01%    passed     99.88%
+  18  JX458832|MARV/H.sapiens-tc/COD/2000/30DRC|2000-XX-XX                       0.01%    passed    100.00%
+  19  JX458833|MARV/H.sapiens-tc/COD/1999/01DRC|1999-XX-XX                       0.01%    passed     99.86%
+  20  JX458827|MARV/H.sapiens-tc/COD/2000/32DRC|2000-XX-XX                       0.01%    passed     99.64%
+  21  JX458828|MARV/H.sapiens-tc/COD/2000/19DRC|2000-XX-XX                       0.01%    passed     99.76%
+  22  JX458829|MARV/H.sapiens-tc/COD/2000/34DRC|2000-XX-XX                       0.01%    passed     99.92%
+  23  JX458825|MARV/H.sapiens-tc/COD/1999/04DRC|1999-XX-XX                       0.01%    passed     99.36%
+  24  JX458826|MARV/H.sapiens-tc/COD/1999/03DRC|1999-XX-XX                       0.01%    passed     99.73%
+  25  FJ750958|Uganda371Bat2007|2007-XX-XX                                       0.01%    passed     98.95%
+  26  FJ750959|Uganda331Bat2007|2007-XX-XX                                       0.01%    passed     99.18%
+  27  JX458854|MARV/R.aegyptiacus-tc/UGA/2009/1175Qbat|2009-XX-XX                0.01%    passed     99.89%
+  28  JX458852|MARV/R.aegyptiacus-tc/UGA/2008/53Qbat|2008-XX-XX                  0.01%    passed     99.28%
+  29  FJ750957|Uganda01Uga07|2007-XX-XX                                          0.01%    passed     99.35%
+  30  JX458855|MARV/R.aegyptiacus-tc/UGA/2009/843Qbat|2009-XX-XX                 0.01%    passed     98.91%
+  31  JX458856|MARV/R.aegyptiacus-tc/UGA/2009/914Qbat|2009-XX-XX                 0.01%    passed     99.41%
+  32  DQ447658|Ang0215|2005-04-XX                                                0.01%    passed     96.61%
+  33  DQ447655|Ang1386|2005-03-XX                                                0.01%    passed     96.23%
+  34  DQ447653|Ang1379c|2005-03-XX                                               0.01%    passed     96.36%
+  35  DQ447656|Ang0126|2005-04-XX                                                0.01%    passed     96.47%
+  36  DQ447654|Ang1381|2005-03-XX                                                0.01%    passed     96.36%
+  37  DQ447660|Ang0998|2005-05-XX                                                0.01%    passed     95.09%
+  38  DQ447657|Ang0214|2005-04-XX                                                0.01%    passed     96.46%
+  39  KR867677|Marburgvirus/H.sapiens-tc/AGO/2005/Angola-200501379|2005-13-03    0.01%    passed     96.03%
+  40  KY047763|Marburgvirus/H.sapiens-tc/AGO/2005/Angola-368|2005-XX-XX          0.00%    passed     96.51%
+  41  DQ447659|Ang0754|2005-04-XX                                                0.01%    passed     96.50%
+  42  KU978782|Angolaprototype20051379|2005-01-01                                0.11%    passed     95.49%
+  43  OL702894|MARV001|2021-09-08                                                0.30%    passed     97.98%
+  44  Ghana-MV-22-106|2022-06-XX                                                 1.61%    passed     87.51%
+  45  Ghana-MV-22-114C|2022-06-XX                                                0.35%    passed     96.92%
+  46  MN258361|PREDICT_SLAB3960Kakbat_SL_2017|2017-12-06                         0.08%    passed     83.08%
+  47  MN187403|1000KasbatSL2018|2018-XX-XX                                       0.11%    passed     99.68%
+  48  EF446132|Germany_Marburg|1967-XX-XX                                        0.02%    passed     93.09%
+  49  JN408064|Leiden|2008-XX-XX                                                 0.01%    passed     97.87%
+  50  KC545388|Mbg-423-2012|2012-XX-XX                                           0.01%    passed     96.43%
+  51  KC545387|Mbg-422-2012|2012-XX-XX                                           0.01%    passed     96.43%
+  52  JX458853|MARV/R.aegyptiacus-tc/UGA/2008/164Qbat|2008-XX-XX                 0.01%    passed     99.79%
+  53  JX458858|MARV/R.aegyptiacus-tc/UGA/2009/1328Qbat|2009-XX-XX                0.01%    passed     99.58%
+  54  JX458851|MARV/H.sapiens-tc/COD/1999/02DRC|1999-XX-XX                       0.01%    passed    100.00%
+****  TOTAL                                                                      0.05%  0 sequences failed composition chi2 test (p-value<5%; df=3)
+Creating fast initial parsimony tree by random order stepwise addition...
+0.006 seconds, parsimony score: 4615 (based on 3786 sites)
+Generating 1000 samples for ultrafast bootstrap (seed: 374919)...
+
+NOTE: 5 MB RAM (0 GB) is required!
+Estimate model parameters (epsilon = 0.100)
+1. Initial log-likelihood: -57148.095
+2. Current log-likelihood: -53893.256
+3. Current log-likelihood: -53892.232
+Optimal log-likelihood: -53892.230
+Rate parameters:  A-C: 1.09856  A-G: 9.81778  A-T: 0.56456  C-G: 0.06529  C-T: 12.65335  G-T: 1.00000
+Base frequencies:  A: 0.324  C: 0.197  G: 0.186  T: 0.293
+Parameters optimization took 3 rounds (0.140 sec)
+Computing ML distances based on estimated model parameters... 0.018 sec
+Computing BIONJ tree...
+0.001 seconds
+Log-likelihood of BIONJ tree: -53890.382
+--------------------------------------------------------------------
+|             INITIALIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+Generating 98 parsimony trees... 0.624 second
+Computing log-likelihood of 98 initial trees ... 0.280 seconds
+Current best score: -53889.992
+
+Do NNI search on 20 best initial trees
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 1: -53889.938
+Iteration 10 / LogL: -53890.091 / Time: 0h:0m:1s
+Iteration 20 / LogL: -53890.091 / Time: 0h:0m:2s
+Finish initializing candidate tree set (16)
+Current best tree score: -53889.938 / CPU time: 1.838
+Number of iterations: 20
+--------------------------------------------------------------------
+|               OPTIMIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+Iteration 30 / LogL: -53890.053 / Time: 0h:0m:2s (0h:0m:6s left)
+Iteration 40 / LogL: -53889.994 / Time: 0h:0m:3s (0h:0m:4s left)
+Iteration 50 / LogL: -53890.041 / Time: 0h:0m:3s (0h:0m:3s left)
+Log-likelihood cutoff on original alignment: -53928.912
+Iteration 60 / LogL: -53890.059 / Time: 0h:0m:4s (0h:0m:3s left)
+Iteration 70 / LogL: -53890.020 / Time: 0h:0m:5s (0h:0m:2s left)
+Iteration 80 / LogL: -53890.093 / Time: 0h:0m:6s (0h:0m:1s left)
+Iteration 90 / LogL: -53890.067 / Time: 0h:0m:7s (0h:0m:0s left)
+Iteration 100 / LogL: -53890.064 / Time: 0h:0m:8s (0h:0m:0s left)
+Log-likelihood cutoff on original alignment: -53928.912
+NOTE: Bootstrap correlation coefficient of split occurrence frequencies: 0.997
+TREE SEARCH COMPLETED AFTER 102 ITERATIONS / Time: 0h:0m:8s
+
+--------------------------------------------------------------------
+|                    FINALIZING TREE SEARCH                        |
+--------------------------------------------------------------------
+Performs final model parameters optimization
+Estimate model parameters (epsilon = 0.010)
+1. Initial log-likelihood: -53889.938
+Optimal log-likelihood: -53889.937
+Rate parameters:  A-C: 1.09674  A-G: 9.81941  A-T: 0.56465  C-G: 0.06541  C-T: 12.65263  G-T: 1.00000
+Base frequencies:  A: 0.324  C: 0.197  G: 0.186  T: 0.293
+Parameters optimization took 1 rounds (0.020 sec)
+BEST SCORE FOUND : -53889.937
+Creating bootstrap support values...
+Split supports printed to NEXUS file deduped.aln.splits.nex
+Total tree length: 0.249
+
+Total number of iterations: 102
+CPU time used for tree search: 7.831 sec (0h:0m:7s)
+Wall-clock time used for tree search: 8.071 sec (0h:0m:8s)
+Total CPU time used: 8.253 sec (0h:0m:8s)
+Total wall-clock time used: 8.504 sec (0h:0m:8s)
+
+Computing bootstrap consensus tree...
+Reading input file deduped.aln.splits.nex...
+54 taxa and 246 splits.
+Consensus tree written to deduped.aln.contree
+Reading input trees file deduped.aln.contree
+Log-likelihood of consensus tree: -53890.488
+
+Analysis results written to: 
+  IQ-TREE report:                deduped.aln.iqtree
+  Maximum-likelihood tree:       deduped.aln.treefile
+  Likelihood distances:          deduped.aln.mldist
+
+Ultrafast bootstrap approximation results written to:
+  Split support values:          deduped.aln.splits.nex
+  Consensus tree:                deduped.aln.contree
+  Screen log file:               deduped.aln.log
+
+Reading date file sample-dates-format.tsv ...
+62 dates extracted
+Building time tree by least-square dating (LSD) with command:
+lsd -i deduped.aln.timetree.subst -s 19115 -c -o deduped.aln.timetree -r a -d deduped.aln.timetree.date 
+
+TREE 1
+*PROCESSING:
+Reading the tree ... 
+Collapse 8 (over 52) internal branches having branch length <= 0.000 (settable via option -l)
+Minimum branch length of time scaled tree (settable via option -u and -U): 0.012, rounded to 0.011 (4.000 days/365.000) using factor 365.000 (settable via option -R)
+Estimating the root position on all branches using fast method ...
+*WARNINGS:
+- There are some nodes in the input date file that are not present in the input tree.
+- 15.0943% internal branches were collapsed.
+*RESULTS:
+- Dating results:
+ rate 0.000153777, tMRCA 1716-12-06, objective function 0.294845
+
+TOTAL ELAPSED TIME: 0.035 seconds
+LSD results written to:
+  LSD report:                  deduped.aln.timetree.lsd
+  Time tree in nexus format:   deduped.aln.timetree.nex
+  Time tree in newick format:  deduped.aln.timetree.nwk
+
+Date and Time: Thu Aug 18 15:35:25 2022

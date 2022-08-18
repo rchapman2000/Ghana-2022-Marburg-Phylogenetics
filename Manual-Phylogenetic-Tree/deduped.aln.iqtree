@@ -1,0 +1,331 @@
+IQ-TREE 2.0.3 built Dec 20 2020
+
+Input file name: deduped.aln
+Type of analysis: tree reconstruction + ultrafast bootstrap (1000 replicates)
+Random seed number: 374919
+
+REFERENCES
+----------
+
+To cite IQ-TREE please use:
+
+Bui Quang Minh, Heiko A. Schmidt, Olga Chernomor, Dominik Schrempf,
+Michael D. Woodhams, Arndt von Haeseler, and Robert Lanfear (2020)
+IQ-TREE 2: New models and efficient methods for phylogenetic inference
+in the genomic era. Mol. Biol. Evol., in press.
+https://doi.org/10.1093/molbev/msaa015
+
+Since you used ultrafast bootstrap (UFBoot) please also cite: 
+
+Diep Thi Hoang, Olga Chernomor, Arndt von Haeseler, Bui Quang Minh,
+and Le Sy Vinh (2018) UFBoot2: Improving the ultrafast bootstrap
+approximation. Mol. Biol. Evol., 35:518–522.
+https://doi.org/10.1093/molbev/msx281
+
+Since you used least square dating (LSD) please also cite: 
+
+Thu-Hien To, Matthieu Jung, Samantha Lycett, Olivier Gascuel (2016)
+Fast dating using least-squares criteria and algorithms. Syst. Biol. 65:82-97.
+https://doi.org/10.1093/sysbio/syv068
+
+SEQUENCE ALIGNMENT
+------------------
+
+Input data: 54 sequences with 19115 nucleotide sites
+Number of constant sites: 15329 (= 80.1936% of all sites)
+Number of invariant (constant or ambiguous constant) sites: 15329 (= 80.1936% of all sites)
+Number of parsimony informative sites: 2815
+Number of distinct site patterns: 991
+
+SUBSTITUTION PROCESS
+--------------------
+
+Model of substitution: GTR+F
+
+Rate parameter R:
+
+  A-C: 1.0967
+  A-G: 9.8194
+  A-T: 0.5646
+  C-G: 0.0654
+  C-T: 12.6526
+  G-T: 1.0000
+
+State frequencies: (empirical counts from alignment)
+
+  pi(A) = 0.3244
+  pi(C) = 0.1966
+  pi(G) = 0.1857
+  pi(T) = 0.2933
+
+Rate matrix Q:
+
+  A   -0.7342    0.0718    0.6073   0.05513
+  C    0.1184    -1.358  0.004045     1.235
+  G      1.06  0.004282    -1.162   0.09764
+  T   0.06098    0.8283   0.06184   -0.9512
+
+Model of rate heterogeneity: Uniform
+
+MAXIMUM LIKELIHOOD TREE
+-----------------------
+
+Log-likelihood of the tree: -53889.9372 (s.e. 394.5350)
+Unconstrained log-likelihood (without tree): -53132.0909
+Number of free parameters (#branches + #model parameters): 113
+Akaike information criterion (AIC) score: 108005.8743
+Corrected Akaike information criterion (AICc) score: 108007.2303
+Bayesian information criterion (BIC) score: 108893.8542
+
+Total tree length (sum of branch lengths): 0.2492
+Sum of internal branch lengths: 0.1674 (67.1849% of tree length)
+
+WARNING: 9 near-zero internal branches (<0.0001) should be treated with caution
+         Such branches are denoted by '**' in the figure below
+
+NOTE: Tree is UNROOTED although outgroup taxon 'DQ447651|05DRC99|1999-05-XX' is drawn at root
+Numbers in parentheses are  ultrafast bootstrap support (%)
+
++--DQ447651|05DRC99|1999-05-XX
+|
+|              +**JX458843|MARV/H.sapiens-tc/COD/2000/21DRC|2000-XX-XX
+|           +--| (99)
+|           |  +--JX458848|MARV/H.sapiens-tc/COD/2000/22DRC|2000-XX-XX
+|        +--| (98)
+|        |  +**JX458841|MARV/H.sapiens-tc/COD/2000/20DRC|2000-XX-XX
+|     +**| (25)
+|     |  +**JX458839|MARV/H.sapiens-tc/COD/2000/16DRC|2000-XX-XX
+|  +--| (100)
+|  |  +--JX458842|MARV/H.sapiens-tc/COD/2000/18DRC|2000-XX-XX
++--| (90)
+|  |     +--JX458844|MARV/H.sapiens-tc/COD/2000/26DRC|2000-XX-XX
+|  |  +--| (87)
+|  |  |  |  +--JX458837|MARV/H.sapiens-tc/COD/2000/27DRC|2000-XX-XX
+|  |  |  +--| (100)
+|  |  |     +--JX458836|MARV/H.sapiens-tc/COD/2000/29DRC|2000-XX-XX
+|  +**| (49)
+|     |  +--JX458845|MARV/H.sapiens-tc/COD/2000/13DRC|2000-XX-XX
+|     +--| (87)
+|        +--JX458846|MARV/H.sapiens-tc/COD/2000/28DRC|2000-XX-XX
+|
+|     +--JX458847|MARV/H.sapiens-tc/COD/2000/15DRC|2000-XX-XX
+|  +--| (99)
+|  |  +--JX458850|MARV/H.sapiens-tc/COD/2000/33DRC|2000-XX-XX
++--| (100)
+   |  +--JX458849|MARV/H.sapiens-tc/COD/2000/25DRC|2000-XX-XX
+   +--| (100)
+      |  +--JX458834|MARV/H.sapiens-tc/COD/2000/24DRC|2000-XX-XX
+      +**| (72)
+         |           +--DQ447650|07DRC99|1999-05-XX
+         |        +--| (100)
+         |        |  +--JX458831|MARV/H.sapiens-tc/COD/2000/14DRC|2000-XX-XX
+         |     +--| (100)
+         |     |  +--JX458832|MARV/H.sapiens-tc/COD/2000/30DRC|2000-XX-XX
+         |  +--| (100)
+         |  |  +--JX458833|MARV/H.sapiens-tc/COD/1999/01DRC|1999-XX-XX
+         +--| (100)
+            |           +--JX458827|MARV/H.sapiens-tc/COD/2000/32DRC|2000-XX-XX
+            |        +**| (74)
+            |        |  +--JX458829|MARV/H.sapiens-tc/COD/2000/34DRC|2000-XX-XX
+            |     +--| (100)
+            |     |  +--JX458828|MARV/H.sapiens-tc/COD/2000/19DRC|2000-XX-XX
+            |  +--| (100)
+            |  |  |  +--JX458825|MARV/H.sapiens-tc/COD/1999/04DRC|1999-XX-XX
+            |  |  +--| (100)
+            |  |     +--JX458826|MARV/H.sapiens-tc/COD/1999/03DRC|1999-XX-XX
+            +--| (85)
+               |                 +--FJ750958|Uganda371Bat2007|2007-XX-XX
+               |              +--| (96)
+               |              |  +--JX458854|MARV/R.aegyptiacus-tc/UGA/2009/1175Qbat|2009-XX-XX
+               |           +--| (100)
+               |           |  +--FJ750959|Uganda331Bat2007|2007-XX-XX
+               |        +--| (100)
+               |        |  +--JX458852|MARV/R.aegyptiacus-tc/UGA/2008/53Qbat|2008-XX-XX
+               |     +--| (100)
+               |     |  |  +--FJ750957|Uganda01Uga07|2007-XX-XX
+               |     |  +--| (100)
+               |     |     +--JX458855|MARV/R.aegyptiacus-tc/UGA/2009/843Qbat|2009-XX-XX
+               |  +--| (100)
+               |  |  +--JX458856|MARV/R.aegyptiacus-tc/UGA/2009/914Qbat|2009-XX-XX
+               +--| (88)
+                  |                                                                       +**DQ447658|Ang0215|2005-04-XX
+                  |                                                                    +--| (59)
+                  |                                                                    |  +--DQ447657|Ang0214|2005-04-XX
+                  |                                                                 +--| (60)
+                  |                                                                 |  +**DQ447655|Ang1386|2005-03-XX
+                  |                                                              +--| (98)
+                  |                                                              |  |  +**DQ447653|Ang1379c|2005-03-XX
+                  |                                                              |  +**| (51)
+                  |                                                              |     |  +**KR867677|Marburgvirus/H.sapiens-tc/AGO/2005/Angola-200501379|2005-13-03
+                  |                                                              |     +--| (97)
+                  |                                                              |        +--KU978782|Angolaprototype20051379|2005-01-01
+                  |                                                           +**| (15)
+                  |                                                           |  +--KY047763|Marburgvirus/H.sapiens-tc/AGO/2005/Angola-368|2005-XX-XX
+                  |                                                        +**| (16)
+                  |                                                        |  +**DQ447654|Ang1381|2005-03-XX
+                  |                                                     +**| (11)
+                  |                                                     |  +--DQ447656|Ang0126|2005-04-XX
+                  |                                                  +**| (83)
+                  |                                                  |  +--DQ447660|Ang0998|2005-05-XX
+                  |                                              +---| (100)
+                  |                                              |   +--DQ447659|Ang0754|2005-04-XX
+                  |                                        +-----| (100)
+                  |                                        |     |       +--OL702894|MARV001|2021-09-08
+                  |                                        |     +-------| (100)
+                  |                                        |             |  +--Ghana-MV-22-106|2022-06-XX
+                  |                                        |             +--| (100)
+                  |                                        |                +**Ghana-MV-22-114C|2022-06-XX
+                  |                         +--------------| (100)
+                  |                         |              |  +--------MN258361|PREDICT_SLAB3960Kakbat_SL_2017|2017-12-06
+                  |                         |              +--| (100)
+                  |                         |                 +-------MN187403|1000KasbatSL2018|2018-XX-XX
+                  +-------------------------| (100)
+                                            |                +----EF446132|Germany_Marburg|1967-XX-XX
+                                            +----------------| (100)
+                                                             |  +-----JN408064|Leiden|2008-XX-XX
+                                                             +--| (63)
+                                                                |        +**KC545388|Mbg-423-2012|2012-XX-XX
+                                                                |     +--| (100)
+                                                                |     |  +--KC545387|Mbg-422-2012|2012-XX-XX
+                                                                |  +--| (100)
+                                                                |  |  |  +--JX458853|MARV/R.aegyptiacus-tc/UGA/2008/164Qbat|2008-XX-XX
+                                                                |  |  +--| (100)
+                                                                |  |     +--JX458858|MARV/R.aegyptiacus-tc/UGA/2009/1328Qbat|2009-XX-XX
+                                                                +--| (100)
+                                                                   +---JX458851|MARV/H.sapiens-tc/COD/1999/02DRC|1999-XX-XX
+
+Tree in newick format:
+
+(DQ447651|05DRC99|1999-05-XX:0.0001046445,(((((JX458843|MARV/H.sapiens-tc/COD/2000/21DRC|2000-XX-XX:0.0000010000,JX458848|MARV/H.sapiens-tc/COD/2000/22DRC|2000-XX-XX:0.0002093181)99:0.0000523186,JX458841|MARV/H.sapiens-tc/COD/2000/20DRC|2000-XX-XX:0.0000010000)98:0.0000523186,JX458839|MARV/H.sapiens-tc/COD/2000/16DRC|2000-XX-XX:0.0000010000)25:0.0000010000,JX458842|MARV/H.sapiens-tc/COD/2000/18DRC|2000-XX-XX:0.0000523186)100:0.0001569777,((JX458844|MARV/H.sapiens-tc/COD/2000/26DRC|2000-XX-XX:0.0001569777,(JX458837|MARV/H.sapiens-tc/COD/2000/27DRC|2000-XX-XX:0.0000523186,JX458836|MARV/H.sapiens-tc/COD/2000/29DRC|2000-XX-XX:0.0000523186)100:0.0002616659)87:0.0000523186,(JX458845|MARV/H.sapiens-tc/COD/2000/13DRC|2000-XX-XX:0.0002616659,JX458846|MARV/H.sapiens-tc/COD/2000/28DRC|2000-XX-XX:0.0003663834)87:0.0000523186)49:0.0000010000)90:0.0000523186,((JX458847|MARV/H.sapiens-tc/COD/2000/15DRC|2000-XX-XX:0.0003663834,JX458850|MARV/H.sapiens-tc/COD/2000/33DRC|2000-XX-XX:0.0011002253)99:0.0002093181,(JX458849|MARV/H.sapiens-tc/COD/2000/25DRC|2000-XX-XX:0.0007855460,(JX458834|MARV/H.sapiens-tc/COD/2000/24DRC|2000-XX-XX:0.0019406612,((((DQ447650|07DRC99|1999-05-XX:0.0002093181,JX458831|MARV/H.sapiens-tc/COD/2000/14DRC|2000-XX-XX:0.0002616659)100:0.0004187532,JX458832|MARV/H.sapiens-tc/COD/2000/30DRC|2000-XX-XX:0.0008379742)100:0.0008904098,JX458833|MARV/H.sapiens-tc/COD/1999/01DRC|1999-XX-XX:0.0008904098)100:0.0025750178,((((JX458827|MARV/H.sapiens-tc/COD/2000/32DRC|2000-XX-XX:0.0001569777,JX458829|MARV/H.sapiens-tc/COD/2000/34DRC|2000-XX-XX:0.0005235145)74:0.0000010000,JX458828|MARV/H.sapiens-tc/COD/2000/19DRC|2000-XX-XX:0.0000523186)100:0.0009428527,(JX458825|MARV/H.sapiens-tc/COD/1999/04DRC|1999-XX-XX:0.0002093181,JX458826|MARV/H.sapiens-tc/COD/1999/03DRC|1999-XX-XX:0.0001569777)100:0.0013135545)100:0.0033791320,((((((FJ750958|Uganda371Bat2007|2007-XX-XX:0.0007341381,JX458854|MARV/R.aegyptiacus-tc/UGA/2009/1175Qbat|2009-XX-XX:0.0011526975)96:0.0001029136,FJ750959|Uganda331Bat2007|2007-XX-XX:0.0008392590)100:0.0014179384,JX458852|MARV/R.aegyptiacus-tc/UGA/2008/53Qbat|2008-XX-XX:0.0013642026)100:0.0015542407,(FJ750957|Uganda01Uga07|2007-XX-XX:0.0016582372,JX458855|MARV/R.aegyptiacus-tc/UGA/2009/843Qbat|2009-XX-XX:0.0020704237)100:0.0009965232)100:0.0004771627,JX458856|MARV/R.aegyptiacus-tc/UGA/2009/914Qbat|2009-XX-XX:0.0031141339)100:0.0026856453,(((((((((((DQ447658|Ang0215|2005-04-XX:0.0000010000,DQ447657|Ang0214|2005-04-XX:0.0001569777)59:0.0000523186,DQ447655|Ang1386|2005-03-XX:0.0000010000)60:0.0000523186,(DQ447653|Ang1379c|2005-03-XX:0.0000010000,(KR867677|Marburgvirus/H.sapiens-tc/AGO/2005/Angola-200501379|2005-13-03:0.0000010000,KU978782|Angolaprototype20051379|2005-01-01:0.0002616659)97:0.0000523186)51:0.0000010000)98:0.0001046445,KY047763|Marburgvirus/H.sapiens-tc/AGO/2005/Angola-368|2005-XX-XX:0.0001046445)15:0.0000010000,DQ447654|Ang1381|2005-03-XX:0.0000010000)16:0.0000010000,DQ447656|Ang0126|2005-04-XX:0.0000523186)11:0.0000010000,DQ447660|Ang0998|2005-05-XX:0.0001569777)83:0.0000499248,DQ447659|Ang0754|2005-04-XX:0.0004206638)100:0.0070063072,(OL702894|MARV001|2021-09-08:0.0013181338,(Ghana-MV-22-106|2022-06-XX:0.0001062072,Ghana-MV-22-114C|2022-06-XX:0.0000010000)100:0.0014242399)100:0.0129705920)100:0.0097983123,(MN258361|PREDICT_SLAB3960Kakbat_SL_2017|2017-12-06:0.0151188609,MN187403|1000KasbatSL2018|2018-XX-XX:0.0130682480)100:0.0061168187)100:0.0243972998,(EF446132|Germany_Marburg|1967-XX-XX:0.0087018297,(JN408064|Leiden|2008-XX-XX:0.0107974097,(((KC545388|Mbg-423-2012|2012-XX-XX:0.0000010000,KC545387|Mbg-422-2012|2012-XX-XX:0.0001046445)100:0.0033980729,(JX458853|MARV/R.aegyptiacus-tc/UGA/2008/164Qbat|2008-XX-XX:0.0022307134,JX458858|MARV/R.aegyptiacus-tc/UGA/2009/1328Qbat|2009-XX-XX:0.0028133259)100:0.0005605075)100:0.0046834567,JX458851|MARV/H.sapiens-tc/COD/1999/02DRC|1999-XX-XX:0.0066794021)100:0.0048771423)63:0.0008148021)100:0.0279635212)100:0.0409465091)88:0.0003355091)85:0.0001414978)100:0.0027322752)72:0.0000010000)100:0.0007331250)100:0.0005759062);
+
+CONSENSUS TREE
+--------------
+
+Consensus tree is constructed from 1000 bootstrap trees
+Log-likelihood of consensus tree: -53890.488051
+Robinson-Foulds distance between ML tree and consensus tree: 8
+
+Branches with support >0.000000% are kept (extended consensus)
+Branch lengths are optimized by maximum likelihood on original alignment
+Numbers in parentheses are bootstrap supports (%)
+
++--DQ447651|05DRC99|1999-05-XX
+|
+|           +--JX458843|MARV/H.sapiens-tc/COD/2000/21DRC|2000-XX-XX
+|        +--| (99)
+|        |  +--JX458848|MARV/H.sapiens-tc/COD/2000/22DRC|2000-XX-XX
+|     +--| (98)
+|     |  +--JX458841|MARV/H.sapiens-tc/COD/2000/20DRC|2000-XX-XX
+|  +--| (100)
+|  |  |  +--JX458839|MARV/H.sapiens-tc/COD/2000/16DRC|2000-XX-XX
+|  |  +--| (62)
+|  |     +--JX458842|MARV/H.sapiens-tc/COD/2000/18DRC|2000-XX-XX
++--| (90)
+|  |     +--JX458844|MARV/H.sapiens-tc/COD/2000/26DRC|2000-XX-XX
+|  |  +--| (87)
+|  |  |  |  +--JX458837|MARV/H.sapiens-tc/COD/2000/27DRC|2000-XX-XX
+|  |  |  +--| (100)
+|  |  |     +--JX458836|MARV/H.sapiens-tc/COD/2000/29DRC|2000-XX-XX
+|  +--| (49)
+|     |  +--JX458845|MARV/H.sapiens-tc/COD/2000/13DRC|2000-XX-XX
+|     +--| (87)
+|        +--JX458846|MARV/H.sapiens-tc/COD/2000/28DRC|2000-XX-XX
+|
+|     +--JX458847|MARV/H.sapiens-tc/COD/2000/15DRC|2000-XX-XX
+|  +--| (99)
+|  |  +--JX458850|MARV/H.sapiens-tc/COD/2000/33DRC|2000-XX-XX
++--| (100)
+   |  +--JX458849|MARV/H.sapiens-tc/COD/2000/25DRC|2000-XX-XX
+   +--| (100)
+      |  +--JX458834|MARV/H.sapiens-tc/COD/2000/24DRC|2000-XX-XX
+      +--| (72)
+         |           +--DQ447650|07DRC99|1999-05-XX
+         |        +--| (100)
+         |        |  +--JX458831|MARV/H.sapiens-tc/COD/2000/14DRC|2000-XX-XX
+         |     +--| (100)
+         |     |  +--JX458832|MARV/H.sapiens-tc/COD/2000/30DRC|2000-XX-XX
+         |  +--| (100)
+         |  |  +--JX458833|MARV/H.sapiens-tc/COD/1999/01DRC|1999-XX-XX
+         +--| (100)
+            |           +--JX458827|MARV/H.sapiens-tc/COD/2000/32DRC|2000-XX-XX
+            |        +--| (74)
+            |        |  +--JX458829|MARV/H.sapiens-tc/COD/2000/34DRC|2000-XX-XX
+            |     +--| (100)
+            |     |  +--JX458828|MARV/H.sapiens-tc/COD/2000/19DRC|2000-XX-XX
+            |  +--| (100)
+            |  |  |  +--JX458825|MARV/H.sapiens-tc/COD/1999/04DRC|1999-XX-XX
+            |  |  +--| (100)
+            |  |     +--JX458826|MARV/H.sapiens-tc/COD/1999/03DRC|1999-XX-XX
+            +--| (85)
+               |                 +--FJ750958|Uganda371Bat2007|2007-XX-XX
+               |              +--| (96)
+               |              |  +--JX458854|MARV/R.aegyptiacus-tc/UGA/2009/1175Qbat|2009-XX-XX
+               |           +--| (100)
+               |           |  +--FJ750959|Uganda331Bat2007|2007-XX-XX
+               |        +--| (100)
+               |        |  +--JX458852|MARV/R.aegyptiacus-tc/UGA/2008/53Qbat|2008-XX-XX
+               |     +--| (100)
+               |     |  |  +--FJ750957|Uganda01Uga07|2007-XX-XX
+               |     |  +--| (100)
+               |     |     +--JX458855|MARV/R.aegyptiacus-tc/UGA/2009/843Qbat|2009-XX-XX
+               |  +--| (100)
+               |  |  +--JX458856|MARV/R.aegyptiacus-tc/UGA/2009/914Qbat|2009-XX-XX
+               +--| (88)
+                  |                                                                    +--DQ447658|Ang0215|2005-04-XX
+                  |                                                                 +--| (59)
+                  |                                                                 |  +--DQ447657|Ang0214|2005-04-XX
+                  |                                                              +--| (60)
+                  |                                                              |  +--DQ447655|Ang1386|2005-03-XX
+                  |                                                           +--| (98)
+                  |                                                           |  |  +--DQ447653|Ang1379c|2005-03-XX
+                  |                                                           |  +--| (51)
+                  |                                                           |     |  +--KR867677|Marburgvirus/H.sapiens-tc/AGO/2005/Angola-200501379|2005-13-03
+                  |                                                           |     +--| (97)
+                  |                                                           |        +--KU978782|Angolaprototype20051379|2005-01-01
+                  |                                                        +--| (20)
+                  |                                                        |  |  +--DQ447660|Ang0998|2005-05-XX
+                  |                                                        |  +--| (33)
+                  |                                                        |     +--KY047763|Marburgvirus/H.sapiens-tc/AGO/2005/Angola-368|2005-XX-XX
+                  |                                                     +--| (35)
+                  |                                                     |  +--DQ447654|Ang1381|2005-03-XX
+                  |                                                  +--| (83)
+                  |                                                  |  +--DQ447656|Ang0126|2005-04-XX
+                  |                                              +---| (100)
+                  |                                              |   +--DQ447659|Ang0754|2005-04-XX
+                  |                                        +-----| (100)
+                  |                                        |     |       +--OL702894|MARV001|2021-09-08
+                  |                                        |     +-------| (100)
+                  |                                        |             |  +--Ghana-MV-22-106|2022-06-XX
+                  |                                        |             +--| (100)
+                  |                                        |                +--Ghana-MV-22-114C|2022-06-XX
+                  |                         +--------------| (100)
+                  |                         |              |  +--------MN258361|PREDICT_SLAB3960Kakbat_SL_2017|2017-12-06
+                  |                         |              +--| (100)
+                  |                         |                 +-------MN187403|1000KasbatSL2018|2018-XX-XX
+                  +-------------------------| (100)
+                                            |                +----EF446132|Germany_Marburg|1967-XX-XX
+                                            +----------------| (100)
+                                                             |  +-----JN408064|Leiden|2008-XX-XX
+                                                             +--| (63)
+                                                                |        +--KC545388|Mbg-423-2012|2012-XX-XX
+                                                                |     +--| (100)
+                                                                |     |  +--KC545387|Mbg-422-2012|2012-XX-XX
+                                                                |  +--| (100)
+                                                                |  |  |  +--JX458853|MARV/R.aegyptiacus-tc/UGA/2008/164Qbat|2008-XX-XX
+                                                                |  |  +--| (100)
+                                                                |  |     +--JX458858|MARV/R.aegyptiacus-tc/UGA/2009/1328Qbat|2009-XX-XX
+                                                                +--| (100)
+                                                                   +---JX458851|MARV/H.sapiens-tc/COD/1999/02DRC|1999-XX-XX
+
+
+Consensus tree in newick format: 
+
+(DQ447651|05DRC99|1999-05-XX:0.0001046373,((((JX458843|MARV/H.sapiens-tc/COD/2000/21DRC|2000-XX-XX:0.0000026036,JX458848|MARV/H.sapiens-tc/COD/2000/22DRC|2000-XX-XX:0.0002092895)99:0.0000523168,JX458841|MARV/H.sapiens-tc/COD/2000/20DRC|2000-XX-XX:0.0000026036)98:0.0000523168,(JX458839|MARV/H.sapiens-tc/COD/2000/16DRC|2000-XX-XX:0.0000026036,JX458842|MARV/H.sapiens-tc/COD/2000/18DRC|2000-XX-XX:0.0000523168)62:0.0000026036)100:0.0001569616,((JX458844|MARV/H.sapiens-tc/COD/2000/26DRC|2000-XX-XX:0.0001569616,(JX458837|MARV/H.sapiens-tc/COD/2000/27DRC|2000-XX-XX:0.0000523168,JX458836|MARV/H.sapiens-tc/COD/2000/29DRC|2000-XX-XX:0.0000523168)100:0.0002616212)87:0.0000523168,(JX458845|MARV/H.sapiens-tc/COD/2000/13DRC|2000-XX-XX:0.0002616212,JX458846|MARV/H.sapiens-tc/COD/2000/28DRC|2000-XX-XX:0.0003662957)87:0.0000523168)49:0.0000026036)90:0.0000523168,((JX458847|MARV/H.sapiens-tc/COD/2000/15DRC|2000-XX-XX:0.0003662957,JX458850|MARV/H.sapiens-tc/COD/2000/33DRC|2000-XX-XX:0.0011007847)99:0.0002092895,(JX458849|MARV/H.sapiens-tc/COD/2000/25DRC|2000-XX-XX:0.0007851429,(JX458834|MARV/H.sapiens-tc/COD/2000/24DRC|2000-XX-XX:0.0019396475,((((DQ447650|07DRC99|1999-05-XX:0.0002092895,JX458831|MARV/H.sapiens-tc/COD/2000/14DRC|2000-XX-XX:0.0002616212)100:0.0004186386,JX458832|MARV/H.sapiens-tc/COD/2000/30DRC|2000-XX-XX:0.0008375156)100:0.0008912143,JX458833|MARV/H.sapiens-tc/COD/1999/01DRC|1999-XX-XX:0.0008910840)100:0.0025750632,((((JX458827|MARV/H.sapiens-tc/COD/2000/32DRC|2000-XX-XX:0.0001569616,JX458829|MARV/H.sapiens-tc/COD/2000/34DRC|2000-XX-XX:0.0005233355)74:0.0000026036,JX458828|MARV/H.sapiens-tc/COD/2000/19DRC|2000-XX-XX:0.0000523168)100:0.0009422721,(JX458825|MARV/H.sapiens-tc/COD/1999/04DRC|1999-XX-XX:0.0002092895,JX458826|MARV/H.sapiens-tc/COD/1999/03DRC|1999-XX-XX:0.0001569616)100:0.0013135405)100:0.0033786824,((((((FJ750958|Uganda371Bat2007|2007-XX-XX:0.0007341367,JX458854|MARV/R.aegyptiacus-tc/UGA/2009/1175Qbat|2009-XX-XX:0.0011534250)96:0.0001029150,FJ750959|Uganda331Bat2007|2007-XX-XX:0.0008392576)100:0.0014179321,JX458852|MARV/R.aegyptiacus-tc/UGA/2008/53Qbat|2008-XX-XX:0.0013642013)100:0.0015544595,(FJ750957|Uganda01Uga07|2007-XX-XX:0.0016582805,JX458855|MARV/R.aegyptiacus-tc/UGA/2009/843Qbat|2009-XX-XX:0.0020688800)100:0.0009963448)100:0.0004765653,JX458856|MARV/R.aegyptiacus-tc/UGA/2009/914Qbat|2009-XX-XX:0.0031145156)100:0.0026856774,((((((((((DQ447658|Ang0215|2005-04-XX:0.0000026036,DQ447657|Ang0214|2005-04-XX:0.0001569616)59:0.0000523168,DQ447655|Ang1386|2005-03-XX:0.0000026036)60:0.0000521151,(DQ447653|Ang1379c|2005-03-XX:0.0000026036,(KR867677|Marburgvirus/H.sapiens-tc/AGO/2005/Angola-200501379|2005-13-03:0.0000026036,KU978782|Angolaprototype20051379|2005-01-01:0.0002616212)97:0.0000523168)51:0.0000026036)98:0.0001046373,(DQ447660|Ang0998|2005-05-XX:0.0001569616,KY047763|Marburgvirus/H.sapiens-tc/AGO/2005/Angola-368|2005-XX-XX:0.0001046373)33:0.0000026036)20:0.0000026036,DQ447654|Ang1381|2005-03-XX:0.0000026036)35:0.0000026036,DQ447656|Ang0126|2005-04-XX:0.0000523168)83:0.0000496882,DQ447659|Ang0754|2005-04-XX:0.0004208799)100:0.0070061147,(OL702894|MARV001|2021-09-08:0.0013180826,(Ghana-MV-22-106|2022-06-XX:0.0001061622,Ghana-MV-22-114C|2022-06-XX:0.0000026036)100:0.0014242875)100:0.0129705636)100:0.0097982469,(MN258361|PREDICT_SLAB3960Kakbat_SL_2017|2017-12-06:0.0151187054,MN187403|1000KasbatSL2018|2018-XX-XX:0.0130678794)100:0.0061177066)100:0.0243973005,(EF446132|Germany_Marburg|1967-XX-XX:0.0087017442,(JN408064|Leiden|2008-XX-XX:0.0107973451,(((KC545388|Mbg-423-2012|2012-XX-XX:0.0000026036,KC545387|Mbg-422-2012|2012-XX-XX:0.0001046373)100:0.0033982345,(JX458853|MARV/R.aegyptiacus-tc/UGA/2008/164Qbat|2008-XX-XX:0.0022309640,JX458858|MARV/R.aegyptiacus-tc/UGA/2009/1328Qbat|2009-XX-XX:0.0028132468)100:0.0005605859)100:0.0046840980,JX458851|MARV/H.sapiens-tc/COD/1999/02DRC|1999-XX-XX:0.0066794220)100:0.0048778597)63:0.0008153978)100:0.0279630555)100:0.0409466077)88:0.0003355271)85:0.0001414987)100:0.0027323354)72:0.0000026036)100:0.0007327739)100:0.0005756895);
+
+TIME STAMP
+----------
+
+Date and time: Thu Aug 18 15:35:25 2022
+Total CPU time used: 8.253342 seconds (0h:0m:8s)
+Total wall-clock time used: 8.5595639 seconds (0h:0m:8s)
+

@@ -1,0 +1,40 @@
+
+LEAST-SQUARE METHODS TO ESTIMATE RATES AND DATES - v1.6.5 
+
+
+Input files:
+  i                                               Input tree file : deduped.aln.timetree.subst
+  d                                               Input date file : deduped.aln.timetree.date
+  p                                                Partition file : No
+Output file:
+  o                                                  Output file  : deduped.aln.timetree
+Parameters:
+  c                                              With constraints : Yes
+  t                                      Lower bound for the rate : 1e-10
+  v                                                With variances : No
+  r                                             Estimate the root : Use fast method to search on all branches
+  w                                       Given substitution rate : No
+  g                                               Given outgroups : No
+  n                                             Multiple data set : No
+  f                                  Compute confidence intervals : No
+  e                                          Exclude outlier tips : No
+  u                Min internal branch length of time scaled tree : To estimate
+  R     Rounding number for min branch length of time scaled tree : To guess
+  U                Min external branch length of time scaled tree : To estimate
+  l                        Collapsed internal branch length limit : 2.61575e-05
+  D                                            Output date format : Based on input date format
+
+  h to print Help 
+  y to accept or type a letter to change an option (x = Exit) 
+Tree 1 
+Minimum branch length of time scaled tree (settable via option -u and -U): 0.0122585, rounded to 0.0109589 (4/365) using factor 365 (settable via option -R)
+*WARNINGS:
+- There are some nodes in the input date file that are not present in the input tree.
+- 15.0943% internal branches were collapsed.
+*RESULTS:
+- Dating results:
+ rate 0.000153777, tMRCA 1716-12-06, objective function 0.294845
+
+*********************************************************
+
+TOTAL ELAPSED TIME: 0.035066 seconds
