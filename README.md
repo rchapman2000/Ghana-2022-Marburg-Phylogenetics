@@ -69,9 +69,14 @@ nextstrain view auspice/
 ## Manual Phylogenetic Tree
 A phylogenetic tree was also manually generated using command-line and R tools.
 ### Data Preparation
-First, sequences were aligned using [Mafft](https://mafft.cbrc.jp/alignment/software/).
+First, sequences deduplicated using ```dedupe.sh``` from the [BBTools Suite](https://jgi.doe.gov/data-and-tools/software-tools/bbtools/bb-tools-user-guide/)
 ```
-mafft --thread 8 --retree 2 --reorder InputData/sequences.fasta > sequences.aln
+dedupe.sh -in=InputData/sequences.fasta -out=deduped.fasta
+```
+
+Next, the deduplicated sequences were aligned using [Mafft](https://mafft.cbrc.jp/alignment/software/).
+```
+mafft --thread 8 --retree 2 --reorder deduped.fasta > deduped.aln
 ```
 
 Then, the alignment was used to create a phylogenetic tree using [IQTree](http://www.iqtree.org/). To improve phylogenetic dating, IQTree can take collection dates for the samples in a ```dates.tsv`` file (a tab separated file containing sample name and collection date). To create this file, the following commands were run:
@@ -99,7 +104,7 @@ o.close()
 
 Next, IQTree was run using the General time reversible (GTR) substitution model and Ultrafast bootstrap approximation for assessing branch support. As well, the sample collection dates were supplied.
 ```
-iqtree -s sequences.aln -m GTR -B 1000 --date sample-dates-format.tsv
+iqtree -s deduped.aln -m GTR -B 1000 --date sample-dates-format.tsv
 ```
 ### Visualization
 The phylogenetic tree was imported into R using the [treeio package](10.18129/B9.bioc.treeio) and visualized using [ggtree](10.18129/B9.bioc.ggtree)
