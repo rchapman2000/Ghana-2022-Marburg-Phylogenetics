@@ -284,9 +284,7 @@
         "MARV_gp4": [],
         "MARV_gp5": [],
         "MARV_gp6": [],
-        "MARV_gp7": [
-          "N550K"
-        ]
+        "MARV_gp7": []
       }
     },
     "JN408064|Leiden|2008-XX-XX": {
@@ -347,21 +345,6 @@
         "MARV_gp5": [],
         "MARV_gp6": [],
         "MARV_gp7": []
-      }
-    },
-    "JX458827|MARV/H.sapiens-tc/COD/2000/32DRC|2000-XX-XX": {
-      "aa_muts": {
-        "MARV_gp1": [],
-        "MARV_gp2": [],
-        "MARV_gp3": [],
-        "MARV_gp4": [
-          "T209A"
-        ],
-        "MARV_gp5": [],
-        "MARV_gp6": [],
-        "MARV_gp7": [
-          "D1847N"
-        ]
       }
     },
     "JX458828|MARV/H.sapiens-tc/COD/2000/19DRC|2000-XX-XX": {
@@ -451,23 +434,26 @@
         ]
       }
     },
-    "JX458835|MARV/H.sapiens-tc/COD/2000/23DRC|2000-XX-XX": {
+    "JX458834|MARV/H.sapiens-tc/COD/2000/24DRC|2000-XX-XX": {
       "aa_muts": {
-        "MARV_gp1": [
-          "A433V"
-        ],
+        "MARV_gp1": [],
         "MARV_gp2": [],
         "MARV_gp3": [],
-        "MARV_gp4": [
-          "P298L"
-        ],
-        "MARV_gp5": [
-          "K279R"
-        ],
+        "MARV_gp4": [],
+        "MARV_gp5": [],
         "MARV_gp6": [],
-        "MARV_gp7": [
-          "A1355S"
-        ]
+        "MARV_gp7": []
+      }
+    },
+    "JX458835|MARV/H.sapiens-tc/COD/2000/23DRC|2000-XX-XX": {
+      "aa_muts": {
+        "MARV_gp1": [],
+        "MARV_gp2": [],
+        "MARV_gp3": [],
+        "MARV_gp4": [],
+        "MARV_gp5": [],
+        "MARV_gp6": [],
+        "MARV_gp7": []
       }
     },
     "JX458836|MARV/H.sapiens-tc/COD/2000/29DRC|2000-XX-XX": {
@@ -506,6 +492,17 @@
       }
     },
     "JX458839|MARV/H.sapiens-tc/COD/2000/16DRC|2000-XX-XX": {
+      "aa_muts": {
+        "MARV_gp1": [],
+        "MARV_gp2": [],
+        "MARV_gp3": [],
+        "MARV_gp4": [],
+        "MARV_gp5": [],
+        "MARV_gp6": [],
+        "MARV_gp7": []
+      }
+    },
+    "JX458840|MARV/H.sapiens-tc/COD/2000/12DRC|2000-XX-XX": {
       "aa_muts": {
         "MARV_gp1": [],
         "MARV_gp2": [],
@@ -617,26 +614,6 @@
         ],
         "MARV_gp6": [],
         "MARV_gp7": []
-      }
-    },
-    "JX458849|MARV/H.sapiens-tc/COD/2000/25DRC|2000-XX-XX": {
-      "aa_muts": {
-        "MARV_gp1": [],
-        "MARV_gp2": [],
-        "MARV_gp3": [],
-        "MARV_gp4": [
-          "P421S"
-        ],
-        "MARV_gp5": [
-          "F122L"
-        ],
-        "MARV_gp6": [],
-        "MARV_gp7": [
-          "A25T",
-          "D435N",
-          "P1627S",
-          "S2191N"
-        ]
       }
     },
     "JX458850|MARV/H.sapiens-tc/COD/2000/33DRC|2000-XX-XX": {
@@ -1302,6 +1279,28 @@
         ]
       }
     },
+    "NODE_0000011": {
+      "aa_muts": {
+        "MARV_gp1": [],
+        "MARV_gp2": [],
+        "MARV_gp3": [],
+        "MARV_gp4": [],
+        "MARV_gp5": [],
+        "MARV_gp6": [],
+        "MARV_gp7": []
+      }
+    },
+    "NODE_0000012": {
+      "aa_muts": {
+        "MARV_gp1": [],
+        "MARV_gp2": [],
+        "MARV_gp3": [],
+        "MARV_gp4": [],
+        "MARV_gp5": [],
+        "MARV_gp6": [],
+        "MARV_gp7": []
+      }
+    },
     "NODE_0000013": {
       "aa_muts": {
         "MARV_gp1": [
@@ -1494,17 +1493,6 @@
         "MARV_gp6": [
           "S216L"
         ],
-        "MARV_gp7": []
-      }
-    },
-    "NODE_0000022": {
-      "aa_muts": {
-        "MARV_gp1": [],
-        "MARV_gp2": [],
-        "MARV_gp3": [],
-        "MARV_gp4": [],
-        "MARV_gp5": [],
-        "MARV_gp6": [],
         "MARV_gp7": []
       }
     },
@@ -1825,7 +1813,7 @@
         ]
       }
     },
-    "NODE_0000037": {
+    "NODE_0000036": {
       "aa_muts": {
         "MARV_gp1": [],
         "MARV_gp2": [],
@@ -1836,7 +1824,7 @@
         "MARV_gp7": []
       }
     },
-    "NODE_0000038": {
+    "NODE_0000037": {
       "aa_muts": {
         "MARV_gp1": [
           "K517R"
@@ -1857,7 +1845,7 @@
         ]
       }
     },
-    "NODE_0000039": {
+    "NODE_0000038": {
       "aa_muts": {
         "MARV_gp1": [],
         "MARV_gp2": [],
@@ -1872,7 +1860,7 @@
         ]
       }
     },
-    "NODE_0000040": {
+    "NODE_0000039": {
       "aa_muts": {
         "MARV_gp1": [],
         "MARV_gp2": [],
@@ -1885,7 +1873,7 @@
         "MARV_gp7": []
       }
     },
-    "NODE_0000041": {
+    "NODE_0000040": {
       "aa_muts": {
         "MARV_gp1": [],
         "MARV_gp2": [],
@@ -1896,7 +1884,7 @@
         "MARV_gp7": []
       }
     },
-    "NODE_0000042": {
+    "NODE_0000041": {
       "aa_muts": {
         "MARV_gp1": [],
         "MARV_gp2": [],
@@ -1919,7 +1907,26 @@
         ]
       }
     },
-    "NODE_0000044": {
+    "NODE_0000042": {
+      "aa_muts": {
+        "MARV_gp1": [
+          "A433V"
+        ],
+        "MARV_gp2": [],
+        "MARV_gp3": [],
+        "MARV_gp4": [
+          "P298L"
+        ],
+        "MARV_gp5": [
+          "K279R"
+        ],
+        "MARV_gp6": [],
+        "MARV_gp7": [
+          "A1355S"
+        ]
+      }
+    },
+    "NODE_0000043": {
       "aa_muts": {
         "MARV_gp1": [],
         "MARV_gp2": [],
@@ -1932,7 +1939,7 @@
         "MARV_gp7": []
       }
     },
-    "NODE_0000045": {
+    "NODE_0000044": {
       "aa_muts": {
         "MARV_gp1": [],
         "MARV_gp2": [],
@@ -1945,7 +1952,7 @@
         ]
       }
     },
-    "NODE_0000046": {
+    "NODE_0000045": {
       "aa_muts": {
         "MARV_gp1": [],
         "MARV_gp2": [],
@@ -1958,7 +1965,7 @@
         "MARV_gp7": []
       }
     },
-    "NODE_0000047": {
+    "NODE_0000046": {
       "aa_muts": {
         "MARV_gp1": [],
         "MARV_gp2": [],
@@ -1969,7 +1976,7 @@
         "MARV_gp7": []
       }
     },
-    "NODE_0000049": {
+    "NODE_0000048": {
       "aa_muts": {
         "MARV_gp1": [],
         "MARV_gp2": [],
@@ -1977,6 +1984,17 @@
         "MARV_gp4": [
           "A284E"
         ],
+        "MARV_gp5": [],
+        "MARV_gp6": [],
+        "MARV_gp7": []
+      }
+    },
+    "NODE_0000049": {
+      "aa_muts": {
+        "MARV_gp1": [],
+        "MARV_gp2": [],
+        "MARV_gp3": [],
+        "MARV_gp4": [],
         "MARV_gp5": [],
         "MARV_gp6": [],
         "MARV_gp7": []
@@ -1990,34 +2008,12 @@
         "MARV_gp4": [],
         "MARV_gp5": [],
         "MARV_gp6": [],
-        "MARV_gp7": []
-      }
-    },
-    "NODE_0000051": {
-      "aa_muts": {
-        "MARV_gp1": [],
-        "MARV_gp2": [],
-        "MARV_gp3": [],
-        "MARV_gp4": [],
-        "MARV_gp5": [],
-        "MARV_gp6": [],
         "MARV_gp7": [
           "K174R"
         ]
       }
     },
-    "NODE_0000052": {
-      "aa_muts": {
-        "MARV_gp1": [],
-        "MARV_gp2": [],
-        "MARV_gp3": [],
-        "MARV_gp4": [],
-        "MARV_gp5": [],
-        "MARV_gp6": [],
-        "MARV_gp7": []
-      }
-    },
-    "NODE_0000053": {
+    "NODE_0000051": {
       "aa_muts": {
         "MARV_gp1": [],
         "MARV_gp2": [],

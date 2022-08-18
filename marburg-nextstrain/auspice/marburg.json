@@ -2,7 +2,7 @@
   "version": "v2",
   "meta": {
     "title": "Nextstrain Build for Marburg Virus",
-    "updated": "2022-08-16",
+    "updated": "2022-08-18",
     "build_url": "test",
     "maintainers": [
       {
@@ -134,21 +134,13 @@
       {
         "key": "country",
         "demes": {
-          "Ghana": {
-            "latitude": 8.0300284,
-            "longitude": -1.080027
+          "Germany": {
+            "latitude": 51.0834196,
+            "longitude": 10.4234469
           },
           "Guinea": {
             "latitude": 10.7226226,
             "longitude": -10.7083586
-          },
-          "Angola": {
-            "latitude": -11.8775767,
-            "longitude": 17.5691241
-          },
-          "Sierra Leone": {
-            "latitude": 8.5,
-            "longitude": -11.5
           },
           "Uganda": {
             "latitude": 1.5333554,
@@ -162,9 +154,17 @@
             "latitude": -3.394559,
             "longitude": 23.306004
           },
-          "Germany": {
-            "latitude": 51.0834196,
-            "longitude": 10.4234469
+          "Angola": {
+            "latitude": -11.8775767,
+            "longitude": 17.5691241
+          },
+          "Ghana": {
+            "latitude": 8.0300284,
+            "longitude": -1.080027
+          },
+          "Sierra Leone": {
+            "latitude": 8.5,
+            "longitude": -11.5
           }
         }
       }
@@ -179,21 +179,21 @@
     "node_attrs": {
       "div": 0,
       "num_date": {
-        "value": 1738.0766335885319,
+        "value": 1724.06213647304,
         "confidence": [
-          1671.131493715435,
-          1784.5373518107426
+          1644.9631874335953,
+          1775.1547597668225
         ]
       },
       "country": {
         "value": "Democratic Republic of the Congo",
         "confidence": {
-          "Democratic Republic of the Congo": 0.212314372006833,
-          "Germany": 0.13262463707355607,
-          "Sierra Leone": 0.178377110381905,
-          "Uganda": 0.15110780754806727
+          "Democratic Republic of the Congo": 0.21535334250611685,
+          "Germany": 0.12936459408628292,
+          "Sierra Leone": 0.18063669132243043,
+          "Uganda": 0.1521938049051107
         },
-        "entropy": 2.0032307382753367
+        "entropy": 1.999367289575598
       }
     },
     "branch_attrs": {
@@ -203,23 +203,23 @@
       {
         "name": "NODE_0000007",
         "node_attrs": {
-          "div": 0.002256774266824102,
+          "div": 0.0025208536385843763,
           "num_date": {
-            "value": 1752.4677767989438,
+            "value": 1737.8030174915211,
             "confidence": [
-              1688.7705659843891,
-              1796.2411124771188
+              1662.617023953405,
+              1786.399047005125
             ]
           },
           "country": {
             "value": "Democratic Republic of the Congo",
             "confidence": {
-              "Democratic Republic of the Congo": 0.19992099745148806,
-              "Germany": 0.13848826432527062,
-              "Sierra Leone": 0.19048597896435912,
-              "Uganda": 0.14632658683336908
+              "Democratic Republic of the Congo": 0.20379331600127581,
+              "Germany": 0.13435534077925884,
+              "Sierra Leone": 0.1918218806734644,
+              "Uganda": 0.14812719737056648
             },
-            "entropy": 2.003959641415688
+            "entropy": 2.0004297674336238
           }
         },
         "branch_attrs": {
@@ -229,23 +229,23 @@
           {
             "name": "NODE_0000001",
             "node_attrs": {
-              "div": 0.029197596508877828,
+              "div": 0.030011353877613837,
               "num_date": {
-                "value": 1925.7546662257391,
+                "value": 1921.115774638263,
                 "confidence": [
-                  1905.0750195531098,
-                  1933.7882188012993
+                  1898.6699023379247,
+                  1934.2779514209963
                 ]
               },
               "country": {
                 "value": "Germany",
                 "confidence": {
-                  "Democratic Republic of the Congo": 0.1855771097160786,
-                  "Germany": 0.4003187156009339,
-                  "Netherlands": 0.15354871791548277,
-                  "Uganda": 0.2067113467140393
+                  "Democratic Republic of the Congo": 0.18857728656763395,
+                  "Germany": 0.38318365302196095,
+                  "Netherlands": 0.15727096126788992,
+                  "Uganda": 0.2167330520653714
                 },
-                "entropy": 1.5230957465807586
+                "entropy": 1.5361524573471637
               }
             },
             "branch_attrs": {
@@ -838,20 +838,20 @@
               {
                 "name": "EF446132|Germany_Marburg|1967-XX-XX",
                 "node_attrs": {
-                  "div": 0.037372320597230106,
+                  "div": 0.03834575119711831,
                   "num_date": {
                     "value": 1967.9986301369863,
                     "confidence": [
-                      1967.1183665773824,
+                      1967.1114929512162,
                       1967.9986301369863
                     ]
                   },
                   "country": {
                     "value": "Germany",
                     "confidence": {
-                      "Germany": 0.9999999999999999
+                      "Germany": 1.0
                     },
-                    "entropy": -9.99866855976916e-13
+                    "entropy": -1.000088900581841e-12
                   }
                 },
                 "branch_attrs": {
@@ -1056,23 +1056,23 @@
               {
                 "name": "NODE_0000002",
                 "node_attrs": {
-                  "div": 0.03035074634661258,
+                  "div": 0.03100724984037068,
                   "num_date": {
-                    "value": 1933.7913879659452,
+                    "value": 1928.9253526409734,
                     "confidence": [
-                      1913.7491217405707,
-                      1940.9770994537473
+                      1907.9594479031603,
+                      1941.237200522423
                     ]
                   },
                   "country": {
                     "value": "Germany",
                     "confidence": {
-                      "Democratic Republic of the Congo": 0.2146880090228379,
-                      "Germany": 0.30875743410205914,
-                      "Netherlands": 0.18453889912344223,
-                      "Uganda": 0.24497083767522024
+                      "Democratic Republic of the Congo": 0.21407482838043096,
+                      "Germany": 0.30127239869407946,
+                      "Netherlands": 0.18513796647027653,
+                      "Uganda": 0.25197433834972127
                     },
-                    "entropy": 1.557446501468533
+                    "entropy": 1.560487911880559
                   }
                 },
                 "branch_attrs": {
@@ -1113,12 +1113,12 @@
                   {
                     "name": "JN408064|Leiden|2008-XX-XX",
                     "node_attrs": {
-                      "div": 0.04109311936951594,
+                      "div": 0.04175014857699429,
                       "num_date": {
                         "value": 2008.0013661202186,
                         "confidence": [
                           2008.0013661202186,
-                          2008.8894466596182
+                          2008.8804931561442
                         ]
                       },
                       "country": {
@@ -1374,23 +1374,23 @@
                   {
                     "name": "NODE_0000003",
                     "node_attrs": {
-                      "div": 0.035136396410015855,
+                      "div": 0.035793438641885694,
                       "num_date": {
-                        "value": 1961.9497397602227,
+                        "value": 1958.7967707565558,
                         "confidence": [
-                          1949.5603978469512,
-                          1968.2966276782024
+                          1945.809700829563,
+                          1967.4679178634872
                         ]
                       },
                       "country": {
                         "value": "Uganda",
                         "confidence": {
-                          "Democratic Republic of the Congo": 0.37805367765471537,
-                          "Germany": 0.08521579748863989,
-                          "Netherlands": 0.050309779237020354,
-                          "Uganda": 0.46378177321557684
+                          "Democratic Republic of the Congo": 0.3713818079145636,
+                          "Germany": 0.08319097045816222,
+                          "Netherlands": 0.0505666835938809,
+                          "Uganda": 0.4722006238834096
                         },
-                        "entropy": 1.2010560201241738
+                        "entropy": 1.1967358550174727
                       }
                     },
                     "branch_attrs": {
@@ -1511,20 +1511,20 @@
                       {
                         "name": "JX458851|MARV/H.sapiens-tc/COD/1999/02DRC|1999-XX-XX",
                         "node_attrs": {
-                          "div": 0.04177298211001504,
+                          "div": 0.042430765014749225,
                           "num_date": {
                             "value": 1999.9986301369863,
                             "confidence": [
-                              1999.1026466679334,
+                              1999.1020017742758,
                               1999.9986301369863
                             ]
                           },
                           "country": {
                             "value": "Democratic Republic of the Congo",
                             "confidence": {
-                              "Democratic Republic of the Congo": 1.0
+                              "Democratic Republic of the Congo": 0.9999999999999999
                             },
-                            "entropy": -1.000088900581841e-12
+                            "entropy": -9.99866855976916e-13
                           }
                         },
                         "branch_attrs": {
@@ -1692,21 +1692,21 @@
                       {
                         "name": "NODE_0000004",
                         "node_attrs": {
-                          "div": 0.03981701641873529,
+                          "div": 0.04047461671592106,
                           "num_date": {
-                            "value": 1991.6744400963216,
+                            "value": 1989.916229262556,
                             "confidence": [
-                              1984.8960386314902,
-                              1994.6878541148926
+                              1984.2199768568119,
+                              1994.0709404503618
                             ]
                           },
                           "country": {
                             "value": "Uganda",
                             "confidence": {
-                              "Democratic Republic of the Congo": 0.0031100136913124444,
-                              "Uganda": 0.9959784969225245
+                              "Democratic Republic of the Congo": 0.003157573731009362,
+                              "Uganda": 0.99591455263566
                             },
-                            "entropy": 0.029613226001808213
+                            "entropy": 0.03002523379683572
                           }
                         },
                         "branch_attrs": {
@@ -1828,20 +1828,20 @@
                           {
                             "name": "NODE_0000005",
                             "node_attrs": {
-                              "div": 0.04039328781424946,
+                              "div": 0.04105095418502057,
                               "num_date": {
-                                "value": 1994.8048295255862,
+                                "value": 1993.5477237191772,
                                 "confidence": [
-                                  1989.5371593558655,
-                                  1997.81527812769
+                                  1988.7474590257452,
+                                  1997.133130306237
                                 ]
                               },
                               "country": {
                                 "value": "Uganda",
                                 "confidence": {
-                                  "Uganda": 0.9997762208255437
+                                  "Uganda": 0.9997623203225642
                                 },
-                                "entropy": 0.0022629638771796555
+                                "entropy": 0.0023893907440240177
                               }
                             },
                             "branch_attrs": {
@@ -1871,12 +1871,12 @@
                               {
                                 "name": "JX458853|MARV/R.aegyptiacus-tc/UGA/2008/164Qbat|2008-XX-XX",
                                 "node_attrs": {
-                                  "div": 0.042596764126216956,
+                                  "div": 0.0432546820540348,
                                   "num_date": {
                                     "value": 2008.0013661202186,
                                     "confidence": [
                                       2008.0013661202186,
-                                      2008.9211604937252
+                                      2008.8927411258612
                                     ]
                                   },
                                   "country": {
@@ -1967,11 +1967,11 @@
                               {
                                 "name": "JX458858|MARV/R.aegyptiacus-tc/UGA/2009/1328Qbat|2009-XX-XX",
                                 "node_attrs": {
-                                  "div": 0.04322758616199352,
+                                  "div": 0.04388556891945797,
                                   "num_date": {
                                     "value": 2009.9986301369863,
                                     "confidence": [
-                                      2009.1253573078027,
+                                      2009.1202069564551,
                                       2009.9986301369863
                                     ]
                                   },
@@ -2069,20 +2069,20 @@
                           {
                             "name": "NODE_0000006",
                             "node_attrs": {
-                              "div": 0.04317819606479798,
+                              "div": 0.04383616791098294,
                               "num_date": {
-                                "value": 2011.9967411632554,
+                                "value": 2012.01719967207,
                                 "confidence": [
-                                  2011.4768881296113,
-                                  2012.6961439142515
+                                  2011.4220582533928,
+                                  2012.5516216789913
                                 ]
                               },
                               "country": {
                                 "value": "Uganda",
                                 "confidence": {
-                                  "Uganda": 0.9999781741942164
+                                  "Uganda": 0.9999783660854724
                                 },
-                                "entropy": 0.00027833092059251495
+                                "entropy": 0.0002762225332357123
                               }
                             },
                             "branch_attrs": {
@@ -2178,20 +2178,20 @@
                               {
                                 "name": "KC545388|Mbg-423-2012|2012-XX-XX",
                                 "node_attrs": {
-                                  "div": 0.04317819606479798,
+                                  "div": 0.04383616791098294,
                                   "num_date": {
                                     "value": 2012.0013661202186,
                                     "confidence": [
                                       2012.0013661202186,
-                                      2012.7637140088293
+                                      2012.7718745622865
                                     ]
                                   },
                                   "country": {
                                     "value": "Uganda",
                                     "confidence": {
-                                      "Uganda": 1.0
+                                      "Uganda": 0.9999999999999999
                                     },
-                                    "entropy": -1.000088900581841e-12
+                                    "entropy": -9.99866855976916e-13
                                   }
                                 },
                                 "branch_attrs": {
@@ -2201,20 +2201,20 @@
                               {
                                 "name": "KC545387|Mbg-422-2012|2012-XX-XX",
                                 "node_attrs": {
-                                  "div": 0.043282917808687434,
+                                  "div": 0.0439409016810358,
                                   "num_date": {
-                                    "value": 2012.9428589032188,
+                                    "value": 2012.9986338797814,
                                     "confidence": [
-                                      2012.0013661202186,
+                                      2012.1692231944348,
                                       2012.9986338797814
                                     ]
                                   },
                                   "country": {
                                     "value": "Uganda",
                                     "confidence": {
-                                      "Uganda": 1.0
+                                      "Uganda": 0.9999999999999999
                                     },
-                                    "entropy": -1.000088900581841e-12
+                                    "entropy": -9.99866855976916e-13
                                   }
                                 },
                                 "branch_attrs": {
@@ -2239,23 +2239,23 @@
           {
             "name": "NODE_0000008",
             "node_attrs": {
-              "div": 0.027174026568553753,
+              "div": 0.026555667421855722,
               "num_date": {
-                "value": 1898.0081372357565,
+                "value": 1890.5691532817502,
                 "confidence": [
-                  1867.9243245989132,
-                  1918.104246215399
+                  1856.6035945180438,
+                  1913.848665408021
                 ]
               },
               "country": {
                 "value": "Sierra Leone",
                 "confidence": {
-                  "Angola": 0.18218543989025224,
-                  "Ghana": 0.07153028960739992,
-                  "Guinea": 0.07491120199492866,
-                  "Sierra Leone": 0.5514692578393648
+                  "Angola": 0.1790474248206204,
+                  "Ghana": 0.07107922722885585,
+                  "Guinea": 0.07591448019898249,
+                  "Sierra Leone": 0.5539003913996531
                 },
-                "entropy": 1.438761656359798
+                "entropy": 1.436572251100629
               }
             },
             "branch_attrs": {
@@ -2785,23 +2785,23 @@
               {
                 "name": "NODE_0000009",
                 "node_attrs": {
-                  "div": 0.03322901813798878,
+                  "div": 0.03245275056320454,
                   "num_date": {
-                    "value": 1935.0614294280097,
+                    "value": 1929.4069639986897,
                     "confidence": [
-                      1914.1958945183046,
-                      1949.9488116147004
+                      1905.399731762465,
+                      1945.856358382309
                     ]
                   },
                   "country": {
                     "value": "Sierra Leone",
                     "confidence": {
-                      "Angola": 0.04085341903122914,
-                      "Ghana": 0.0163266967210651,
-                      "Guinea": 0.01700416274002795,
-                      "Sierra Leone": 0.8918099129228348
+                      "Angola": 0.04096282999176564,
+                      "Ghana": 0.016541354030143274,
+                      "Guinea": 0.01754078015066877,
+                      "Sierra Leone": 0.8904041680796053
                     },
-                    "entropy": 0.5304644785318356
+                    "entropy": 0.5362397740180684
                   }
                 },
                 "branch_attrs": {
@@ -2937,7 +2937,7 @@
                   {
                     "name": "MN258361|PREDICT_SLAB3960Kakbat_SL_2017|2017-12-06",
                     "node_attrs": {
-                      "div": 0.048297854267607764,
+                      "div": 0.04746965995360903,
                       "num_date": {
                         "value": 2017.9301369863015,
                         "confidence": [
@@ -3310,20 +3310,20 @@
                   {
                     "name": "NODE_0000010",
                     "node_attrs": {
-                      "div": 0.04605158957228316,
+                      "div": 0.045329677217613634,
                       "num_date": {
-                        "value": 2017.9135159835218,
+                        "value": 2017.9180407474848,
                         "confidence": [
-                          2017.6066180833373,
-                          2018.0173877366283
+                          2017.445714646263,
+                          2018.0789413654375
                         ]
                       },
                       "country": {
                         "value": "Sierra Leone",
                         "confidence": {
-                          "Sierra Leone": 0.999999996711907
+                          "Sierra Leone": 0.9999135016464963
                         },
-                        "entropy": 7.321573467554639e-08
+                        "entropy": 0.001055071444259494
                       }
                     },
                     "branch_attrs": {
@@ -3616,96 +3616,146 @@
                     },
                     "children": [
                       {
-                        "name": "MN187404|968KasbatSL2018|2018-XX-XX",
+                        "name": "NODE_0000011",
                         "node_attrs": {
-                          "div": 0.04605158957228316,
+                          "div": 0.045329677217613634,
                           "num_date": {
-                            "value": 2018.0139598779624,
+                            "value": 2017.985542851256,
                             "confidence": [
-                              2018.0013698630137,
-                              2018.9986301369863
+                              2017.7361623527472,
+                              2018.118206151316
                             ]
                           },
                           "country": {
                             "value": "Sierra Leone",
                             "confidence": {
-                              "Sierra Leone": 1.0
+                              "Sierra Leone": 0.9999979703352662
                             },
-                            "entropy": -1.000088900581841e-12
+                            "entropy": 3.2460290596194966e-05
                           }
                         },
                         "branch_attrs": {
                           "mutations": {}
-                        }
+                        },
+                        "children": [
+                          {
+                            "name": "MN187406|960LNKasbatSL2018|2018-XX-XX",
+                            "node_attrs": {
+                              "div": 0.045329677217613634,
+                              "num_date": {
+                                "value": 2018.1139906383007,
+                                "confidence": [
+                                  2018.0013698630137,
+                                  2018.9986301369863
+                                ]
+                              },
+                              "country": {
+                                "value": "Sierra Leone",
+                                "confidence": {
+                                  "Sierra Leone": 1.0
+                                },
+                                "entropy": -1.000088900581841e-12
+                              }
+                            },
+                            "branch_attrs": {
+                              "mutations": {}
+                            }
+                          },
+                          {
+                            "name": "MN187404|968KasbatSL2018|2018-XX-XX",
+                            "node_attrs": {
+                              "div": 0.045329677217613634,
+                              "num_date": {
+                                "value": 2018.1139906383007,
+                                "confidence": [
+                                  2018.0013698630137,
+                                  2018.9986301369863
+                                ]
+                              },
+                              "country": {
+                                "value": "Sierra Leone",
+                                "confidence": {
+                                  "Sierra Leone": 1.0
+                                },
+                                "entropy": -1.000088900581841e-12
+                              }
+                            },
+                            "branch_attrs": {
+                              "mutations": {}
+                            }
+                          }
+                        ]
                       },
                       {
-                        "name": "MN187405|960KasbatSL2018|2018-XX-XX",
+                        "name": "NODE_0000012",
                         "node_attrs": {
-                          "div": 0.04605158957228316,
+                          "div": 0.045329677217613634,
                           "num_date": {
-                            "value": 2018.0139598779624,
+                            "value": 2017.985542851256,
                             "confidence": [
-                              2018.0013698630137,
-                              2018.9986301369863
+                              2017.7361623527472,
+                              2018.118206151316
                             ]
                           },
                           "country": {
                             "value": "Sierra Leone",
                             "confidence": {
-                              "Sierra Leone": 1.0
+                              "Sierra Leone": 0.9999979703352662
                             },
-                            "entropy": -1.000088900581841e-12
+                            "entropy": 3.2460290596194966e-05
                           }
                         },
                         "branch_attrs": {
                           "mutations": {}
-                        }
-                      },
-                      {
-                        "name": "MN187403|1000KasbatSL2018|2018-XX-XX",
-                        "node_attrs": {
-                          "div": 0.04605158957228316,
-                          "num_date": {
-                            "value": 2018.0139598779624,
-                            "confidence": [
-                              2018.0013698630137,
-                              2018.9986301369863
-                            ]
+                        },
+                        "children": [
+                          {
+                            "name": "MN187405|960KasbatSL2018|2018-XX-XX",
+                            "node_attrs": {
+                              "div": 0.045329677217613634,
+                              "num_date": {
+                                "value": 2018.1139906383007,
+                                "confidence": [
+                                  2018.0013698630137,
+                                  2018.9986301369863
+                                ]
+                              },
+                              "country": {
+                                "value": "Sierra Leone",
+                                "confidence": {
+                                  "Sierra Leone": 1.0
+                                },
+                                "entropy": -1.000088900581841e-12
+                              }
+                            },
+                            "branch_attrs": {
+                              "mutations": {}
+                            }
                           },
-                          "country": {
-                            "value": "Sierra Leone",
-                            "confidence": {
-                              "Sierra Leone": 1.0
+                          {
+                            "name": "MN187403|1000KasbatSL2018|2018-XX-XX",
+                            "node_attrs": {
+                              "div": 0.045329677217613634,
+                              "num_date": {
+                                "value": 2018.1139906383007,
+                                "confidence": [
+                                  2018.0013698630137,
+                                  2018.9986301369863
+                                ]
+                              },
+                              "country": {
+                                "value": "Sierra Leone",
+                                "confidence": {
+                                  "Sierra Leone": 1.0
+                                },
+                                "entropy": -1.000088900581841e-12
+                              }
                             },
-                            "entropy": -1.000088900581841e-12
+                            "branch_attrs": {
+                              "mutations": {}
+                            }
                           }
-                        },
-                        "branch_attrs": {
-                          "mutations": {}
-                        }
-                      },
-                      {
-                        "name": "MN187406|960LNKasbatSL2018|2018-XX-XX",
-                        "node_attrs": {
-                          "div": 0.04605158957228316,
-                          "num_date": {
-                            "value": 2018.0139598779624,
-                            "confidence": [
-                              2018.0013698630137,
-                              2018.9986301369863
-                            ]
-                          },
-                          "country": {
-                            "value": "Sierra Leone",
-                            "confidence": {
-                              "Sierra Leone": 1.0
-                            },
-                            "entropy": -1.000088900581841e-12
-                          }
-                        },
-                        "branch_attrs": {
-                          "mutations": {}
-                        }
+                        ]
                       }
                     ]
                   }
@@ -3714,23 +3764,23 @@
               {
                 "name": "NODE_0000013",
                 "node_attrs": {
-                  "div": 0.035986309773024486,
+                  "div": 0.03558161580140505,
                   "num_date": {
-                    "value": 1951.28537693818,
+                    "value": 1946.5978940159723,
                     "confidence": [
-                      1931.9105299959392,
-                      1960.580554691034
+                      1927.241671250428,
+                      1959.267567903117
                     ]
                   },
                   "country": {
                     "value": "Angola",
                     "confidence": {
-                      "Angola": 0.42827042158223083,
-                      "Ghana": 0.15013051619245804,
-                      "Guinea": 0.15932195028029053,
-                      "Sierra Leone": 0.1861906893803845
+                      "Angola": 0.4201197316345744,
+                      "Ghana": 0.14938232751663844,
+                      "Guinea": 0.16235377735303452,
+                      "Sierra Leone": 0.19086966998718477
                     },
-                    "entropy": 1.553522714162617
+                    "entropy": 1.5630686242983087
                   }
                 },
                 "branch_attrs": {
@@ -3948,23 +3998,23 @@
                   {
                     "name": "NODE_0000014",
                     "node_attrs": {
-                      "div": 0.04863866358056937,
+                      "div": 0.04834193179976503,
                       "num_date": {
-                        "value": 2014.3791234337766,
+                        "value": 2013.987751004839,
                         "confidence": [
-                          2010.7417891692494,
-                          2016.2628041437772
+                          2011.0090779416882,
+                          2016.01582188377
                         ]
                       },
                       "country": {
                         "value": "Guinea",
                         "confidence": {
-                          "Angola": 0.01705358355280091,
-                          "Ghana": 0.4679924394654404,
-                          "Guinea": 0.49929709197216526,
-                          "Sierra Leone": 0.008008358209873943
+                          "Angola": 0.016676632904954726,
+                          "Ghana": 0.46193307259246985,
+                          "Guinea": 0.5055673566149812,
+                          "Sierra Leone": 0.008156665468327873
                         },
-                        "entropy": 0.8579951994557595
+                        "entropy": 0.8569544168537124
                       }
                     },
                     "branch_attrs": {
@@ -4268,7 +4318,7 @@
                       {
                         "name": "OL702894|MARV001|2021-09-08",
                         "node_attrs": {
-                          "div": 0.04994927987799981,
+                          "div": 0.049652691659167934,
                           "num_date": {
                             "value": 2021.686301369863,
                             "confidence": [
@@ -4325,21 +4375,21 @@
                       {
                         "name": "NODE_0000015",
                         "node_attrs": {
-                          "div": 0.05005418397963057,
+                          "div": 0.04975761171891875,
                           "num_date": {
-                            "value": 2022.0580941492417,
+                            "value": 2022.259421306165,
                             "confidence": [
-                              2021.3481885619128,
-                              2022.3312643074444
+                              2021.479278855465,
+                              2022.40724508524
                             ]
                           },
                           "country": {
                             "value": "Ghana",
                             "confidence": {
-                              "Ghana": 0.9966749778355979,
-                              "Guinea": 0.00311253428105349
+                              "Ghana": 0.9967177197536509,
+                              "Guinea": 0.0030749272325407803
                             },
-                            "entropy": 0.023402455131244174
+                            "entropy": 0.023136184366203544
                           }
                         },
                         "branch_attrs": {
@@ -4390,11 +4440,11 @@
                           {
                             "name": "Ghana-MV-22-106|2022-06-XX",
                             "node_attrs": {
-                              "div": 0.05015931910795522,
+                              "div": 0.049862758547080444,
                               "num_date": {
                                 "value": 2022.4945205479453,
                                 "confidence": [
-                                  2022.4232674832701,
+                                  2022.4239055757987,
                                   2022.4945205479453
                                 ]
                               },
@@ -4422,12 +4472,12 @@
                           {
                             "name": "Ghana-MV-22-114C|2022-06-XX",
                             "node_attrs": {
-                              "div": 0.05010656830449369,
+                              "div": 0.04975761171891875,
                               "num_date": {
                                 "value": 2022.4150684931508,
                                 "confidence": [
                                   2022.4150684931508,
-                                  2022.4864654544551
+                                  2022.485901876048
                                 ]
                               },
                               "author": {
@@ -4443,17 +4493,7 @@
                               }
                             },
                             "branch_attrs": {
-                              "mutations": {
-                                "nuc": [
-                                  "T13130A"
-                                ],
-                                "MARV_gp7": [
-                                  "N550K"
-                                ]
-                              },
-                              "labels": {
-                                "aa": "MARV_gp7: N550K"
-                              }
+                              "mutations": {}
                             }
                           }
                         ]
@@ -4463,20 +4503,20 @@
                   {
                     "name": "NODE_0000016",
                     "node_attrs": {
-                      "div": 0.04309569661492687,
+                      "div": 0.04263859401735777,
                       "num_date": {
-                        "value": 2002.9281647681776,
+                        "value": 2002.9775043053874,
                         "confidence": [
-                          2001.9940353148006,
-                          2004.2322407290128
+                          2001.8036352724016,
+                          2004.2779492599352
                         ]
                       },
                       "country": {
                         "value": "Angola",
                         "confidence": {
-                          "Angola": 0.9995053745553629
+                          "Angola": 0.999517728182623
                         },
-                        "entropy": 0.005076255073050071
+                        "entropy": 0.004962925617450932
                       }
                     },
                     "branch_attrs": {
@@ -4653,11 +4693,11 @@
                       {
                         "name": "DQ447659|Ang0754|2005-04-XX",
                         "node_attrs": {
-                          "div": 0.04351443725026826,
+                          "div": 0.043057380492021936,
                           "num_date": {
                             "value": 2005.327397260274,
                             "confidence": [
-                              2005.2559445478096,
+                              2005.255890410959,
                               2005.327397260274
                             ]
                           },
@@ -4687,20 +4727,20 @@
                       {
                         "name": "NODE_0000017",
                         "node_attrs": {
-                          "div": 0.04314802319239897,
+                          "div": 0.04269092642135863,
                           "num_date": {
-                            "value": 2003.6706598622836,
+                            "value": 2003.7446319336054,
                             "confidence": [
-                              2002.9738908141921,
-                              2004.4195102136805
+                              2002.9706003225065,
+                              2004.6255480986024
                             ]
                           },
                           "country": {
                             "value": "Angola",
                             "confidence": {
-                              "Angola": 0.999995433203044
+                              "Angola": 0.9999956197454302
                             },
-                            "entropy": 6.861681079430143e-05
+                            "entropy": 6.600436243492996e-05
                           }
                         },
                         "branch_attrs": {
@@ -4714,20 +4754,20 @@
                           {
                             "name": "NODE_0000018",
                             "node_attrs": {
-                              "div": 0.04314802319239897,
+                              "div": 0.04269092642135863,
                               "num_date": {
-                                "value": 2004.2984713377832,
+                                "value": 2004.3267553634382,
                                 "confidence": [
-                                  2003.6748015579522,
-                                  2004.9490115206559
+                                  2003.5129543730482,
+                                  2005.1575943116459
                                 ]
                               },
                               "country": {
                                 "value": "Angola",
                                 "confidence": {
-                                  "Angola": 0.9999985843224999
+                                  "Angola": 0.9999986278818072
                                 },
-                                "entropy": 2.31565595360076e-05
+                                "entropy": 2.2486965544325853e-05
                               }
                             },
                             "branch_attrs": {
@@ -4735,60 +4775,50 @@
                             },
                             "children": [
                               {
-                                "name": "DQ447660|Ang0998|2005-05-XX",
+                                "name": "KY047763|Marburgvirus/H.sapiens-tc/AGO/2005/Angola-368|2005-XX-XX",
                                 "node_attrs": {
-                                  "div": 0.043305012839020635,
+                                  "div": 0.042795596701085896,
                                   "num_date": {
-                                    "value": 2005.3301369863013,
+                                    "value": 2005.00948646994,
                                     "confidence": [
-                                      2005.3301369863013,
-                                      2005.4123287671232
+                                      2005.0013698630137,
+                                      2005.9986301369863
                                     ]
                                   },
                                   "country": {
                                     "value": "Angola",
                                     "confidence": {
-                                      "Angola": 1.0
+                                      "Angola": 0.9999999999999999
                                     },
-                                    "entropy": -1.000088900581841e-12
+                                    "entropy": -9.99866855976916e-13
                                   }
                                 },
                                 "branch_attrs": {
                                   "mutations": {
                                     "nuc": [
-                                      "A8764G",
-                                      "A9007G",
-                                      "A16012G"
-                                    ],
-                                    "MARV_gp5": [
-                                      "S47G"
-                                    ],
-                                    "MARV_gp7": [
-                                      "K1511R"
+                                      "A1816G",
+                                      "G6087A"
                                     ]
-                                  },
-                                  "labels": {
-                                    "aa": "MARV_gp5: S47G; MARV_gp7: K1511R"
                                   }
                                 }
                               },
                               {
                                 "name": "NODE_0000019",
                                 "node_attrs": {
-                                  "div": 0.04314802319239897,
+                                  "div": 0.04269092642135863,
                                   "num_date": {
-                                    "value": 2004.712504677828,
+                                    "value": 2004.7105324261156,
                                     "confidence": [
-                                      2004.2221794163013,
-                                      2005.2047642059918
+                                      2004.1733749811456,
+                                      2005.1914336923664
                                     ]
                                   },
                                   "country": {
                                     "value": "Angola",
                                     "confidence": {
-                                      "Angola": 0.9999986045731318
+                                      "Angola": 0.9999986469809484
                                     },
-                                    "entropy": 2.2848632749702483e-05
+                                    "entropy": 2.2195954910975894e-05
                                   }
                                 },
                                 "branch_attrs": {
@@ -4796,14 +4826,14 @@
                                 },
                                 "children": [
                                   {
-                                    "name": "KY047763|Marburgvirus/H.sapiens-tc/AGO/2005/Angola-368|2005-XX-XX",
+                                    "name": "DQ447660|Ang0998|2005-05-XX",
                                     "node_attrs": {
-                                      "div": 0.043252681941228506,
+                                      "div": 0.04284793339161952,
                                       "num_date": {
-                                        "value": 2005.369297094794,
+                                        "value": 2005.4123287671232,
                                         "confidence": [
-                                          2005.0013698630137,
-                                          2005.9986301369863
+                                          2005.3386133251847,
+                                          2005.4123287671232
                                         ]
                                       },
                                       "country": {
@@ -4817,29 +4847,39 @@
                                     "branch_attrs": {
                                       "mutations": {
                                         "nuc": [
-                                          "A1816G",
-                                          "G6087A"
+                                          "A8764G",
+                                          "A9007G",
+                                          "A16012G"
+                                        ],
+                                        "MARV_gp5": [
+                                          "S47G"
+                                        ],
+                                        "MARV_gp7": [
+                                          "K1511R"
                                         ]
+                                      },
+                                      "labels": {
+                                        "aa": "MARV_gp5: S47G; MARV_gp7: K1511R"
                                       }
                                     }
                                   },
                                   {
                                     "name": "NODE_0000020",
                                     "node_attrs": {
-                                      "div": 0.04314802319239897,
+                                      "div": 0.04269092642135863,
                                       "num_date": {
-                                        "value": 2005.0905528071055,
+                                        "value": 2005.1110363048901,
                                         "confidence": [
-                                          2004.648340361245,
-                                          2005.229116471724
+                                          2004.6823208825879,
+                                          2005.2117509984632
                                         ]
                                       },
                                       "country": {
                                         "value": "Angola",
                                         "confidence": {
-                                          "Angola": 0.9999986132023103
+                                          "Angola": 0.9999986552458188
                                         },
-                                        "entropy": 2.2716236009648105e-05
+                                        "entropy": 2.2068892017687152e-05
                                       }
                                     },
                                     "branch_attrs": {
@@ -4849,12 +4889,12 @@
                                       {
                                         "name": "DQ447654|Ang1381|2005-03-XX",
                                         "node_attrs": {
-                                          "div": 0.04314802319239897,
+                                          "div": 0.04269092642135863,
                                           "num_date": {
                                             "value": 2005.16301369863,
                                             "confidence": [
                                               2005.16301369863,
-                                              2005.2364455044567
+                                              2005.2365611772022
                                             ]
                                           },
                                           "country": {
@@ -4872,11 +4912,11 @@
                                       {
                                         "name": "DQ447656|Ang0126|2005-04-XX",
                                         "node_attrs": {
-                                          "div": 0.04320035392495752,
+                                          "div": 0.042743263133485254,
                                           "num_date": {
                                             "value": 2005.327397260274,
                                             "confidence": [
-                                              2005.2561014145929,
+                                              2005.256124336836,
                                               2005.327397260274
                                             ]
                                           },
@@ -4905,20 +4945,20 @@
                           {
                             "name": "NODE_0000021",
                             "node_attrs": {
-                              "div": 0.043252689260276235,
+                              "div": 0.04279560404323771,
                               "num_date": {
-                                "value": 2004.1356574412575,
+                                "value": 2004.2841491244085,
                                 "confidence": [
-                                  2003.6699432513947,
-                                  2004.6699134882485
+                                  2003.80618684268,
+                                  2004.8501213252096
                                 ]
                               },
                               "country": {
                                 "value": "Angola",
                                 "confidence": {
-                                  "Angola": 0.9999985843221655
+                                  "Angola": 0.9999999918940778
                                 },
-                                "entropy": 2.315656463877796e-05
+                                "entropy": 1.7409392718264754e-07
                               }
                             },
                             "branch_attrs": {
@@ -4939,7 +4979,7 @@
                               {
                                 "name": "KU978782|Angolaprototype20051379|2005-01-01",
                                 "node_attrs": {
-                                  "div": 0.04356699296318081,
+                                  "div": 0.04310992028101227,
                                   "num_date": {
                                     "value": 2005.0013698630137,
                                     "confidence": [
@@ -4950,9 +4990,9 @@
                                   "country": {
                                     "value": "Angola",
                                     "confidence": {
-                                      "Angola": 1.0
+                                      "Angola": 0.9999999999999999
                                     },
-                                    "entropy": -1.000088900581841e-12
+                                    "entropy": -9.99866855976916e-13
                                   }
                                 },
                                 "branch_attrs": {
@@ -4969,22 +5009,112 @@
                                 }
                               },
                               {
-                                "name": "NODE_0000022",
+                                "name": "NODE_0000024",
                                 "node_attrs": {
-                                  "div": 0.043252689260276235,
+                                  "div": 0.042847937937272575,
                                   "num_date": {
-                                    "value": 2004.5447603325247,
+                                    "value": 2004.8553879637295,
                                     "confidence": [
-                                      2004.0576923152946,
-                                      2004.9242432583271
+                                      2004.356197804299,
+                                      2005.1321942453815
                                     ]
                                   },
                                   "country": {
                                     "value": "Angola",
                                     "confidence": {
-                                      "Angola": 0.9999986045205128
+                                      "Angola": 0.999998663340783
                                     },
-                                    "entropy": 2.2849438381758206e-05
+                                    "entropy": 2.1944372513193962e-05
+                                  }
+                                },
+                                "branch_attrs": {
+                                  "mutations": {
+                                    "nuc": [
+                                      "G7260A"
+                                    ]
+                                  }
+                                },
+                                "children": [
+                                  {
+                                    "name": "DQ447658|Ang0215|2005-04-XX",
+                                    "node_attrs": {
+                                      "div": 0.0429002719142367,
+                                      "num_date": {
+                                        "value": 2005.2479452054795,
+                                        "confidence": [
+                                          2005.2479452054795,
+                                          2005.3193282803084
+                                        ]
+                                      },
+                                      "country": {
+                                        "value": "Angola",
+                                        "confidence": {
+                                          "Angola": 1.0
+                                        },
+                                        "entropy": -1.000088900581841e-12
+                                      }
+                                    },
+                                    "branch_attrs": {
+                                      "mutations": {
+                                        "nuc": [
+                                          "T28C"
+                                        ]
+                                      }
+                                    }
+                                  },
+                                  {
+                                    "name": "DQ447657|Ang0214|2005-04-XX",
+                                    "node_attrs": {
+                                      "div": 0.042952672379990155,
+                                      "num_date": {
+                                        "value": 2005.327397260274,
+                                        "confidence": [
+                                          2005.2561878850527,
+                                          2005.327397260274
+                                        ]
+                                      },
+                                      "country": {
+                                        "value": "Angola",
+                                        "confidence": {
+                                          "Angola": 1.0
+                                        },
+                                        "entropy": -1.000088900581841e-12
+                                      }
+                                    },
+                                    "branch_attrs": {
+                                      "mutations": {
+                                        "nuc": [
+                                          "A1590T",
+                                          "C8524G"
+                                        ],
+                                        "MARV_gp1": [
+                                          "Q496L"
+                                        ]
+                                      },
+                                      "labels": {
+                                        "aa": "MARV_gp1: Q496L"
+                                      }
+                                    }
+                                  }
+                                ]
+                              },
+                              {
+                                "name": "NODE_0000023",
+                                "node_attrs": {
+                                  "div": 0.04279560404323771,
+                                  "num_date": {
+                                    "value": 2004.9622913958472,
+                                    "confidence": [
+                                      2004.4375332704349,
+                                      2005.179202088163
+                                    ]
+                                  },
+                                  "country": {
+                                    "value": "Angola",
+                                    "confidence": {
+                                      "Angola": 0.999998663340783
+                                    },
+                                    "entropy": 2.1944372513193962e-05
                                   }
                                 },
                                 "branch_attrs": {
@@ -4992,14 +5122,41 @@
                                 },
                                 "children": [
                                   {
+                                    "name": "DQ447655|Ang1386|2005-03-XX",
+                                    "node_attrs": {
+                                      "div": 0.04284793695234229,
+                                      "num_date": {
+                                        "value": 2005.2452054794521,
+                                        "confidence": [
+                                          2005.1683191144607,
+                                          2005.2452054794521
+                                        ]
+                                      },
+                                      "country": {
+                                        "value": "Angola",
+                                        "confidence": {
+                                          "Angola": 1.0
+                                        },
+                                        "entropy": -1.000088900581841e-12
+                                      }
+                                    },
+                                    "branch_attrs": {
+                                      "mutations": {
+                                        "nuc": [
+                                          "T28C"
+                                        ]
+                                      }
+                                    }
+                                  },
+                                  {
                                     "name": "DQ447653|Ang1379c|2005-03-XX",
                                     "node_attrs": {
-                                      "div": 0.043252689260276235,
+                                      "div": 0.04279560404323771,
                                       "num_date": {
                                         "value": 2005.16301369863,
                                         "confidence": [
                                           2005.16301369863,
-                                          2005.236104492484
+                                          2005.2364793564084
                                         ]
                                       },
                                       "country": {
@@ -5013,145 +5170,6 @@
                                     "branch_attrs": {
                                       "mutations": {}
                                     }
-                                  },
-                                  {
-                                    "name": "NODE_0000023",
-                                    "node_attrs": {
-                                      "div": 0.043305016317394925,
-                                      "num_date": {
-                                        "value": 2004.9034755320495,
-                                        "confidence": [
-                                          2004.4851325836762,
-                                          2005.095443991923
-                                        ]
-                                      },
-                                      "country": {
-                                        "value": "Angola",
-                                        "confidence": {
-                                          "Angola": 0.9999986047033332
-                                        },
-                                        "entropy": 2.284665409636661e-05
-                                      }
-                                    },
-                                    "branch_attrs": {
-                                      "mutations": {
-                                        "nuc": [
-                                          "T28C"
-                                        ]
-                                      }
-                                    },
-                                    "children": [
-                                      {
-                                        "name": "DQ447655|Ang1386|2005-03-XX",
-                                        "node_attrs": {
-                                          "div": 0.043305016317394925,
-                                          "num_date": {
-                                            "value": 2005.16301369863,
-                                            "confidence": [
-                                              2005.16301369863,
-                                              2005.2359660508432
-                                            ]
-                                          },
-                                          "country": {
-                                            "value": "Angola",
-                                            "confidence": {
-                                              "Angola": 1.0
-                                            },
-                                            "entropy": -1.000088900581841e-12
-                                          }
-                                        },
-                                        "branch_attrs": {
-                                          "mutations": {}
-                                        }
-                                      },
-                                      {
-                                        "name": "NODE_0000024",
-                                        "node_attrs": {
-                                          "div": 0.04335734339211972,
-                                          "num_date": {
-                                            "value": 2005.0521305894633,
-                                            "confidence": [
-                                              2004.7687420040554,
-                                              2005.2109759321668
-                                            ]
-                                          },
-                                          "country": {
-                                            "value": "Angola",
-                                            "confidence": {
-                                              "Angola": 0.999998613203149
-                                            },
-                                            "entropy": 2.2716223276964975e-05
-                                          }
-                                        },
-                                        "branch_attrs": {
-                                          "mutations": {
-                                            "nuc": [
-                                              "G7260A"
-                                            ]
-                                          }
-                                        },
-                                        "children": [
-                                          {
-                                            "name": "DQ447658|Ang0215|2005-04-XX",
-                                            "node_attrs": {
-                                              "div": 0.04335734339211972,
-                                              "num_date": {
-                                                "value": 2005.2479452054795,
-                                                "confidence": [
-                                                  2005.2479452054795,
-                                                  2005.3186115159174
-                                                ]
-                                              },
-                                              "country": {
-                                                "value": "Angola",
-                                                "confidence": {
-                                                  "Angola": 1.0
-                                                },
-                                                "entropy": -1.000088900581841e-12
-                                              }
-                                            },
-                                            "branch_attrs": {
-                                              "mutations": {}
-                                            }
-                                          },
-                                          {
-                                            "name": "DQ447657|Ang0214|2005-04-XX",
-                                            "node_attrs": {
-                                              "div": 0.043514444749363286,
-                                              "num_date": {
-                                                "value": 2005.327397260274,
-                                                "confidence": [
-                                                  2005.2576746679194,
-                                                  2005.327397260274
-                                                ]
-                                              },
-                                              "country": {
-                                                "value": "Angola",
-                                                "confidence": {
-                                                  "Angola": 1.0
-                                                },
-                                                "entropy": -1.000088900581841e-12
-                                              }
-                                            },
-                                            "branch_attrs": {
-                                              "mutations": {
-                                                "nuc": [
-                                                  "C28T",
-                                                  "A1590T",
-                                                  "C8524G"
-                                                ],
-                                                "MARV_gp1": [
-                                                  "Q496L"
-                                                ]
-                                              },
-                                              "labels": {
-                                                "aa": "MARV_gp1: Q496L"
-                                              }
-                                            }
-                                          }
-                                        ]
-                                      }
-                                    ]
                                   }
                                 ]
                               }
@@ -5170,23 +5188,23 @@
       {
         "name": "NODE_0000025",
         "node_attrs": {
-          "div": 0.0382248125305265,
+          "div": 0.03849610168221961,
           "num_date": {
-            "value": 1971.343702178878,
+            "value": 1968.9116596838458,
             "confidence": [
-              1963.8105805343087,
-              1978.082701086641
+              1959.3002653342442,
+              1976.403502433766
             ]
           },
           "country": {
             "value": "Democratic Republic of the Congo",
             "confidence": {
-              "Democratic Republic of the Congo": 0.7082652090381659,
-              "Germany": 0.0028604031376343137,
-              "Sierra Leone": 0.002615258702566552,
-              "Uganda": 0.27862680392952377
+              "Democratic Republic of the Congo": 0.7184744118984258,
+              "Germany": 0.002869527553229855,
+              "Sierra Leone": 0.0026869654690093252,
+              "Uganda": 0.2682508465867961
             },
-            "entropy": 0.680376291727338
+            "entropy": 0.6713829686905147
           }
         },
         "branch_attrs": {
@@ -6047,21 +6065,21 @@
           {
             "name": "NODE_0000026",
             "node_attrs": {
-              "div": 0.0409025033516189,
+              "div": 0.041174102810822656,
               "num_date": {
-                "value": 1987.260387755066,
+                "value": 1986.7344413304143,
                 "confidence": [
-                  1981.520161807346,
-                  1991.7249822456483
+                  1978.769534736234,
+                  1991.882004938487
                 ]
               },
               "country": {
                 "value": "Uganda",
                 "confidence": {
-                  "Democratic Republic of the Congo": 0.010883678487083031,
-                  "Uganda": 0.9887362947337172
+                  "Democratic Republic of the Congo": 0.00997304910966058,
+                  "Uganda": 0.9896652838642694
                 },
-                "entropy": 0.06406086954136726
+                "entropy": 0.059738021250482005
               }
             },
             "branch_attrs": {
@@ -6138,12 +6156,12 @@
               {
                 "name": "JX458856|MARV/R.aegyptiacus-tc/UGA/2009/914Qbat|2009-XX-XX",
                 "node_attrs": {
-                  "div": 0.04400130379406887,
+                  "div": 0.044273257225282414,
                   "num_date": {
                     "value": 2009.0013698630137,
                     "confidence": [
                       2009.0013698630137,
-                      2009.880118457268
+                      2009.879644412596
                     ]
                   },
                   "country": {
@@ -6241,20 +6259,20 @@
               {
                 "name": "NODE_0000027",
                 "node_attrs": {
-                  "div": 0.04137408025509457,
+                  "div": 0.04164573349252669,
                   "num_date": {
-                    "value": 1989.8753525313145,
+                    "value": 1989.8229233109669,
                     "confidence": [
-                      1984.6026356410937,
-                      1994.013568737283
+                      1981.6916352379237,
+                      1993.9735499170777
                     ]
                   },
                   "country": {
                     "value": "Uganda",
                     "confidence": {
-                      "Uganda": 0.9998123811555426
+                      "Uganda": 0.9998647958167052
                     },
-                    "entropy": 0.0018366745983837548
+                    "entropy": 0.0013685383717366984
                   }
                 },
                 "branch_attrs": {
@@ -6282,20 +6300,20 @@
                   {
                     "name": "NODE_0000028",
                     "node_attrs": {
-                      "div": 0.042370174607981606,
+                      "div": 0.0426419426563728,
                       "num_date": {
-                        "value": 1996.8113408791014,
+                        "value": 1996.540510126407,
                         "confidence": [
-                          1992.7184369150993,
-                          2000.7174712021763
+                          1990.970166144054,
+                          1999.730887987027
                         ]
                       },
                       "country": {
                         "value": "Uganda",
                         "confidence": {
-                          "Uganda": 0.9999825979300944
+                          "Uganda": 0.9999861824371575
                         },
-                        "entropy": 0.00022602502520652616
+                        "entropy": 0.0001830717633679847
                       }
                     },
                     "branch_attrs": {
@@ -6339,20 +6357,20 @@
                       {
                         "name": "FJ750957|Uganda01Uga07|2007-XX-XX",
                         "node_attrs": {
-                          "div": 0.0440490113919756,
+                          "div": 0.04432097503113423,
                           "num_date": {
-                            "value": 2007.1273142926375,
+                            "value": 2007.0013698630137,
                             "confidence": [
                               2007.0013698630137,
-                              2007.9986301369863
+                              2007.9426336789654
                             ]
                           },
                           "country": {
                             "value": "Uganda",
                             "confidence": {
-                              "Uganda": 0.9999999999999999
+                              "Uganda": 1.0
                             },
-                            "entropy": -9.99866855976916e-13
+                            "entropy": -1.000088900581841e-12
                           }
                         },
                         "branch_attrs": {
@@ -6408,9 +6426,9 @@
                       {
                         "name": "JX458855|MARV/R.aegyptiacus-tc/UGA/2009/843Qbat|2009-XX-XX",
                         "node_attrs": {
-                          "div": 0.04441683360548031,
+                          "div": 0.044688826853655515,
                           "num_date": {
-                            "value": 2009.6645469118826,
+                            "value": 2009.8070064119534,
                             "confidence": [
                               2009.0013698630137,
                               2009.9986301369863
@@ -6485,20 +6503,20 @@
                   {
                     "name": "NODE_0000029",
                     "node_attrs": {
-                      "div": 0.04294765148185605,
+                      "div": 0.04321948522683943,
                       "num_date": {
-                        "value": 1997.692637101751,
+                        "value": 1996.9555304963123,
                         "confidence": [
-                          1994.4793931860295,
-                          2000.1740401483644
+                          1991.34646394904,
+                          2000.9005199975786
                         ]
                       },
                       "country": {
                         "value": "Uganda",
                         "confidence": {
-                          "Uganda": 0.9999912909283073
+                          "Uganda": 0.999992634106856
                         },
-                        "entropy": 0.00011949403105714273
+                        "entropy": 0.00010232123846724454
                       }
                     },
                     "branch_attrs": {
@@ -6553,12 +6571,12 @@
                       {
                         "name": "JX458852|MARV/R.aegyptiacus-tc/UGA/2008/53Qbat|2008-XX-XX",
                         "node_attrs": {
-                          "div": 0.044311243958745916,
+                          "div": 0.04458323026698307,
                           "num_date": {
                             "value": 2008.0013661202186,
                             "confidence": [
                               2008.0013661202186,
-                              2008.8622008491861
+                              2008.8652247508371
                             ]
                           },
                           "country": {
@@ -6615,20 +6633,20 @@
                       {
                         "name": "NODE_0000030",
                         "node_attrs": {
-                          "div": 0.044363769146765424,
+                          "div": 0.04463576513527618,
                           "num_date": {
-                            "value": 2003.4412184174992,
+                            "value": 2002.9826895680078,
                             "confidence": [
-                              2001.7393739345453,
-                              2004.8436029396917
+                              1998.1186169137848,
+                              2005.6008184026898
                             ]
                           },
                           "country": {
                             "value": "Uganda",
                             "confidence": {
-                              "Uganda": 0.9999971337647504
+                              "Uganda": 0.9999972119737025
                             },
-                            "entropy": 4.3245139678695676e-05
+                            "entropy": 4.2153254555615005e-05
                           }
                         },
                         "branch_attrs": {
@@ -6685,11 +6703,11 @@
                           {
                             "name": "FJ750959|Uganda331Bat2007|2007-XX-XX",
                             "node_attrs": {
-                              "div": 0.045202541489066814,
+                              "div": 0.04547463280308747,
                               "num_date": {
                                 "value": 2007.9986301369863,
                                 "confidence": [
-                                  2007.1460118212067,
+                                  2007.1317380235432,
                                   2007.9986301369863
                                 ]
                               },
@@ -6741,20 +6759,20 @@
                           {
                             "name": "NODE_0000031",
                             "node_attrs": {
-                              "div": 0.04446854460791754,
+                              "div": 0.04474055262629175,
                               "num_date": {
-                                "value": 2004.2026331360396,
+                                "value": 2003.8562860697245,
                                 "confidence": [
-                                  2002.3749410094963,
-                                  2005.290926026535
+                                  1998.9347405092337,
+                                  2005.855962707936
                                 ]
                               },
                               "country": {
                                 "value": "Uganda",
                                 "confidence": {
-                                  "Uganda": 0.9999972181615779
+                                  "Uganda": 0.999997282732246
                                 },
-                                "entropy": 4.2093797705752255e-05
+                                "entropy": 4.118593795590307e-05
                               }
                             },
                             "branch_attrs": {
@@ -6769,11 +6787,11 @@
                               {
                                 "name": "FJ750958|Uganda371Bat2007|2007-XX-XX",
                                 "node_attrs": {
-                                  "div": 0.04520241329782342,
+                                  "div": 0.04547450439723439,
                                   "num_date": {
                                     "value": 2007.9986301369863,
                                     "confidence": [
-                                      2007.1602041530784,
+                                      2007.1436737136241,
                                       2007.9986301369863
                                     ]
                                   },
@@ -6817,11 +6835,11 @@
                               {
                                 "name": "JX458854|MARV/R.aegyptiacus-tc/UGA/2009/1175Qbat|2009-XX-XX",
                                 "node_attrs": {
-                                  "div": 0.04562208452963991,
+                                  "div": 0.04589422474638425,
                                   "num_date": {
                                     "value": 2009.9986301369863,
                                     "confidence": [
-                                      2009.157242963218,
+                                      2009.1485633386856,
                                       2009.9986301369863
                                     ]
                                   },
@@ -6882,21 +6900,21 @@
           {
             "name": "NODE_0000032",
             "node_attrs": {
-              "div": 0.038591513119136785,
+              "div": 0.03886284344182752,
               "num_date": {
-                "value": 1974.7443169538508,
+                "value": 1972.0680994821053,
                 "confidence": [
-                  1967.952550300632,
-                  1980.1387940355617
+                  1962.606767289118,
+                  1977.917252119325
                 ]
               },
               "country": {
                 "value": "Democratic Republic of the Congo",
                 "confidence": {
-                  "Democratic Republic of the Congo": 0.9878196746319653,
-                  "Uganda": 0.011767519417398783
+                  "Democratic Republic of the Congo": 0.9876885880405399,
+                  "Uganda": 0.011878438501612652
                 },
-                "entropy": 0.06832201253724442
+                "entropy": 0.06900472983120806
               }
             },
             "branch_attrs": {
@@ -6927,20 +6945,20 @@
               {
                 "name": "NODE_0000033",
                 "node_attrs": {
-                  "div": 0.042006732479043046,
+                  "div": 0.04227846053005049,
                   "num_date": {
-                    "value": 1992.3532878896601,
+                    "value": 1991.7718674695784,
                     "confidence": [
-                      1990.7184202927276,
-                      1994.8560336748587
+                      1989.0588707151883,
+                      1994.3244494446378
                     ]
                   },
                   "country": {
                     "value": "Democratic Republic of the Congo",
                     "confidence": {
-                      "Democratic Republic of the Congo": 0.9999214305683299
+                      "Democratic Republic of the Congo": 0.9999239367363524
                     },
-                    "entropy": 0.000864352214560997
+                    "entropy": 0.0008410951716376801
                   }
                 },
                 "branch_attrs": {
@@ -7040,20 +7058,20 @@
                   {
                     "name": "NODE_0000034",
                     "node_attrs": {
-                      "div": 0.04331800341899115,
+                      "div": 0.04358988710415911,
                       "num_date": {
-                        "value": 1998.4909242370777,
+                        "value": 1998.3874736107782,
                         "confidence": [
-                          1997.6074728757314,
-                          1999.5437552907104
+                          1997.4854877382058,
+                          1999.5740540128438
                         ]
                       },
                       "country": {
                         "value": "Democratic Republic of the Congo",
                         "confidence": {
-                          "Democratic Republic of the Congo": 0.9999950863009704
+                          "Democratic Republic of the Congo": 0.9999951832048156
                         },
-                        "entropy": 7.150403059941855e-05
+                        "entropy": 7.023577516825956e-05
                       }
                     },
                     "branch_attrs": {
@@ -7108,9 +7126,9 @@
                       {
                         "name": "JX458826|MARV/H.sapiens-tc/COD/1999/03DRC|1999-XX-XX",
                         "node_attrs": {
-                          "div": 0.04347517521233474,
+                          "div": 0.04374707676028561,
                           "num_date": {
-                            "value": 1999.7287663963923,
+                            "value": 1999.5592510156628,
                             "confidence": [
                               1999.0013698630137,
                               1999.9986301369863
@@ -7143,11 +7161,11 @@
                       {
                         "name": "JX458825|MARV/H.sapiens-tc/COD/1999/04DRC|1999-XX-XX",
                         "node_attrs": {
-                          "div": 0.043527585714503825,
+                          "div": 0.04379949329229288,
                           "num_date": {
                             "value": 1999.9986301369863,
                             "confidence": [
-                              1999.1853642751425,
+                              1999.159521238088,
                               1999.9986301369863
                             ]
                           },
@@ -7175,20 +7193,20 @@
                   {
                     "name": "NODE_0000035",
                     "node_attrs": {
-                      "div": 0.04295032835733023,
+                      "div": 0.043222163328539835,
                       "num_date": {
-                        "value": 1999.2333237211715,
+                        "value": 1998.9237447027488,
                         "confidence": [
-                          1998.497048539843,
-                          1999.7336965091686
+                          1997.6648014734171,
+                          1999.7242832935683
                         ]
                       },
                       "country": {
                         "value": "Democratic Republic of the Congo",
                         "confidence": {
-                          "Democratic Republic of the Congo": 0.9999999405199071
+                          "Democratic Republic of the Congo": 0.9999949381298945
                         },
-                        "entropy": 1.1090978120616545e-06
+                        "entropy": 7.366450393506054e-05
                       }
                     },
                     "branch_attrs": {
@@ -7229,12 +7247,12 @@
                       {
                         "name": "JX458828|MARV/H.sapiens-tc/COD/2000/19DRC|2000-XX-XX",
                         "node_attrs": {
-                          "div": 0.043002711573545065,
+                          "div": 0.043274552461564676,
                           "num_date": {
                             "value": 2000.0013661202186,
                             "confidence": [
                               2000.0013661202186,
-                              2000.7018951859131
+                              2000.7143779730438
                             ]
                           },
                           "country": {
@@ -7260,51 +7278,13 @@
                         }
                       },
                       {
-                        "name": "JX458827|MARV/H.sapiens-tc/COD/2000/32DRC|2000-XX-XX",
-                        "node_attrs": {
-                          "div": 0.04310749453156313,
-                          "num_date": {
-                            "value": 2000.0587860110734,
-                            "confidence": [
-                              2000.0013661202186,
-                              2000.9986338797814
-                            ]
-                          },
-                          "country": {
-                            "value": "Democratic Republic of the Congo",
-                            "confidence": {
-                              "Democratic Republic of the Congo": 1.0
-                            },
-                            "entropy": -1.000088900581841e-12
-                          }
-                        },
-                        "branch_attrs": {
-                          "mutations": {
-                            "nuc": [
-                              "A6565G",
-                              "G17019A",
-                              "C19091T"
-                            ],
-                            "MARV_gp4": [
-                              "T209A"
-                            ],
-                            "MARV_gp7": [
-                              "D1847N"
-                            ]
-                          },
-                          "labels": {
-                            "aa": "MARV_gp4: T209A; MARV_gp7: D1847N"
-                          }
-                        }
-                      },
-                      {
                         "name": "JX458829|MARV/H.sapiens-tc/COD/2000/34DRC|2000-XX-XX",
                         "node_attrs": {
-                          "div": 0.043474325022783845,
+                          "div": 0.04374621939674092,
                           "num_date": {
                             "value": 2000.9986338797814,
                             "confidence": [
-                              2000.4303448123442,
+                              2000.2788106345813,
                               2000.9986338797814
                             ]
                           },
@@ -7344,23 +7324,23 @@
                 ]
               },
               {
-                "name": "NODE_0000037",
+                "name": "NODE_0000036",
                 "node_attrs": {
-                  "div": 0.038696257403123595,
+                  "div": 0.03896759973473756,
                   "num_date": {
-                    "value": 1975.4773340656945,
+                    "value": 1973.0112351529833,
                     "confidence": [
-                      1969.002764287574,
-                      1980.7786505186646
+                      1963.650243776798,
+                      1978.4966140551508
                     ]
                   },
                   "country": {
                     "value": "Democratic Republic of the Congo",
                     "confidence": {
-                      "Democratic Republic of the Congo": 0.9988818914678503,
-                      "Uganda": 0.001072790010142298
+                      "Democratic Republic of the Congo": 0.9988528044559818,
+                      "Uganda": 0.0011003009911817398
                     },
-                    "entropy": 0.00898506837766123
+                    "entropy": 0.009191290148100257
                   }
                 },
                 "branch_attrs": {
@@ -7373,22 +7353,22 @@
                 },
                 "children": [
                   {
-                    "name": "NODE_0000038",
+                    "name": "NODE_0000037",
                     "node_attrs": {
-                      "div": 0.04126820066616137,
+                      "div": 0.04153983608672034,
                       "num_date": {
-                        "value": 1991.7390654187172,
+                        "value": 1991.0701188831085,
                         "confidence": [
-                          1990.1309198006431,
-                          1994.3325316955552
+                          1988.2166615832639,
+                          1993.227931259365
                         ]
                       },
                       "country": {
                         "value": "Democratic Republic of the Congo",
                         "confidence": {
-                          "Democratic Republic of the Congo": 0.9999806127190403
+                          "Democratic Republic of the Congo": 0.9999798743149035
                         },
-                        "entropy": 0.00025258018223615485
+                        "entropy": 0.00026177851783922934
                       }
                     },
                     "branch_attrs": {
@@ -7467,12 +7447,12 @@
                       {
                         "name": "JX458833|MARV/H.sapiens-tc/COD/1999/01DRC|1999-XX-XX",
                         "node_attrs": {
-                          "div": 0.042159191847578624,
+                          "div": 0.042430929248909635,
                           "num_date": {
                             "value": 1999.0013698630137,
                             "confidence": [
                               1999.0013698630137,
-                              1999.8462913127335
+                              1999.8453350597465
                             ]
                           },
                           "country": {
@@ -7521,22 +7501,22 @@
                         }
                       },
                       {
-                        "name": "NODE_0000039",
+                        "name": "NODE_0000038",
                         "node_attrs": {
-                          "div": 0.042159148767761945,
+                          "div": 0.04243088447569905,
                           "num_date": {
-                            "value": 1996.2811000790857,
+                            "value": 1995.668236978425,
                             "confidence": [
-                              1994.875027317626,
-                              1997.4195473924517
+                              1994.1992390631503,
+                              1997.1848649569752
                             ]
                           },
                           "country": {
                             "value": "Democratic Republic of the Congo",
                             "confidence": {
-                              "Democratic Republic of the Congo": 0.9999958343689461
+                              "Democratic Republic of the Congo": 0.9999959210731653
                             },
-                            "entropy": 6.187795366742532e-05
+                            "entropy": 6.067802548797884e-05
                           }
                         },
                         "branch_attrs": {
@@ -7575,11 +7555,11 @@
                           {
                             "name": "JX458832|MARV/H.sapiens-tc/COD/2000/30DRC|2000-XX-XX",
                             "node_attrs": {
-                              "div": 0.042997719290112826,
+                              "div": 0.04326955030717327,
                               "num_date": {
                                 "value": 2000.9986338797814,
                                 "confidence": [
-                                  2000.1266776059813,
+                                  2000.1213731752857,
                                   2000.9986338797814
                                 ]
                               },
@@ -7630,22 +7610,22 @@
                             }
                           },
                           {
-                            "name": "NODE_0000040",
+                            "name": "NODE_0000039",
                             "node_attrs": {
-                              "div": 0.04257830224419844,
+                              "div": 0.042850086262824806,
                               "num_date": {
-                                "value": 1998.3879620639373,
+                                "value": 1998.2296512001892,
                                 "confidence": [
-                                  1997.6213647184652,
-                                  1998.9395680640387
+                                  1997.3392748730105,
+                                  1998.8850977129148
                                 ]
                               },
                               "country": {
                                 "value": "Democratic Republic of the Congo",
                                 "confidence": {
-                                  "Democratic Republic of the Congo": 0.9999960200273253
+                                  "Democratic Republic of the Congo": 0.9999961140846505
                                 },
-                                "entropy": 5.9397450544160696e-05
+                                "entropy": 5.809207692303806e-05
                               }
                             },
                             "branch_attrs": {
@@ -7672,20 +7652,20 @@
                               {
                                 "name": "JX458831|MARV/H.sapiens-tc/COD/2000/14DRC|2000-XX-XX",
                                 "node_attrs": {
-                                  "div": 0.04284023449594195,
+                                  "div": 0.04311204829634929,
                                   "num_date": {
                                     "value": 2000.0013661202186,
                                     "confidence": [
                                       2000.0013661202186,
-                                      2000.8457764383274
+                                      2000.8495768632874
                                     ]
                                   },
                                   "country": {
                                     "value": "Democratic Republic of the Congo",
                                     "confidence": {
-                                      "Democratic Republic of the Congo": 1.0
+                                      "Democratic Republic of the Congo": 0.9999999999999999
                                     },
-                                    "entropy": -1.000088900581841e-12
+                                    "entropy": -9.99866855976916e-13
                                   }
                                 },
                                 "branch_attrs": {
@@ -7707,22 +7687,22 @@
                                 }
                               },
                               {
-                                "name": "NODE_0000041",
+                                "name": "NODE_0000040",
                                 "node_attrs": {
-                                  "div": 0.042787849738557454,
+                                  "div": 0.04305965806565757,
                                   "num_date": {
-                                    "value": 1999.327325623618,
+                                    "value": 1999.3283835224895,
                                     "confidence": [
-                                      1999.021963321463,
-                                      1999.396239759395
+                                      1998.9935883991402,
+                                      1999.3955397181965
                                     ]
                                   },
                                   "country": {
                                     "value": "Democratic Republic of the Congo",
                                     "confidence": {
-                                      "Democratic Republic of the Congo": 0.999996065939376
+                                      "Democratic Republic of the Congo": 0.9999961586654968
                                     },
-                                    "entropy": 5.877126375747136e-05
+                                    "entropy": 5.748294650660454e-05
                                   }
                                 },
                                 "branch_attrs": {
@@ -7739,11 +7719,11 @@
                                   {
                                     "name": "DQ447650|07DRC99|1999-05-XX",
                                     "node_attrs": {
-                                      "div": 0.042787849738557454,
+                                      "div": 0.04305965806565757,
                                       "num_date": {
                                         "value": 1999.4123287671232,
                                         "confidence": [
-                                          1999.3368026490223,
+                                          1999.3370528720475,
                                           1999.4123287671232
                                         ]
                                       },
@@ -7762,9 +7742,9 @@
                                   {
                                     "name": "JX458830|MARV/H.sapiens-tc/COD/1999/06DRC|1999-XX-XX",
                                     "node_attrs": {
-                                      "div": 0.042787849738557454,
+                                      "div": 0.04305965806565757,
                                       "num_date": {
-                                        "value": 1999.3785557336264,
+                                        "value": 1999.3959994212921,
                                         "confidence": [
                                           1999.0013698630137,
                                           1999.9986301369863
@@ -7791,22 +7771,22 @@
                     ]
                   },
                   {
-                    "name": "NODE_0000042",
+                    "name": "NODE_0000041",
                     "node_attrs": {
-                      "div": 0.04142631531484063,
+                      "div": 0.04169796825984405,
                       "num_date": {
-                        "value": 1991.7614634128374,
+                        "value": 1989.739229563467,
                         "confidence": [
-                          1990.4565512067863,
-                          1994.2251917614412
+                          1985.5108823386618,
+                          1991.9670428370534
                         ]
                       },
                       "country": {
                         "value": "Democratic Republic of the Congo",
                         "confidence": {
-                          "Democratic Republic of the Congo": 0.9999996087648165
+                          "Democratic Republic of the Congo": 0.9999740220375806
                         },
-                        "entropy": 6.4921791479037225e-06
+                        "entropy": 0.0003302395264208258
                       }
                     },
                     "branch_attrs": {
@@ -7887,22 +7867,22 @@
                     },
                     "children": [
                       {
-                        "name": "JX458835|MARV/H.sapiens-tc/COD/2000/23DRC|2000-XX-XX",
+                        "name": "NODE_0000042",
                         "node_attrs": {
-                          "div": 0.04336759443537431,
+                          "div": 0.04363946643630718,
                           "num_date": {
-                            "value": 2000.9986338797814,
+                            "value": 2000.1037911895085,
                             "confidence": [
-                              2000.165305781796,
-                              2000.9986338797814
+                              1999.7535003176624,
+                              2000.7798294415982
                             ]
                           },
                           "country": {
                             "value": "Democratic Republic of the Congo",
                             "confidence": {
-                              "Democratic Republic of the Congo": 1.0
+                              "Democratic Republic of the Congo": 0.9999937285970444
                             },
-                            "entropy": -1.000088900581841e-12
+                            "entropy": 9.071946213422956e-05
                           }
                         },
                         "branch_attrs": {
@@ -7962,81 +7942,73 @@
                           "labels": {
                             "aa": "MARV_gp1: A433V; MARV_gp4: P298L; MARV_gp5: K279R; MARV_gp7: A1355S"
                           }
-                        }
-                      },
-                      {
-                        "name": "JX458849|MARV/H.sapiens-tc/COD/2000/25DRC|2000-XX-XX",
-                        "node_attrs": {
-                          "div": 0.0422125528775589,
-                          "num_date": {
-                            "value": 2000.0013661202186,
-                            "confidence": [
-                              2000.0013661202186,
-                              2000.8226218968005
-                            ]
-                          },
-                          "country": {
-                            "value": "Democratic Republic of the Congo",
-                            "confidence": {
-                              "Democratic Republic of the Congo": 1.0
-                            },
-                            "entropy": -1.000088900581841e-12
-                          }
                         },
-                        "branch_attrs": {
-                          "mutations": {
-                            "nuc": [
-                              "G3643A",
-                              "G3781A",
-                              "A5443G",
-                              "A5490G",
-                              "C7201T",
-                              "T9232C",
-                              "C9912T",
-                              "C9946T",
-                              "G11553A",
-                              "G12783A",
-                              "T15959C",
-                              "C16359T",
-                              "G18052A",
-                              "C18574T",
-                              "A18645G"
-                            ],
-                            "MARV_gp4": [
-                              "P421S"
-                            ],
-                            "MARV_gp5": [
-                              "F122L"
-                            ],
-                            "MARV_gp7": [
-                              "A25T",
-                              "D435N",
-                              "P1627S",
-                              "S2191N"
-                            ]
+                        "children": [
+                          {
+                            "name": "JX458834|MARV/H.sapiens-tc/COD/2000/24DRC|2000-XX-XX",
+                            "node_attrs": {
+                              "div": 0.04363946643630718,
+                              "num_date": {
+                                "value": 2000.451992192815,
+                                "confidence": [
+                                  2000.0013661202186,
+                                  2000.9986338797814
+                                ]
+                              },
+                              "country": {
+                                "value": "Democratic Republic of the Congo",
+                                "confidence": {
+                                  "Democratic Republic of the Congo": 1.0
+                                },
+                                "entropy": -1.000088900581841e-12
+                              }
+                            },
+                            "branch_attrs": {
+                              "mutations": {}
+                            }
                           },
-                          "labels": {
-                            "aa": "MARV_gp4: P421S; MARV_gp5: F122L; MARV_gp7: A25T, D435N, P1627S, S2191N"
+                          {
+                            "name": "JX458835|MARV/H.sapiens-tc/COD/2000/23DRC|2000-XX-XX",
+                            "node_attrs": {
+                              "div": 0.04363946643630718,
+                              "num_date": {
+                                "value": 2000.451992192815,
+                                "confidence": [
+                                  2000.0013661202186,
+                                  2000.9986338797814
+                                ]
+                              },
+                              "country": {
+                                "value": "Democratic Republic of the Congo",
+                                "confidence": {
+                                  "Democratic Republic of the Congo": 1.0
+                                },
+                                "entropy": -1.000088900581841e-12
+                              }
+                            },
+                            "branch_attrs": {
+                              "mutations": {}
+                            }
                           }
-                        }
+                        ]
                       },
                       {
-                        "name": "NODE_0000044",
+                        "name": "NODE_0000043",
                         "node_attrs": {
-                          "div": 0.0421601168273621,
+                          "div": 0.042431852750363694,
                           "num_date": {
-                            "value": 1995.4658257922656,
+                            "value": 1994.3067147187467,
                             "confidence": [
-                              1994.2587285261404,
-                              1996.9280398520452
+                              1992.4911557850537,
+                              1996.172779195958
                             ]
                           },
                           "country": {
                             "value": "Democratic Republic of the Congo",
                             "confidence": {
-                              "Democratic Republic of the Congo": 0.9999960179196237
+                              "Democratic Republic of the Congo": 0.9999958040491085
                             },
-                            "entropy": 5.942540703484552e-05
+                            "entropy": 6.224681651708635e-05
                           }
                         },
                         "branch_attrs": {
@@ -8067,22 +8039,22 @@
                         },
                         "children": [
                           {
-                            "name": "NODE_0000045",
+                            "name": "NODE_0000044",
                             "node_attrs": {
-                              "div": 0.042369690541560305,
+                              "div": 0.04264145032295164,
                               "num_date": {
-                                "value": 1996.6322558828688,
+                                "value": 1995.8516120562292,
                                 "confidence": [
-                                  1995.5181135715568,
-                                  1997.864648998468
+                                  1994.1807436428585,
+                                  1997.3722510683965
                                 ]
                               },
                               "country": {
                                 "value": "Democratic Republic of the Congo",
                                 "confidence": {
-                                  "Democratic Republic of the Congo": 0.9999960659119624
+                                  "Democratic Republic of the Congo": 0.9999961548201451
                                 },
-                                "entropy": 5.877162565513955e-05
+                                "entropy": 5.7534182566390033e-05
                               }
                             },
                             "branch_attrs": {
@@ -8105,20 +8077,20 @@
                               {
                                 "name": "JX458847|MARV/H.sapiens-tc/COD/2000/15DRC|2000-XX-XX",
                                 "node_attrs": {
-                                  "div": 0.0427365291737271,
+                                  "div": 0.04300833058743024,
                                   "num_date": {
                                     "value": 2000.0013661202186,
                                     "confidence": [
                                       2000.0013661202186,
-                                      2000.816839760963
+                                      2000.8423707829722
                                     ]
                                   },
                                   "country": {
                                     "value": "Democratic Republic of the Congo",
                                     "confidence": {
-                                      "Democratic Republic of the Congo": 1.0
+                                      "Democratic Republic of the Congo": 0.9999999999999999
                                     },
-                                    "entropy": -1.000088900581841e-12
+                                    "entropy": -9.99866855976916e-13
                                   }
                                 },
                                 "branch_attrs": {
@@ -8151,20 +8123,20 @@
                               {
                                 "name": "JX458850|MARV/H.sapiens-tc/COD/2000/33DRC|2000-XX-XX",
                                 "node_attrs": {
-                                  "div": 0.043470919566379156,
+                                  "div": 0.04374280794777831,
                                   "num_date": {
                                     "value": 2000.9986338797814,
                                     "confidence": [
-                                      2000.2597718934903,
+                                      2000.20459316931,
                                       2000.9986338797814
                                     ]
                                   },
                                   "country": {
                                     "value": "Democratic Republic of the Congo",
                                     "confidence": {
-                                      "Democratic Republic of the Congo": 1.0
+                                      "Democratic Republic of the Congo": 0.9999999999999999
                                     },
-                                    "entropy": -1.000088900581841e-12
+                                    "entropy": -9.99866855976916e-13
                                   }
                                 },
                                 "branch_attrs": {
@@ -8214,22 +8186,22 @@
                             ]
                           },
                           {
-                            "name": "NODE_0000046",
+                            "name": "NODE_0000045",
                             "node_attrs": {
-                              "div": 0.04273667793366477,
+                              "div": 0.043008480687490164,
                               "num_date": {
-                                "value": 1998.3373667644016,
+                                "value": 1998.2029941777632,
                                 "confidence": [
-                                  1997.5905205490699,
-                                  1999.227127988526
+                                  1997.4441074965503,
+                                  1999.1482827644745
                                 ]
                               },
                               "country": {
                                 "value": "Democratic Republic of the Congo",
                                 "confidence": {
-                                  "Democratic Republic of the Congo": 0.9999960653867931
+                                  "Democratic Republic of the Congo": 0.9999961543156777
                                 },
-                                "entropy": 5.8778683021479346e-05
+                                "entropy": 5.754097362657969e-05
                               }
                             },
                             "branch_attrs": {
@@ -8259,7 +8231,7 @@
                               {
                                 "name": "DQ447651|05DRC99|1999-05-XX",
                                 "node_attrs": {
-                                  "div": 0.042841459898826165,
+                                  "div": 0.043113274645676186,
                                   "num_date": {
                                     "value": 1999.3301369863013,
                                     "confidence": [
@@ -8270,9 +8242,9 @@
                                   "country": {
                                     "value": "Democratic Republic of the Congo",
                                     "confidence": {
-                                      "Democratic Republic of the Congo": 0.9999999999999999
+                                      "Democratic Republic of the Congo": 1.0
                                     },
-                                    "entropy": -9.99866855976916e-13
+                                    "entropy": -1.000088900581841e-12
                                   }
                                 },
                                 "branch_attrs": {
@@ -8285,22 +8257,22 @@
                                 }
                               },
                               {
-                                "name": "NODE_0000047",
+                                "name": "NODE_0000046",
                                 "node_attrs": {
-                                  "div": 0.04278906723008881,
+                                  "div": 0.04306087594356009,
                                   "num_date": {
-                                    "value": 1998.7138014405148,
+                                    "value": 1998.5415983362043,
                                     "confidence": [
-                                      1998.0870768373416,
-                                      1999.3728519468875
+                                      1997.9076772427488,
+                                      1999.4654672731556
                                     ]
                                   },
                                   "country": {
                                     "value": "Democratic Republic of the Congo",
                                     "confidence": {
-                                      "Democratic Republic of the Congo": 0.9999999562834494
+                                      "Democratic Republic of the Congo": 0.9999999576955558
                                     },
-                                    "entropy": 8.346911135815095e-07
+                                    "entropy": 8.091914029128997e-07
                                   }
                                 },
                                 "branch_attrs": {
@@ -8312,22 +8284,22 @@
                                 },
                                 "children": [
                                   {
-                                    "name": "NODE_0000049",
+                                    "name": "NODE_0000048",
                                     "node_attrs": {
-                                      "div": 0.04284145894621016,
+                                      "div": 0.04311327371900479,
                                       "num_date": {
-                                        "value": 1999.0671476554774,
+                                        "value": 1998.9345337967814,
                                         "confidence": [
-                                          1998.4818721068514,
-                                          1999.6656410813364
+                                          1998.2814159467916,
+                                          1999.7950204195984
                                         ]
                                       },
                                       "country": {
                                         "value": "Democratic Republic of the Congo",
                                         "confidence": {
-                                          "Democratic Republic of the Congo": 0.9999961089977659
+                                          "Democratic Republic of the Congo": 0.9999962003491216
                                         },
-                                        "entropy": 5.818250239060309e-05
+                                        "entropy": 5.691193011633028e-05
                                       }
                                     },
                                     "branch_attrs": {
@@ -8347,9 +8319,9 @@
                                       {
                                         "name": "JX458845|MARV/H.sapiens-tc/COD/2000/13DRC|2000-XX-XX",
                                         "node_attrs": {
-                                          "div": 0.043103469875709614,
+                                          "div": 0.04337531457241904,
                                           "num_date": {
-                                            "value": 2000.7021447668544,
+                                            "value": 2000.799619670472,
                                             "confidence": [
                                               2000.0013661202186,
                                               2000.9986338797814
@@ -8358,9 +8330,9 @@
                                           "country": {
                                             "value": "Democratic Republic of the Congo",
                                             "confidence": {
-                                              "Democratic Republic of the Congo": 0.9999999999999999
+                                              "Democratic Republic of the Congo": 1.0
                                             },
-                                            "entropy": -9.99866855976916e-13
+                                            "entropy": -1.000088900581841e-12
                                           }
                                         },
                                         "branch_attrs": {
@@ -8378,20 +8350,20 @@
                                       {
                                         "name": "JX458846|MARV/H.sapiens-tc/COD/2000/28DRC|2000-XX-XX",
                                         "node_attrs": {
-                                          "div": 0.04320831258742647,
+                                          "div": 0.043480170134102464,
                                           "num_date": {
                                             "value": 2000.9986338797814,
                                             "confidence": [
-                                              2000.240789411298,
+                                              2000.2294511095254,
                                               2000.9986338797814
                                             ]
                                           },
                                           "country": {
                                             "value": "Democratic Republic of the Congo",
                                             "confidence": {
-                                              "Democratic Republic of the Congo": 0.9999999999999999
+                                              "Democratic Republic of the Congo": 1.0
                                             },
-                                            "entropy": -9.99866855976916e-13
+                                            "entropy": -1.000088900581841e-12
                                           }
                                         },
                                         "branch_attrs": {
@@ -8420,22 +8392,22 @@
                                     ]
                                   },
                                   {
-                                    "name": "NODE_0000050",
+                                    "name": "NODE_0000049",
                                     "node_attrs": {
-                                      "div": 0.042841457698620085,
+                                      "div": 0.043113272396681064,
                                       "num_date": {
-                                        "value": 1999.2032218026918,
+                                        "value": 1999.016930221176,
                                         "confidence": [
-                                          1998.5658885454832,
-                                          1999.6396212860998
+                                          1998.401849224514,
+                                          1999.7459478119938
                                         ]
                                       },
                                       "country": {
                                         "value": "Democratic Republic of the Congo",
                                         "confidence": {
-                                          "Democratic Republic of the Congo": 0.9999960659654065
+                                          "Democratic Republic of the Congo": 0.9999961586924047
                                         },
-                                        "entropy": 5.877091282296321e-05
+                                        "entropy": 5.7482583491484834e-05
                                       }
                                     },
                                     "branch_attrs": {
@@ -8449,12 +8421,12 @@
                                       {
                                         "name": "JX458844|MARV/H.sapiens-tc/COD/2000/26DRC|2000-XX-XX",
                                         "node_attrs": {
-                                          "div": 0.04299864275826312,
+                                          "div": 0.04327047535689437,
                                           "num_date": {
-                                            "value": 2000.0604849613944,
+                                            "value": 2000.0013661202186,
                                             "confidence": [
                                               2000.0013661202186,
-                                              2000.9986338797814
+                                              2000.9143011145923
                                             ]
                                           },
                                           "country": {
@@ -8482,22 +8454,22 @@
                                         }
                                       },
                                       {
-                                        "name": "NODE_0000051",
+                                        "name": "NODE_0000050",
                                         "node_attrs": {
-                                          "div": 0.0431034600507449,
+                                          "div": 0.04337530458440067,
                                           "num_date": {
-                                            "value": 1999.9708144923832,
+                                            "value": 2000.1868647645806,
                                             "confidence": [
-                                              1999.262343701361,
-                                              2000.970370714074
+                                              1999.6620872901296,
+                                              2000.6736967995291
                                             ]
                                           },
                                           "country": {
                                             "value": "Democratic Republic of the Congo",
                                             "confidence": {
-                                              "Democratic Republic of the Congo": 0.9999960664839994
+                                              "Democratic Republic of the Congo": 0.9999961591899625
                                             },
-                                            "entropy": 5.8763942834601116e-05
+                                            "entropy": 5.747588364082802e-05
                                           }
                                         },
                                         "branch_attrs": {
@@ -8521,9 +8493,9 @@
                                           {
                                             "name": "JX458836|MARV/H.sapiens-tc/COD/2000/29DRC|2000-XX-XX",
                                             "node_attrs": {
-                                              "div": 0.04315585245134938,
+                                              "div": 0.04342770301136031,
                                               "num_date": {
-                                                "value": 2000.7389656605035,
+                                                "value": 2000.7067142300623,
                                                 "confidence": [
                                                   2000.0013661202186,
                                                   2000.9986338797814
@@ -8532,9 +8504,9 @@
                                               "country": {
                                                 "value": "Democratic Republic of the Congo",
                                                 "confidence": {
-                                                  "Democratic Republic of the Congo": 0.9999999999999999
+                                                  "Democratic Republic of the Congo": 1.0
                                                 },
-                                                "entropy": -9.99866855976916e-13
+                                                "entropy": -1.000088900581841e-12
                                               }
                                             },
                                             "branch_attrs": {
@@ -8548,9 +8520,9 @@
                                           {
                                             "name": "JX458837|MARV/H.sapiens-tc/COD/2000/27DRC|2000-XX-XX",
                                             "node_attrs": {
-                                              "div": 0.0431558514933885,
+                                              "div": 0.04342770205121084,
                                               "num_date": {
-                                                "value": 2000.7389523133522,
+                                                "value": 2000.7067078185783,
                                                 "confidence": [
                                                   2000.0013661202186,
                                                   2000.9986338797814
@@ -8559,9 +8531,9 @@
                                               "country": {
                                                 "value": "Democratic Republic of the Congo",
                                                 "confidence": {
-                                                  "Democratic Republic of the Congo": 0.9999999999999999
+                                                  "Democratic Republic of the Congo": 1.0
                                                 },
-                                                "entropy": -9.99866855976916e-13
+                                                "entropy": -1.000088900581841e-12
                                               }
                                             },
                                             "branch_attrs": {
@@ -8583,22 +8555,22 @@
                                     ]
                                   },
                                   {
-                                    "name": "NODE_0000052",
+                                    "name": "NODE_0000051",
                                     "node_attrs": {
-                                      "div": 0.04294625516404165,
+                                      "div": 0.04321808200063667,
                                       "num_date": {
-                                        "value": 1999.6832840994466,
+                                        "value": 1999.9644343920856,
                                         "confidence": [
-                                          1999.2999359344074,
-                                          1999.9998065788793
+                                          1999.6038309100663,
+                                          2000.1413184021465
                                         ]
                                       },
                                       "country": {
                                         "value": "Democratic Republic of the Congo",
                                         "confidence": {
-                                          "Democratic Republic of the Congo": 0.9999999568086176
+                                          "Democratic Republic of the Congo": 0.9999999999939673
                                         },
-                                        "entropy": 8.253332362037666e-07
+                                        "entropy": 1.6177267358788001e-10
                                       }
                                     },
                                     "branch_attrs": {
@@ -8614,12 +8586,12 @@
                                       {
                                         "name": "JX458842|MARV/H.sapiens-tc/COD/2000/18DRC|2000-XX-XX",
                                         "node_attrs": {
-                                          "div": 0.04299864782962151,
+                                          "div": 0.0432704805951009,
                                           "num_date": {
-                                            "value": 2000.0013661202186,
+                                            "value": 2000.2709134603936,
                                             "confidence": [
                                               2000.0013661202186,
-                                              2000.7718726308674
+                                              2000.9986338797814
                                             ]
                                           },
                                           "country": {
@@ -8639,93 +8611,91 @@
                                         }
                                       },
                                       {
-                                        "name": "NODE_0000053",
+                                        "name": "JX458838|MARV/H.sapiens-tc/COD/2000/17DRC|2000-XX-XX",
                                         "node_attrs": {
-                                          "div": 0.04294625516404165,
+                                          "div": 0.04321808200063667,
                                           "num_date": {
-                                            "value": 1999.9758683983277,
+                                            "value": 2000.0181821537433,
                                             "confidence": [
-                                              1999.6208455311216,
-                                              2000.4062144450531
+                                              2000.0013661202186,
+                                              2000.9986338797814
                                             ]
                                           },
                                           "country": {
                                             "value": "Democratic Republic of the Congo",
                                             "confidence": {
-                                              "Democratic Republic of the Congo": 0.9999961090043428
+                                              "Democratic Republic of the Congo": 1.0
                                             },
-                                            "entropy": 5.818241484788126e-05
+                                            "entropy": -1.000088900581841e-12
                                           }
                                         },
                                         "branch_attrs": {
                                           "mutations": {}
-                                        },
-                                        "children": [
-                                          {
-                                            "name": "JX458838|MARV/H.sapiens-tc/COD/2000/17DRC|2000-XX-XX",
-                                            "node_attrs": {
-                                              "div": 0.04294625516404165,
-                                              "num_date": {
-                                                "value": 2000.0082561906006,
-                                                "confidence": [
-                                                  2000.0013661202186,
-                                                  2000.9986338797814
-                                                ]
-                                              },
-                                              "country": {
-                                                "value": "Democratic Republic of the Congo",
-                                                "confidence": {
-                                                  "Democratic Republic of the Congo": 1.0
-                                                },
-                                                "entropy": -1.000088900581841e-12
-                                              }
-                                            },
-                                            "branch_attrs": {
-                                              "mutations": {}
-                                            }
-                                          },
-                                          {
-                                            "name": "JX458839|MARV/H.sapiens-tc/COD/2000/16DRC|2000-XX-XX",
-                                            "node_attrs": {
-                                              "div": 0.04294625516404165,
-                                              "num_date": {
-                                                "value": 2000.0082561906006,
-                                                "confidence": [
-                                                  2000.0013661202186,
-                                                  2000.9986338797814
-                                                ]
-                                              },
-                                              "country": {
-                                                "value": "Democratic Republic of the Congo",
-                                                "confidence": {
-                                                  "Democratic Republic of the Congo": 1.0
-                                                },
-                                                "entropy": -1.000088900581841e-12
-                                              }
-                                            },
-                                            "branch_attrs": {
-                                              "mutations": {}
-                                            }
-                                          }
-                                        ]
+                                        }
                                       },
                                       {
-                                        "name": "NODE_0000055",
+                                        "name": "JX458839|MARV/H.sapiens-tc/COD/2000/16DRC|2000-XX-XX",
                                         "node_attrs": {
-                                          "div": 0.04299864782962151,
+                                          "div": 0.04321808200063667,
                                           "num_date": {
-                                            "value": 1999.9498155660508,
+                                            "value": 2000.0181821537433,
                                             "confidence": [
-                                              1999.5848659224978,
-                                              2000.2230547767047
+                                              2000.0013661202186,
+                                              2000.9986338797814
                                             ]
                                           },
                                           "country": {
                                             "value": "Democratic Republic of the Congo",
                                             "confidence": {
-                                              "Democratic Republic of the Congo": 0.9999960659720685
+                                              "Democratic Republic of the Congo": 1.0
                                             },
-                                            "entropy": 5.8770824242405714e-05
+                                            "entropy": -1.000088900581841e-12
+                                          }
+                                        },
+                                        "branch_attrs": {
+                                          "mutations": {}
+                                        }
+                                      },
+                                      {
+                                        "name": "JX458840|MARV/H.sapiens-tc/COD/2000/12DRC|2000-XX-XX",
+                                        "node_attrs": {
+                                          "div": 0.04321808200063667,
+                                          "num_date": {
+                                            "value": 2000.0181821537433,
+                                            "confidence": [
+                                              2000.0013661202186,
+                                              2000.9986338797814
+                                            ]
+                                          },
+                                          "country": {
+                                            "value": "Democratic Republic of the Congo",
+                                            "confidence": {
+                                              "Democratic Republic of the Congo": 1.0
+                                            },
+                                            "entropy": -1.000088900581841e-12
+                                          }
+                                        },
+                                        "branch_attrs": {
+                                          "mutations": {}
+                                        }
+                                      },
+                                      {
+                                        "name": "NODE_0000055",
+                                        "node_attrs": {
+                                          "div": 0.0432704805951009,
+                                          "num_date": {
+                                            "value": 2000.0765767245273,
+                                            "confidence": [
+                                              1999.8069189509079,
+                                              2000.3662693368497
+                                            ]
+                                          },
+                                          "country": {
+                                            "value": "Democratic Republic of the Congo",
+                                            "confidence": {
+                                              "Democratic Republic of the Congo": 0.9999961591960901
+                                            },
+                                            "entropy": 5.7475802036780415e-05
                                           }
                                         },
                                         "branch_attrs": {
@@ -8745,12 +8715,12 @@
                                           {
                                             "name": "JX458841|MARV/H.sapiens-tc/COD/2000/20DRC|2000-XX-XX",
                                             "node_attrs": {
-                                              "div": 0.04299864782962151,
+                                              "div": 0.0432704805951009,
                                               "num_date": {
-                                                "value": 2000.0013661202186,
+                                                "value": 2000.2463960468694,
                                                 "confidence": [
                                                   2000.0013661202186,
-                                                  2000.6611026836854
+                                                  2000.9986338797814
                                                 ]
                                               },
                                               "country": {
@@ -8768,20 +8738,20 @@
                                           {
                                             "name": "NODE_0000056",
                                             "node_attrs": {
-                                              "div": 0.043051039396261065,
+                                              "div": 0.043322878129946334,
                                               "num_date": {
-                                                "value": 2000.1448090207866,
+                                                "value": 2000.3012842211472,
                                                 "confidence": [
-                                                  1999.8190768411373,
-                                                  2000.4854077867685
+                                                  1999.994781978346,
+                                                  2000.5569117013176
                                                 ]
                                               },
                                               "country": {
                                                 "value": "Democratic Republic of the Congo",
                                                 "confidence": {
-                                                  "Democratic Republic of the Congo": 0.9999960664840858
+                                                  "Democratic Republic of the Congo": 0.999996159196207
                                                 },
-                                                "entropy": 5.876394169477677e-05
+                                                "entropy": 5.7475800417593155e-05
                                               }
                                             },
                                             "branch_attrs": {
@@ -8795,9 +8765,9 @@
                                               {
                                                 "name": "JX458843|MARV/H.sapiens-tc/COD/2000/21DRC|2000-XX-XX",
                                                 "node_attrs": {
-                                                  "div": 0.043051039396261065,
+                                                  "div": 0.043322878129946334,
                                                   "num_date": {
-                                                    "value": 2000.3238478180854,
+                                                    "value": 2000.4685509988965,
                                                     "confidence": [
                                                       2000.0013661202186,
                                                       2000.9986338797814
@@ -8818,11 +8788,11 @@
                                               {
                                                 "name": "JX458848|MARV/H.sapiens-tc/COD/2000/22DRC|2000-XX-XX",
                                                 "node_attrs": {
-                                                  "div": 0.04326063016907008,
+                                                  "div": 0.043532492846936846,
                                                   "num_date": {
                                                     "value": 2000.9986338797814,
                                                     "confidence": [
-                                                      2000.5522263189378,
+                                                      2000.6504496299733,
                                                       2000.9986338797814
                                                     ]
                                                   },
