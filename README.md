@@ -1,4 +1,7 @@
 # Marburg Virus Phylogenetic Analysis - Ghana, August 2022
+
+**NOTICE: Information about the 2022 Ghana Marburg outbreak has been published in the [New England Journal of Medicine](https://www.nejm.org/doi/full/10.1056/NEJMc2300867). The phylogenetic tree included in the publication has had further modification from what is included in this repository. However, this repository may be a useful reference for those looking to curate and build phylogenetic trees in the future.**
+
 This repository houses intermediate data and workflow commands for the phylogenetic analysis of Marburg Virus Genomes sequenced in Ghana.
 
 ## Data Curation
